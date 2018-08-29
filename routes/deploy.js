@@ -6,11 +6,15 @@ const express = require("express");
 const router = express.Router();
 const app = express();
 const shell = require('shelljs');
+const bodyParser = require("body-parser");
+
 
 app.set("view engine", "ejs");
 
 
 router.use(express.static(__dirname + '/public'));
+router.use(bodyParser.urlencoded({ extended: true }));
+router.use(bodyParser.json());
 
 //DEPLOY ROUTE
 
@@ -22,6 +26,13 @@ router.get("/", function(req, res) {
 
 router.post("/", function(req, res) {
     console.log("I'm in the deploy JS");
+
+    ///// PASSING ARGUMENT OF TYPE OF PACKAGE TO DEPLOY
+
+    // packType(req.body, res);
+    console.log(req.body.packageType);
+
+    ///// PASSING ARGUMENT FILENAME TO SCRIPT
     var env = Object.create(process.env);
     env.package = process.argv;
     // for (let j = 0; j < process.argv.length; j++) {
@@ -41,6 +52,9 @@ router.post("/", function(req, res) {
 });
 
 
-
+// function packType(parms, res) {
+//     var packageType = +parms.packageType;
+//     console.log(packageType);
+// }
 
 module.exports = router;
