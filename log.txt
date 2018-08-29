@@ -1,18 +1,5 @@
-ciao ciao
 
-ciao ciao
-
-ciao ciao
-trytree
-ciao ciao
-tree
-ciao ciao
-tree
-ciao ciao
-tree
-ciao ciao
-tree
-ciao ciao
-tree
-ciao ciao
-tree
+Wed Aug 29 15:29:52 CEDT 2018 ciao ciao
+Wed Aug 29 15:29:52 CEDT 2018 tree
+Wed Aug 29 15:46:24 CEDT 2018 ciao ciao
+Wed Aug 29 15:46:24 CEDT 2018 'try.sql'

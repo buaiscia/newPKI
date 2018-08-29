@@ -68,9 +68,11 @@ router.post("/", function(req, res, next) {
 
         //test arguments
         process.argv = fileName;
-        for (let j = 0; j < process.argv.length; j++) {
-            console.log(j + ' -> ' + (process.argv[j]));
-        }
+        // for (let j = 0; j < process.argv.length; j++) {
+        //     console.log(j + ' -> ' + (process.argv[j]));
+        // }
+        var array = process.argv;
+        console.log(array);
         //
         res.render('./landing', { fileName: fileName, fileSize: fileSize });
     });

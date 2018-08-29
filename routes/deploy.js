@@ -23,14 +23,16 @@ router.get("/", function(req, res) {
 router.post("/", function(req, res) {
     console.log("I'm in the deploy JS");
     var env = Object.create(process.env);
-    env.package = 'tree';
-    var array;
-    for (let j = 0; j < process.argv.length; j++) {
-        console.log(j + ' -> ' + (process.argv[j]));
-        // array.push(process.argv[j]);
-    }
+    env.package = process.argv;
+    // for (let j = 0; j < process.argv.length; j++) {
+    //     console.log(j + ' -> ' + (process.argv[j]));
+    // }
+    // var packageFile = process.argv;
+    // console.log(packageFile);
+
+
     // console.log(array);
-    shell.exec(`sh ./scripts/test.sh >> log.txt`, { env: env });
+    shell.exec(`sh ./scripts/test.sh $package >> log.txt`, { env: env });
 
     // shell.exec("/scripts/test.sh")
     ;

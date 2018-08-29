@@ -1,5 +1,5 @@
 #!/bin/bash
 
 
-echo 'ciao ciao'
-echo $package
+echo $(date) 'ciao ciao'
+echo $(date) $package
