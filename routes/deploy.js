@@ -6,7 +6,9 @@ const express = require("express");
 const router = express.Router();
 const app = express();
 const shell = require('shelljs');
+var exec = require('child_process').exec;
 const bodyParser = require("body-parser");
+var config = require('../config/config');
 
 
 app.set("view engine", "ejs");
@@ -29,12 +31,31 @@ router.post("/", function(req, res) {
 
     ///// PASSING ARGUMENT OF TYPE OF PACKAGE TO DEPLOY
 
-    // packType(req.body, res);
     console.log(req.body.packageType);
+    var packageType = req.body.packageType;
+
+
+    ///// PASSING ARGUMENT OF ENVIORONMENT
+
+    // console.log(req.body.environment);
+    if (req.body.environment == config.env.uat.name) {
+        var environmentType = config.env.uat.address;
+        console.log(environmentType);
+
+    } else if (req.body.environment == config.env.prod.name) {
+        var environmentType = config.env.prod.address;
+        console.log(environmentType);
+
+    }
+    // console.log(req.body.environment);
 
     ///// PASSING ARGUMENT FILENAME TO SCRIPT
     var env = Object.create(process.env);
     env.package = process.argv;
+
+    var command = 'sh ./scripts/test.sh ' + packageType + ' ' + environmentType + ' >> log.txt'
+
+    // env.environmentType = process.argv;
     // for (let j = 0; j < process.argv.length; j++) {
     //     console.log(j + ' -> ' + (process.argv[j]));
     // }
@@ -43,7 +64,14 @@ router.post("/", function(req, res) {
 
 
     // console.log(array);
-    shell.exec(`sh ./scripts/test.sh $package >> log.txt`, { env: env });
+    // shell.exec(`sh ./scripts/test.sh >> log.txt`, { env: env });
+    exec(command, { env: env }, function(error, stdout, stderr) {
+        console.log('done')
+        console.log('stdout:', stdout);
+        console.log('stderr:', stderr);
+    });
+
+    // shell.exec(`sh ./scripts/testtar.sh`);
 
     // shell.exec("/scripts/test.sh")
     ;
