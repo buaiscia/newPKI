@@ -61,18 +61,23 @@ router.post("/", function(req, res, next) {
 
 
 
-    form.parse(req, function(err, fields, files) {
+    form.parse(req, function(err, fields, files, fileName, fileSize) {
         if (err) next(err);
         var fileName = util.inspect(files.upload.name);
         var fileSize = util.inspect(files.upload.size);
 
         //test arguments
+        // for (let j = 0; j < process.argv.length; j++) {
+        //     console.log(j + ' -> ' + (process.argv[j]));
+        // }
+
         process.argv = fileName;
         // for (let j = 0; j < process.argv.length; j++) {
         //     console.log(j + ' -> ' + (process.argv[j]));
         // }
-        var array = process.argv;
-        console.log(array);
+
+        console.log(process.argv);
+
         //
         res.render('./landing', { fileName: fileName, fileSize: fileSize });
     });
@@ -84,12 +89,6 @@ router.post("/", function(req, res, next) {
 });
 
 
-
-
 //         // ADD FLASH MESSAGE FOR FILE UPLOADED AND BACK
-
-
-
-
 
 module.exports = router;

@@ -1,0 +1,220 @@
+
+Thu Aug 30 15:25:29 CEDT 2018 ciao ciao
+Thu Aug 30 15:25:29 CEDT 2018 C:\Program Files\nodejs\node.exe,C:\Users\alex.buaiscia\Documents\Developing\PKI_node\app.js
+Thu Aug 30 15:25:29 CEDT 2018
+Thu Aug 30 15:25:29 CEDT 2018
+Thu Aug 30 15:25:29 CEDT 2018
+Thu Aug 30 15:25:29 CEDT 2018
+Thu Aug 30 15:29:22 CEDT 2018 ciao ciao
+Thu Aug 30 15:29:22 CEDT 2018 'try.sql'
+Thu Aug 30 15:29:22 CEDT 2018
+Thu Aug 30 15:29:22 CEDT 2018
+Thu Aug 30 15:29:22 CEDT 2018
+Thu Aug 30 15:29:23 CEDT 2018
+Thu, Aug 30, 2018 3:32:13 PM ciao ciao
+Thu, Aug 30, 2018 3:32:13 PM few
+Thu, Aug 30, 2018 3:32:13 PM mob05-us32c9.us.infra
+Thu, Aug 30, 2018 3:32:13 PM
+Thu, Aug 30, 2018 3:32:13 PM
+Thu, Aug 30, 2018 3:32:13 PM
+Thu, Aug 30, 2018 3:32:13 PM
+Thu, Aug 30, 2018 3:32:13 PM
+Thu, Aug 30, 2018 3:32:13 PM
+Thu, Aug 30, 2018 3:34:50 PM ciao ciao
+Thu, Aug 30, 2018 3:34:50 PM few
+Thu, Aug 30, 2018 3:34:50 PM mob05-us32c9.us.infra
+Thu, Aug 30, 2018 3:34:50 PM
+Thu, Aug 30, 2018 3:34:50 PM 'try.sql'
+Thu, Aug 30, 2018 3:34:50 PM
+Thu, Aug 30, 2018 3:34:50 PM
+Thu, Aug 30, 2018 3:34:50 PM
+Thu, Aug 30, 2018 3:34:50 PM
+Thu, Aug 30, 2018 3:35:52 PM ciao ciao
+Thu, Aug 30, 2018 3:35:52 PM few
+Thu, Aug 30, 2018 3:35:52 PM mob05-us32c9.us.infra
+Thu, Aug 30, 2018 3:35:52 PM
+Thu, Aug 30, 2018 3:35:52 PM 'try.sql'
+Thu, Aug 30, 2018 4:34:29 PM ciao ciao
+Thu, Aug 30, 2018 4:34:29 PM few
+Thu, Aug 30, 2018 4:34:29 PM mob05-us32c9.us.infra
+Thu, Aug 30, 2018 4:34:29 PM C:\Program Files\nodejs\node.exe,C:\Users\alex.buaiscia\Documents\Developing\PKI_node\app.js
+Thu, Aug 30, 2018 4:34:55 PM prova deployment
+Thu, Aug 30, 2018 4:34:55 PM api
+Thu, Aug 30, 2018 4:34:55 PM mob05-us32c9.us.infra
+Thu, Aug 30, 2018 4:34:55 PM C:\Program Files\nodejs\node.exe,C:\Users\alex.buaiscia\Documents\Developing\PKI_node\app.js
+Thu, Aug 30, 2018 4:40:58 PM prova deployment
+Thu, Aug 30, 2018 4:40:58 PM few
+Thu, Aug 30, 2018 4:40:58 PM mob05-us32c9.us.infra
+Thu, Aug 30, 2018 4:40:58 PM 'try.sql'
+Thu, Aug 30, 2018 4:41:50 PM prova deployment
+Thu, Aug 30, 2018 4:41:50 PM few
+Thu, Aug 30, 2018 4:41:50 PM mob05-us32c9.us.infra
+Thu, Aug 30, 2018 4:41:50 PM C:\Program Files\nodejs\node.exe,C:\users\alex.buaiscia\Documents\Developing\PKI_node\app.js
+Thu, Aug 30, 2018 4:44:14 PM prova deployment
+Thu, Aug 30, 2018 4:44:14 PM api
+Thu, Aug 30, 2018 4:44:14 PM mob05-us32c9.us.infra
+Thu, Aug 30, 2018 4:44:14 PM C:\Program Files\nodejs\node.exe,C:\users\alex.buaiscia\Documents\Developing\PKI_node\app.js
+Thu, Aug 30, 2018 4:46:32 PM prova deployment
+Thu, Aug 30, 2018 4:46:32 PM few
+Thu, Aug 30, 2018 4:46:32 PM mob05-us32c9.us.infra
+Thu, Aug 30, 2018 4:46:32 PM C:\Program Files\nodejs\node.exe,C:\users\alex.buaiscia\Documents\Developing\PKI_node\app.js
+Thu, Aug 30, 2018 4:47:00 PM prova deployment
+Thu, Aug 30, 2018 4:47:00 PM few
+Thu, Aug 30, 2018 4:47:00 PM mob05-us32c9.us.infra
+Thu, Aug 30, 2018 4:47:00 PM C:\Program Files\nodejs\node.exe,C:\users\alex.buaiscia\Documents\Developing\PKI_node\app.js
+Thu, Aug 30, 2018 4:48:06 PM prova deployment
+Thu, Aug 30, 2018 4:48:06 PM few
+Thu, Aug 30, 2018 4:48:06 PM mob05-us32c9.us.infra
+Thu, Aug 30, 2018 4:48:06 PM C:\Program Files\nodejs\node.exe,C:\users\alex.buaiscia\Documents\Developing\PKI_node\app.js
+Thu, Aug 30, 2018 4:49:36 PM prova deployment
+Thu, Aug 30, 2018 4:49:36 PM few
+Thu, Aug 30, 2018 4:49:36 PM mob05-us32c9.us.infra
+Thu, Aug 30, 2018 4:49:36 PM C:\Program Files\nodejs\node.exe,C:\users\alex.buaiscia\Documents\Developing\PKI_node\app.js
+/cygdrive/c/users/alex.buaiscia/Documents/Developing/PKI_node
+Thu, Aug 30, 2018 4:52:02 PM prova deployment
+Thu, Aug 30, 2018 4:52:02 PM api
+Thu, Aug 30, 2018 4:52:02 PM mob05-us32c9.us.infra
+Thu, Aug 30, 2018 4:52:02 PM C:\Program Files\nodejs\node.exe,C:\users\alex.buaiscia\Documents\Developing\PKI_node\app.js
+/cygdrive/c/users/alex.buaiscia/Documents/Developing/PKI_node
+Thu, Aug 30, 2018 4:53:44 PM prova deployment
+Thu, Aug 30, 2018 4:53:44 PM api
+Thu, Aug 30, 2018 4:53:44 PM mob05-us32c9.us.infra
+Thu, Aug 30, 2018 4:53:44 PM C:\Program Files\nodejs\node.exe,C:\users\alex.buaiscia\Documents\Developing\PKI_node\app.js
+/cygdrive/c/users/alex.buaiscia/Documents/Developing/PKI_node
+Thu, Aug 30, 2018 5:00:11 PM prova deployment
+Thu, Aug 30, 2018 5:00:11 PM few
+Thu, Aug 30, 2018 5:00:11 PM mob05-us32c9.us.infra
+Thu, Aug 30, 2018 5:00:11 PM C:\Program Files\nodejs\node.exe,C:\Users\alex.buaiscia\Documents\Developing\PKI_node\app.js
+/c/Users/alex.buaiscia/Documents/Developing/PKI_node
+Thu, Aug 30, 2018 5:06:18 PM prova deployment
+Thu, Aug 30, 2018 5:06:18 PM few
+Thu, Aug 30, 2018 5:06:18 PM mob05-us32c9.us.infra
+Thu, Aug 30, 2018 5:06:18 PM C:\Program Files\nodejs\node.exe,C:\Users\alex.buaiscia\Documents\Developing\PKI_node\app.js
+/c/Users/alex.buaiscia/Documents/Developing/PKI_node
+Fri, Aug 31, 2018 3:13:03 PM prova deployment
+Fri, Aug 31, 2018 3:13:04 PM api
+Fri, Aug 31, 2018 3:13:04 PM mob05-us32c9.us.infra
+Fri, Aug 31, 2018 3:13:04 PM 'try.sql'
+/c/Users/alex.buaiscia/Documents/Developing/PKI_node
+Fri, Aug 31, 2018 3:13:28 PM prova deployment
+Fri, Aug 31, 2018 3:13:28 PM few
+Fri, Aug 31, 2018 3:13:28 PM mob05-us32c9.us.infra
+Fri, Aug 31, 2018 3:13:28 PM 'try.sql'
+/c/Users/alex.buaiscia/Documents/Developing/PKI_node
+Fri, Aug 31, 2018 3:16:39 PM prova deployment
+Fri, Aug 31, 2018 3:16:40 PM api
+Fri, Aug 31, 2018 3:16:40 PM mob05-us32c9.us.infra
+Fri, Aug 31, 2018 3:16:40 PM 'try.sql'
+/c/Users/alex.buaiscia/Documents/Developing/PKI_node
+Fri, Aug 31, 2018 3:19:00 PM prova deployment
+Fri, Aug 31, 2018 3:19:00 PM api
+Fri, Aug 31, 2018 3:19:01 PM mob05-us32c9.us.infra
+Fri, Aug 31, 2018 3:19:01 PM C:\Program Files\nodejs\node.exe,C:\Users\alex.buaiscia\Documents\Developing\PKI_node\app.js
+/c/Users/alex.buaiscia/Documents/Developing/PKI_node
+Fri, Aug 31, 2018 3:19:54 PM prova deployment
+Fri, Aug 31, 2018 3:19:54 PM few
+Fri, Aug 31, 2018 3:19:54 PM mob05-us32c9.us.infra
+Fri, Aug 31, 2018 3:19:54 PM C:\Program Files\nodejs\node.exe,C:\Users\alex.buaiscia\Documents\Developing\PKI_node\app.js
+/c/Users/alex.buaiscia/Documents/Developing/PKI_node
+Fri, Aug 31, 2018 3:28:25 PM prova deployment
+Fri, Aug 31, 2018 3:28:25 PM few
+Fri, Aug 31, 2018 3:28:25 PM mob05-us32c9.us.infra
+Fri, Aug 31, 2018 3:28:25 PM C:\Program Files\nodejs\node.exe,C:\Users\alex.buaiscia\Documents\Developing\PKI_node\app.js
+Fri, Aug 31, 2018 4:01:19 PM prova deployment
+Fri, Aug 31, 2018 4:01:19 PM few
+Fri, Aug 31, 2018 4:01:19 PM mob05-us32c9.us.infra
+Fri, Aug 31, 2018 4:01:19 PM C:\Program Files\nodejs\node.exe,C:\Users\alex.buaiscia\Documents\Developing\PKI_node\app.js
+Fri, Aug 31, 2018 4:42:32 PM prova deployment
+Fri, Aug 31, 2018 4:42:32 PM few
+Fri, Aug 31, 2018 4:42:32 PM mob05-us32c9.us.infra
+Fri, Aug 31, 2018 4:42:32 PM C:\Program Files\nodejs\node.exe,C:\Users\alex.buaiscia\Documents\Developing\PKI_node\app.js
+Fri, Aug 31, 2018 4:54:31 PM prova deployment
+Fri, Aug 31, 2018 4:54:32 PM mob05-us32c9.us.infra
+Fri, Aug 31, 2018 4:54:32 PM
+Fri, Aug 31, 2018 4:54:32 PM 'try.sql'
+Fri, Aug 31, 2018 4:55:18 PM prova deployment
+Fri, Aug 31, 2018 4:55:18 PM few
+Fri, Aug 31, 2018 4:55:18 PM mob05-us32c9.us.infra
+Fri, Aug 31, 2018 4:55:18 PM 'try.sql'
+Fri, Aug 31, 2018 5:26:15 PM prova deployment
+Fri, Aug 31, 2018 5:26:15 PM
+Fri, Aug 31, 2018 5:26:15 PM
+Fri, Aug 31, 2018 5:26:15 PM 'try.sql'
+Tue, Sep 04, 2018 11:56:06 AM prova deployment
+Tue, Sep 04, 2018 11:56:06 AM
+Tue, Sep 04, 2018 11:56:06 AM
+Tue, Sep 04, 2018 11:56:06 AM 'try.sql'
+Tue, Sep 04, 2018 4:30:29 PM prova deployment
+Tue, Sep 04, 2018 4:30:29 PM $filename
+Tue, Sep 04, 2018 4:30:29 PM $fileName
+Tue, Sep 04, 2018 4:30:29 PM 'try.sql'
+Tue, Sep 04, 2018 4:33:18 PM prova deployment
+Tue, Sep 04, 2018 4:33:18 PM C:\Users\alex.buaiscia\Documents\Developing\PKI_node\routes\deploy.js
+Tue, Sep 04, 2018 4:33:18 PM
+Tue, Sep 04, 2018 4:33:18 PM 'try.sql'
+Tue, Sep 04, 2018 4:37:41 PM prova deployment
+Tue, Sep 04, 2018 4:37:41 PM C:\Users\alex.buaiscia\Documents\Developing\PKI_node\routes
+Tue, Sep 04, 2018 4:37:42 PM
+Tue, Sep 04, 2018 4:37:42 PM C:\Program Files\nodejs\node.exe,C:\Users\alex.buaiscia\Documents\Developing\PKI_node\app.js
+Wed, Sep 05, 2018 2:07:42 PM prova deployment
+Wed, Sep 05, 2018 2:07:42 PM
+Wed, Sep 05, 2018 2:07:42 PM
+Wed, Sep 05, 2018 2:07:42 PM 'try.sql'
+Wed, Sep 05, 2018 2:08:19 PM prova deployment
+Wed, Sep 05, 2018 2:08:19 PM
+Wed, Sep 05, 2018 2:08:19 PM
+Wed, Sep 05, 2018 2:08:19 PM 'try.sql'
+Wed, Sep 05, 2018 2:08:31 PM prova deployment
+Wed, Sep 05, 2018 2:08:31 PM
+Wed, Sep 05, 2018 2:08:31 PM
+Wed, Sep 05, 2018 2:08:31 PM 'try.sql'
+Wed, Sep 05, 2018 2:09:55 PM prova deployment
+Wed, Sep 05, 2018 2:09:55 PM
+Wed, Sep 05, 2018 2:09:55 PM
+Wed, Sep 05, 2018 2:09:55 PM 'try.sql'
+Wed, Sep 05, 2018 2:27:09 PM prova deployment
+Wed, Sep 05, 2018 2:27:09 PM
+Wed, Sep 05, 2018 2:27:09 PM
+Wed, Sep 05, 2018 2:27:09 PM 'try.sql'
+Wed, Sep 05, 2018 2:57:15 PM prova deployment
+Wed, Sep 05, 2018 2:57:15 PM
+Wed, Sep 05, 2018 2:57:15 PM
+Wed, Sep 05, 2018 2:57:15 PM 'try.sql'
+Wed, Sep 05, 2018 2:58:51 PM prova deployment
+Wed, Sep 05, 2018 2:58:51 PM
+Wed, Sep 05, 2018 2:58:51 PM
+Wed, Sep 05, 2018 2:58:51 PM 'try.sql'
+Wed, Sep 05, 2018 3:01:03 PM prova deployment
+Wed, Sep 05, 2018 3:01:03 PM
+Wed, Sep 05, 2018 3:01:03 PM
+Wed, Sep 05, 2018 3:01:03 PM 'try.sql'
+Wed, Sep 05, 2018 3:01:51 PM prova deployment
+Wed, Sep 05, 2018 3:01:51 PM try.sql
+Wed, Sep 05, 2018 3:01:51 PM
+Wed, Sep 05, 2018 3:01:51 PM 'try.sql'
+Wed, Sep 05, 2018 3:02:39 PM prova deployment
+Wed, Sep 05, 2018 3:02:39 PM try.sql
+Wed, Sep 05, 2018 3:02:39 PM
+Wed, Sep 05, 2018 3:02:39 PM 'try.sql'
+Wed, Sep 05, 2018 3:31:17 PM prova deployment
+Wed, Sep 05, 2018 3:31:17 PM try.sql
+Wed, Sep 05, 2018 3:31:17 PM
+Wed, Sep 05, 2018 3:31:17 PM 'try.sql'
+Mon, Sep 17, 2018 12:09:32 PM prova deployment
+Mon, Sep 17, 2018 12:09:32 PM try.sql
+Mon, Sep 17, 2018 12:09:32 PM
+Mon, Sep 17, 2018 12:09:32 PM 'try.sql'
+Mon, Sep 17, 2018 12:10:53 PM prova deployment
+Mon, Sep 17, 2018 12:10:53 PM try.sql
+Mon, Sep 17, 2018 12:10:53 PM
+Mon, Sep 17, 2018 12:10:54 PM 'try.sql'
+Mon, Sep 17, 2018 12:11:54 PM prova deployment
+Mon, Sep 17, 2018 12:11:54 PM try.sql
+Mon, Sep 17, 2018 12:11:54 PM
+Mon, Sep 17, 2018 12:11:55 PM 'try.sql'
+'/c/users/alex.buaiscia/Documents/Developing/PKI_node/uploads/try.sql' -> '/c/users/alex.buaiscia/Documents/Developing/PKI_node/try.sql'
+Mon, Sep 17, 2018 12:15:40 PM prova deployment
+Mon, Sep 17, 2018 12:15:40 PM try.sql
+Mon, Sep 17, 2018 12:15:40 PM
+Mon, Sep 17, 2018 12:15:40 PM 'try.sql'
+'/c/users/alex.buaiscia/Documents/Developing/PKI_node/uploads/try.sql' -> '/c/users/alex.buaiscia/Documents/Developing/PKI_node/try.sql'

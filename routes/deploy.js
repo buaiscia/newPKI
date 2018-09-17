@@ -9,6 +9,8 @@ const shell = require('shelljs');
 var exec = require('child_process').exec;
 const bodyParser = require("body-parser");
 var config = require('../config/config');
+var fs = require('fs');
+var deploy = require("./upload");
 
 
 app.set("view engine", "ejs");
@@ -53,7 +55,16 @@ router.post("/", function(req, res) {
     var env = Object.create(process.env);
     env.package = process.argv;
 
-    var command = 'sh ./scripts/test.sh ' + packageType + ' ' + environmentType + ' >> log.txt'
+    var array1 = env.package;
+
+    console.log(array1.slice(1, -1));
+    var array2 = array1.slice(1, -1);
+
+    // var command = 'sh c:/users/alex.buaiscia/Documents/Developing/PKI_node/scripts/testdeploy.sh ' + packageType + ' ' + environmentType + ' >> log.txt'
+    var command = 'sh c:/users/alex.buaiscia/Documents/Developing/PKI_node/scripts/testdeploy.sh ' + array2 + ' >> ./log/log.txt'
+
+    console.log(command);
+
 
     // env.environmentType = process.argv;
     // for (let j = 0; j < process.argv.length; j++) {
@@ -71,6 +82,9 @@ router.post("/", function(req, res) {
         console.log('stderr:', stderr);
     });
 
+
+
+
     // shell.exec(`sh ./scripts/testtar.sh`);
 
     // shell.exec("/scripts/test.sh")
@@ -84,5 +98,4 @@ router.post("/", function(req, res) {
 //     var packageType = +parms.packageType;
 //     console.log(packageType);
 // }
-
 module.exports = router;
