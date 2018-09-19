@@ -8,7 +8,9 @@ const express = require("express"),
     passport = require("passport"),
     LocalStrategy = require("passport-local"),
     flash = require("connect-flash"),
-    compression = require('compression');
+    compression = require('compression'),
+    helmet = require('helmet');
+
 
 
 
@@ -30,6 +32,8 @@ app.use(require("express-session")({
 app.use(passport.initialize());
 app.use(passport.session());
 app.use(compression());
+app.use(helmet());
+
 
 
 
@@ -61,3 +65,5 @@ app.use("/deploy", deployRoute);
 app.listen(3000, function() {
     console.log("The  Server Has Started on port 3000");
 });
+
+//app.listen(process.env.PORT, process.env.IP);
