@@ -78,8 +78,15 @@ router.post("/", function(req, res, next) {
 
         console.log(process.argv);
 
+        var logFile = require("./catchlog");
+        var allFiles = require("./loaded");
+
         //
-        res.render('./landing', { fileName: fileName, fileSize: fileSize });
+        if (err) {
+            return res.render("landing", { logFile: logFile }, { "error": stderr });
+        }
+        // req.flash("success", "Successfully uploaded");
+        return res.render('landing', { fileName: fileName, fileSize: fileSize, logFile: logFile, allFiles: allFiles, "success": "The file has been successfully uploaded" });
     });
 
     form.on('end', function() {

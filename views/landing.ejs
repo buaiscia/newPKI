@@ -1,7 +1,5 @@
 <% include partials/header %>
 
-
-
       <!-- Main jumbotron for a primary marketing message or call to action -->
       <div id="jumbo" class="jumbotron">
         <div class="main_txt container">
@@ -42,7 +40,7 @@
                             </select>
                         </p>
                     </div>
-                   <div class="col-md-3">
+                <!--   <div class="col-md-3">
                         <h2> You will deploy the file/package: </h2>
                         <select name='fileName'>
                         
@@ -53,12 +51,26 @@
                             <h2>fileName not defined</h2>
                         <% } %>
                         </option>
-                        </select>
+                        </select> -->
 
-                        <p>
+                <div class="col-md-3">
+                    <h2>Select the file to load: </h2>
+                    <p>
+                    <p>
+                    <% if(typeof allFiles != 'undefined') { %>
                         
-                        </p>
+                            <select name='allFiles' id="allFiles">
+                    <%    allFiles.forEach(function(allFiles) {   %>
+
+                                <option value="<%= allFiles %>"><%= allFiles %></option>
+                        
+                    <% });  } else { %>
+                            <h2>No files present</h2>
+                    <% } %>     
+                    
+                    </select>
                     </div>
+
                     <div class="col-md-3">
                         <h2> Choose the environment to deploy the package: </h2>
                         <p> 
@@ -73,7 +85,11 @@
                     </div>
                  
             </div>
-          
+
+        
+
+        <br>
+        <br>
 
         <hr>
 
@@ -99,7 +115,15 @@
 
       </div> <!-- /container -->
 
-
+    <div class="container">
+        <div class="col-md-12">
+            <% if(logFile){ %>
+                <%= logFile %>
+            <% } else { %>
+                <p>logFile not defined</p>
+           <%  } %>
+        </div>    
+    </div>
 
 
 <% include partials/footer %>

@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
+
 'use strict';
 
 const express = require("express");
@@ -10,8 +11,6 @@ var exec = require('child_process').exec;
 const bodyParser = require("body-parser");
 var config = require('../config/config');
 var fs = require('fs');
-var deploy = require("./upload");
-
 
 app.set("view engine", "ejs");
 
@@ -24,6 +23,8 @@ router.use(bodyParser.json());
 
 
 router.get("/", function(req, res) {
+    var allFiles = require("./loaded");
+
     res.render("deploy");
 });
 
@@ -55,47 +56,42 @@ router.post("/", function(req, res) {
     var env = Object.create(process.env);
     env.package = process.argv;
 
-    var array1 = env.package;
+    // var array1 = env.package;
 
-    console.log(array1.slice(1, -1));
-    var array2 = array1.slice(1, -1);
+    // console.log(array1.slice(1, -1));
+    // var fileToDeploy = array1.slice(1, -1);
+    // console.log(req.body.allFiles);
+    var packageToDeploy = req.body.allFiles
+        //var command = 'sh c:/users/alex.buaiscia/Documents/Developing/PKI_node/scripts/testdeploy.sh ' + fileToDeploy + ' ' + environmentType + ' >> ./log/log.txt'
+    var command = 'sh c:/users/alex.buaiscia/Documents/Developing/PKI_node/scripts/testdeploy.sh ' + packageToDeploy + ' >> ./log/log.txt'
 
-    // var command = 'sh c:/users/alex.buaiscia/Documents/Developing/PKI_node/scripts/testdeploy.sh ' + packageType + ' ' + environmentType + ' >> log.txt'
-    var command = 'sh c:/users/alex.buaiscia/Documents/Developing/PKI_node/scripts/testdeploy.sh ' + array2 + ' >> ./log/log.txt'
+    // var command = 'scp -v -i /home/appsupp/.ssh/id_rsa /var/www/html/PKI/' + fileToDeploy + ' appsupp@' + environmentType + ':/home/appsupp >> ./log/log.txt'
 
     console.log(command);
 
 
-    // env.environmentType = process.argv;
-    // for (let j = 0; j < process.argv.length; j++) {
-    //     console.log(j + ' -> ' + (process.argv[j]));
-    // }
-    // var packageFile = process.argv;
-    // console.log(packageFile);
 
-
-    // console.log(array);
-    // shell.exec(`sh ./scripts/test.sh >> log.txt`, { env: env });
     exec(command, { env: env }, function(error, stdout, stderr) {
+
         console.log('done')
         console.log('stdout:', stdout);
         console.log('stderr:', stderr);
+
+        var logFile = require("./catchlog");
+        var allFiles = require("./loaded");
+
+
+        if (stderr) {
+
+            return res.render("landing", { logFile: logFile, allFiles: allFiles, "error": stderr });
+        } else
+
+            return res.render("landing", { logFile: logFile, allFiles: allFiles, "success": "successfully deployed" });
     });
 
 
 
-
-    // shell.exec(`sh ./scripts/testtar.sh`);
-
-    // shell.exec("/scripts/test.sh")
-    ;
-    res.redirect("/deploy");
-
 });
 
 
-// function packType(parms, res) {
-//     var packageType = +parms.packageType;
-//     console.log(packageType);
-// }
 module.exports = router;
