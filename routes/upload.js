@@ -36,6 +36,9 @@ router.use(express.static(__dirname + '/public'));
 
 
 router.post("/", function(req, res, next) {
+    delete require.cache[require.resolve('./loaded')];
+    delete require.cache[require.resolve('./catchlog')];
+
     var form = new formidable.IncomingForm();
     form.uploadDir = './uploads';
     form.keepExtensions = true;

@@ -24,12 +24,13 @@ router.use(bodyParser.json());
 
 router.get("/", function(req, res) {
     var allFiles = require("./loaded");
-
+    delete require.cache[require.resolve('./catchlog')];
     res.render("deploy");
 });
 
 
 router.post("/", function(req, res) {
+    delete require.cache[require.resolve('./catchlog')];
     console.log("I'm in the deploy JS");
 
     ///// PASSING ARGUMENT OF TYPE OF PACKAGE TO DEPLOY

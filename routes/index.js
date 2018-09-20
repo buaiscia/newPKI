@@ -10,6 +10,9 @@ var fs = require('fs');
 // ROOT ROUTE
 
 router.get("/", function(req, res) {
+    delete require.cache[require.resolve('./loaded')];
+    delete require.cache[require.resolve('./catchlog')];
+
     var logFile = require("./catchlog");
 
     var allFiles = require("./loaded");
