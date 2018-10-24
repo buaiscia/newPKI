@@ -3,15 +3,28 @@ const router = express.Router();
 const app = express();
 const fs = require('fs');
 
+app.disable('view cache');
+
+var fileName = './log/log.txt';
+var logFile = '';
+
+// var logFile = fs.readFileSync(fileName, 'utf8');
 
 
-try {
-    var logFile = fs.readFileSync('./log/log.txt', 'utf8');
 
-
-} catch (e) {
-    console.log('Error:', e.stack);
+function readContent(logFile) {
+    fs.readFile(fileName, 'utf8', function(err, content) {
+        if (err) return err;
+        logFile(content);
+    })
 }
+
+logFile = readContent(function(err, logFile) {
+    console.log(logFile);
+})
+
+
+readContent(logFile);
 
 
 module.exports = logFile;

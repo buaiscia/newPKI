@@ -11,8 +11,8 @@ function getFilesFromPath(path, extension) {
     return dir.filter(elm => elm.match(new RegExp(`.*\.(${extension})`, 'ig')));
 }
 
-var allFiles = getFilesFromPath(uploadFolder, ".sql");
-console.log(getFilesFromPath(uploadFolder, ".sql"));
+var allFiles = getFilesFromPath(uploadFolder, ".gz");
+console.log(getFilesFromPath(uploadFolder, ".gz"));
 
 
 

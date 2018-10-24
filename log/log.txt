@@ -164,3 +164,12 @@ Wed, Sep 19, 2018 2:36:17 PM try.sql
 Wed, Sep 19, 2018 2:36:17 PM
 Wed, Sep 19, 2018 2:36:17 PM
 '/c/users/alex.buaiscia/Documents/Developing/PKI_node/uploads/try.sql' -> '/c/users/alex.buaiscia/Documents/Developing/PKI_node/try.sql'
+Tue, Oct 09, 2018 4:27:20 PM prova deployment
+Tue, Oct 09, 2018 4:27:20 PM undefined
+Tue, Oct 09, 2018 4:27:20 PM
+Tue, Oct 09, 2018 4:27:20 PM
+Tue, Oct 09, 2018 4:34:05 PM prova deployment
+Tue, Oct 09, 2018 4:34:06 PM HCUS-MIDDLEWARE-API_2018-10-03_11-17-00.tar.gz
+Tue, Oct 09, 2018 4:34:06 PM
+Tue, Oct 09, 2018 4:34:06 PM
+'/c/users/alex.buaiscia/Documents/Developing/PKI_node/uploads/HCUS-MIDDLEWARE-API_2018-10-03_11-17-00.tar.gz' -> '/c/users/alex.buaiscia/Documents/Developing/PKI_node/HCUS-MIDDLEWARE-API_2018-10-03_11-17-00.tar.gz'

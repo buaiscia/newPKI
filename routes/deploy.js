@@ -66,7 +66,7 @@ router.post("/", function(req, res) {
         //var command = 'sh c:/users/alex.buaiscia/Documents/Developing/PKI_node/scripts/testdeploy.sh ' + fileToDeploy + ' ' + environmentType + ' >> ./log/log.txt'
     var command = 'sh c:/users/alex.buaiscia/Documents/Developing/PKI_node/scripts/testdeploy.sh ' + packageToDeploy + ' >> ./log/log.txt'
 
-    // var command = 'scp -v -i /home/appsupp/.ssh/id_rsa /var/www/html/PKI/' + fileToDeploy + ' appsupp@' + environmentType + ':/home/appsupp >> ./log/log.txt'
+    var command2 = 'sudo ssh -i /home/appsupp/.ssh/id_rsa appsupp@' + environmentType + " 'bash -s' < var/www/html/newPKI/scripts/deploy.sh " + packageToDeploy + " " + packageType + " >> ./log/log.txt 2>&1" //var command = 'scp -v -i /home/appsupp/.ssh/id_rsa /var/www/html/PKI/' + packageToDeploy + ' appsupp@' + environmentType + ':/home/appsupp >> ./log/log.txt'
 
     console.log(command);
 
