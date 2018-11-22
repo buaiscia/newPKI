@@ -6,7 +6,6 @@ var fs = require('fs');
 
 
 
-
 // ROOT ROUTE
 
 router.get("/", function(req, res) {

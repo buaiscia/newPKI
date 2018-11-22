@@ -5,26 +5,17 @@ const fs = require('fs');
 
 app.disable('view cache');
 
-var fileName = './log/log.txt';
-var logFile = '';
 
-// var logFile = fs.readFileSync(fileName, 'utf8');
+var filePath = './log/log.txt';
 
 
+var buf = fs.readFileSync(filePath, 'utf8');
+var str = buf.toString();
+// var logFile = (buf.match(/\n/g) || []).length;
 
-function readContent(logFile) {
-    fs.readFile(fileName, 'utf8', function(err, content) {
-        if (err) return err;
-        logFile(content);
-    })
-}
+var logFile = str.split('\n');
+console.log(logFile);
 
-logFile = readContent(function(err, logFile) {
-    console.log(logFile);
-})
-
-
-readContent(logFile);
 
 
 module.exports = logFile;

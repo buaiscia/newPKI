@@ -50,6 +50,7 @@ app.use(function(req, res, next) {
 var indexRoute = require("./routes/index");
 var uploadRoute = require("./routes/upload");
 var deployRoute = require("./routes/deploy");
+var syncRoute = require('./routes/sync');
 // var logRoute = require("./routes/catchlog");
 // var listRoute = require("./routes/list");
 
@@ -58,6 +59,7 @@ var deployRoute = require("./routes/deploy");
 app.use("/", indexRoute);
 app.use("/upload", uploadRoute);
 app.use("/deploy", deployRoute);
+app.use("/sync", syncRoute);
 // app.use("/catchlog")
 // app.use("/list", listRoute);
 
