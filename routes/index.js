@@ -12,11 +12,16 @@ router.get("/", function(req, res) {
     delete require.cache[require.resolve('./loaded')];
     delete require.cache[require.resolve('./catchlog')];
 
-    var logFile = require("./catchlog");
+    var logging = require("./catchlog");
 
     var allFiles = require("./loaded");
 
-    res.render("landing", { logFile: logFile, allFiles: allFiles });
+
+    res.render("landing", {
+        logFile: logging.logFile,
+        logTime: logging.logTime,
+        allFiles: allFiles
+    });
 });
 
 
