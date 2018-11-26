@@ -1,24 +1,21 @@
 <% include partials/header %>
 
-    <div class="container-fluid">
-        <header>
-        <div class="row">
-            <div class = "col-md-12">
-                <h1>PKI Deployment tool    </h1> 
-                <img class="pki_img" src="../img/punchkick.png" alt="punchkick">                
-            </div>           
-        
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div id="jumbo" class="jumbotron">
+        <div class="main_txt container">
+            <h1 class="display-10">PKI Deployment tool</h1>
+            <!--          <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+          <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p> -->
         </div>
-        </header>
     </div>
 
-    <section class="deployment">
-        
-        <div class="main_txt container container-fluid ">
+    <div class="main_txt container container-fluid ">
+        <!-- Example row of columns -->
             <div class="row">
                 <div class="col-md-3">
 
-                    <h2> Upload a file: </h2>
+                    <h2> Upload the file: </h2>
+                    <p>
                         <div>
                             <form ref="uploadForm" id="uploadForm" action="./upload" method="POST" encType="multipart/form-data">
                                 <input type="file" name="upload" multiple="multiple" />
@@ -28,7 +25,7 @@
                 </div>
                 <div class="col-md-3">
                     <form action='./deploy' method='post' id='form'>
-                        <h2>Choose the type of package: </h2>
+                        <h2> Choose the type of package to deploy: </h2>
                         <p>
                             <select name='packageType'>
                                 <option value=''>-----</option>
@@ -41,6 +38,7 @@
 
                 <div class="col-md-3">
                     <h2>Select the file to load: </h2>
+                    <p>
                         <p>
                             <% if(typeof allFiles != 'undefined') { %>
 
@@ -57,90 +55,72 @@
                 </div>
 
                 <div class="col-md-3">
-                    <h2> Choose the environment: </h2>
+                    <h2> Choose the environment to deploy the package: </h2>
                     <p>
                         <select name='environment'>
                                 <option value=''>-----</option>
                                 <option value='UAT'>UAT</option>
                                 <option value='PROD'>PROD - not working</option>
                             </select>
-                        
+                        <input class='btn btn-primary' type='submit' value='Deploy'>
+                        </form>
                     </p>
                 </div>
 
             </div>
-            <div class="row deploy-btn mx-auto">
-                <div class = "col-md-12">
-                    <input class='myButton' type='submit' value='DEPLOY'>
-                    </form>
-                </div>
-                
-            </div>   
-
-    </section>
 
 
 
-    <section class="syncing">
-        <div class="main_txt container container-fluid ">
             <div class="row">
-                <div class="col-md-4">
-                            <form action='./sync' method='post' id='form'>
+                    <div class="col-md-4">
+                        <form action='./sync' method='post' id='form'>
 
-                            <h2>Choose the type of package to sync</h2>
-                            <p>
-                                <select name='packageSyncType'>
+                        <h2>Choose the type of package to sync</h2>
+                        <p>
+                            <select name='packageSyncType'>
+                                <option value=''>-----</option>
+                                <option value='/var/www/html/'>FEW</option>
+                                <option value='/var/www/api/'>API</option>
+                                <option value='/var/www/admin/'>ADMIN</option>
+                            </select>
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                          <h2>Choose the kind of sync to perform</h2>
+                          <p>
+                            <select name='syncType'>
+                                <option value=''>-----</option>
+                                <option value='test'>TEST</option>
+                                <option value='write'>REAL SYNC</option>
+                            </select>
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <h2> Where to perform the sync: </h2>
+                        <p>
+                            <select name='environment'>
                                     <option value=''>-----</option>
-                                    <option value='/var/www/html/'>FEW</option>
-                                    <option value='/var/www/api/'>API</option>
-                                    <option value='/var/www/admin/'>ADMIN</option>
+                                    <option value='UAT'>UAT</option>
+                                    <option value='PROD'>PROD</option>
                                 </select>
-                            </p>
-                </div>
-                <div class="col-md-4">
-                            <h2>Choose the kind of sync to perform</h2>
-                            <p>
-                                <select name='syncType'>
-                                    <option value=''>-----</option>
-                                    <option value='test'>TEST</option>
-                                    <option value='write'>REAL SYNC</option>
-                                </select>
-                            </p>
-                </div>
-                <div class="col-md-4">
-                            <h2> Where to perform the sync: </h2>
-                            <p>
-                                <select name='environment'>
-                                        <option value=''>-----</option>
-                                        <option value='UAT'>UAT</option>
-                                        <option value='PROD'>PROD</option>
-                                    </select>
-                                
+                            <input class='btn btn-primary' type='submit' value='Sync'>
+                            </form>
 
-                            </p>
+                        </p>
                 </div>
             </div>
-            <div class="row sync-btn mx-auto">
-                <div class="col-md-12">
-                    <input class='myButtonSync' type='submit' value='SYNC'>
-                    </form>
-                </div>
-                
-            </div>
-        </div>
+
+
+
         
+        <!-- /container -->
 
-    </section>
-
-
-    <section class="logs">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
                 <div class="col-md-6">
                     <% if(logFile){ %>
                         <ul style="list-style-type: none;">
-                            <h2>Deployment log </h2>
-                            <h3>Last modified: <%= logTime %></h3>
+                            <p>Deployment log. Last modified: <%= logTime %></p>
                             <% logFile.forEach(function(logs) { %>
                                 <li><%= logs %></li>
                             <% }); %>
@@ -151,12 +131,9 @@
                 </div>
 
         
-                <div class="col-md-6">
+            <div class="col-md-6">
                 <% if(logFile){ %>
                     <ul style="list-style-type: none;">
-                        <h2>Deployment log </h2>
-                        <h3>Last modified: <%= logTime %></h3>
-                        
                         <% logFile.forEach(function(logs) { %>
                             <li><%= logs %></li>
                         <% }); %>
@@ -164,11 +141,8 @@
                 <% } else { %>
                         <p>logFile not defined</p>
                 <%  } %>
-                </div>
             </div>
         </div>
-    </section>
-        
 
         
 
