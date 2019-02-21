@@ -37,8 +37,6 @@ router.use(express.static(__dirname + '/public'));
 
 router.post("/", function(req, res, next) {
     delete require.cache[require.resolve('./loaded')];
-    delete require.cache[require.resolve('./catchlog')];
-
     var form = new formidable.IncomingForm();
     form.uploadDir = './uploads';
     form.keepExtensions = true;
@@ -80,8 +78,11 @@ router.post("/", function(req, res, next) {
         // }
 
         console.log(process.argv);
+	delete require.cache[require.resolve('./catchlog')];
+	delete require.cache[require.resolve('./synclog')];
 
-        var logFile = require("./catchlog");
+        var logging = require("./catchlog");
+	var synclogging = require("./synclog");
         var allFiles = require("./loaded");
 
         //
@@ -89,7 +90,14 @@ router.post("/", function(req, res, next) {
             return res.render("landing", { logFile: logFile }, { "error": stderr });
         }
         // req.flash("success", "Successfully uploaded");
-        return res.render('landing', { fileName: fileName, fileSize: fileSize, logFile: logFile, allFiles: allFiles, "success": "The file has been successfully uploaded" });
+        return res.render('landing', { 
+				fileName: fileName, 
+				fileSize: fileSize, 
+				logFile: logging.logFile, 
+				logTime: logging.logTime,
+				synclogFile: synclogging.synclogFile,
+				synclogTime: synclogging.synclogTime,				
+				allFiles: allFiles, "success": "The file has been successfully uploaded" });
     });
 
     form.on('end', function() {

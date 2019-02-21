@@ -3,6 +3,8 @@ const router = express.Router();
 const fileUpload = require("express-fileupload");
 const app = express();
 var fs = require('fs');
+var logFile = require("./catchlog");
+
 
 
 
@@ -11,17 +13,20 @@ var fs = require('fs');
 router.get("/", function(req, res) {
     delete require.cache[require.resolve('./loaded')];
     delete require.cache[require.resolve('./catchlog')];
+    delete require.cache[require.resolve('./synclog')];
 
     var logging = require("./catchlog");
+    
+    var synclogging = require("./synclog");
 
+  
     var allFiles = require("./loaded");
 
-
-    res.render("landing", {
-        logFile: logging.logFile,
-        logTime: logging.logTime,
-        allFiles: allFiles
-    });
+    res.render("landing", { 	logFile: logging.logFile, 
+				logTime: logging.logTime,
+			    	synclogFile: synclogging.synclogFile,
+				synclogTime: synclogging.synclogTime,
+			    	allFiles: allFiles });
 });
 
 

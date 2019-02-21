@@ -5,7 +5,7 @@
         <div class="row">
             <div class = "col-md-12">
                 <h1>PKI Deployment tool    </h1> 
-                <img class="pki_img" src="../img/punchkick.png" alt="punchkick">                
+                <img class="pki_img" src="./img/punchkick.png" alt="punchkick">                
             </div>           
         
         </div>
@@ -62,7 +62,7 @@
                         <select name='environment'>
                                 <option value=''>-----</option>
                                 <option value='UAT'>UAT</option>
-                                <option value='PROD'>PROD - not working</option>
+                                <option style="background-color: red;" value='PROD'>PRODUCTION - POZOR!</option>
                             </select>
                         
                     </p>
@@ -113,7 +113,7 @@
                                 <select name='environment'>
                                         <option value=''>-----</option>
                                         <option value='UAT'>UAT</option>
-                                        <option value='PROD'>PROD</option>
+                                        <option style="background-color: red;" value='PROD'>PRODUCTION - POZOR!</option>
                                     </select>
                                 
 
@@ -146,23 +146,23 @@
                             <% }); %>
                         </ul>
                     <% } else { %>
-                            <p>deployment log file not found</p>
+                            <p>Deployment log file not found</p>
                     <%  } %>
                 </div>
 
         
                 <div class="col-md-6">
-                <% if(logFile){ %>
+                <% if(synclogFile){ %>
                     <ul style="list-style-type: none;">
-                        <h2>Deployment log </h2>
-                        <h3>Last modified: <%= logTime %></h3>
+                        <h2>Sync log </h2>
+                        <h3>Last modified: <%= synclogTime %></h3>
                         
-                        <% logFile.forEach(function(logs) { %>
-                            <li><%= logs %></li>
+                        <% synclogFile.forEach(function(synclogs) { %>
+                            <li><%= synclogs %></li>
                         <% }); %>
                     </ul>
                 <% } else { %>
-                        <p>logFile not defined</p>
+                        <p>Sync log file not found</p>
                 <%  } %>
                 </div>
             </div>

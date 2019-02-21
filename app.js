@@ -8,9 +8,10 @@ const express = require("express"),
     passport = require("passport"),
     LocalStrategy = require("passport-local"),
     flash = require("connect-flash"),
-    compression = require('compression'),
     helmet = require('helmet');
-
+    delete require.cache[require.resolve('./routes/loaded')];
+    var logFile = require("./routes/catchlog");
+    var allFiles = require("./routes/loaded");
 
 
 
@@ -31,7 +32,6 @@ app.use(require("express-session")({
 }));
 app.use(passport.initialize());
 app.use(passport.session());
-app.use(compression());
 app.use(helmet());
 
 
@@ -51,7 +51,9 @@ var indexRoute = require("./routes/index");
 var uploadRoute = require("./routes/upload");
 var deployRoute = require("./routes/deploy");
 var syncRoute = require('./routes/sync');
-// var logRoute = require("./routes/catchlog");
+
+	
+
 // var listRoute = require("./routes/list");
 
 
@@ -60,21 +62,15 @@ app.use("/", indexRoute);
 app.use("/upload", uploadRoute);
 app.use("/deploy", deployRoute);
 app.use("/sync", syncRoute);
-// app.use("/catchlog")
+
+
 // app.use("/list", listRoute);
-
-
-
-
-app.get('*', function(req, res) {
-    res.status(404).send('what are you doing here???');
-});
 
 
 // SERVER
 
-app.listen(3000, function() {
-    console.log("The  Server Has Started on port 3000");
-});
+ app.listen(4000, function() {
+     console.log("The  Server Has Started on port 4000");
+ });
 
 //app.listen(process.env.PORT, process.env.IP);

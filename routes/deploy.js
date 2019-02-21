@@ -11,6 +11,7 @@ var exec = require('child_process').exec;
 const bodyParser = require("body-parser");
 var config = require('../config/config');
 var fs = require('fs');
+var filePath = './log/log.txt';
 
 
 app.set("view engine", "ejs");
@@ -25,7 +26,7 @@ router.use(bodyParser.json());
 
 router.get("/", function(req, res) {
     //delete require.cache[require.resolve('./loaded')];
-    var allFiles = require("./loaded", { allFiles: allFiles });
+    var allFiles = require("./loaded", {allFiles: allFiles});
 
     res.render("deploy");
 });
@@ -66,12 +67,12 @@ router.post("/", function(req, res) {
     // console.log(req.body.allFiles);
     var packageToDeploy = req.body.allFiles
         //var command = 'sh c:/users/alex.buaiscia/Documents/Developing/PKI_node/scripts/testdeploy.sh ' + fileToDeploy + ' ' + environmentType + ' >> ./log/log.txt'
-        //var command = 'sh /var/www/html/newPKI/scripts/testdeploy.sh ' + packageToDeploy + ' >> ./log/log.txt'
+    //var command = 'sh /var/www/html/newPKI/scripts/testdeploy.sh ' + packageToDeploy + ' >> ./log/log.txt'
 
     var packageInServer = "/home/appsupp/" + packageToDeploy
-
-    var command = 'scp -v -i /home/appsupp/.ssh/id_rsa /var/www/html/PKI/' + packageToDeploy + ' appsupp@' + environmentType + ':/home/appsupp >> ./log/log.txt 2>&1'
-    var command2 = 'ssh -i /home/appsupp/.ssh/id_rsa appsupp@' + environmentType + " 'bash -s' < /var/www/html/newPKI/scripts/deploy.sh " + packageInServer + " " + packageType + " >> ./log/log.txt 2>&1"
+    
+	var command = 'scp -v -i /home/appsupp/.ssh/id_rsa /var/www/html/newPKI/uploads/' + packageToDeploy + ' appsupp@' + environmentType + ':/home/appsupp >> ./log/log.txt 2>&1'
+	var command2 = 'ssh -i /home/appsupp/.ssh/id_rsa appsupp@' + environmentType + " 'bash -s' < /var/www/html/newPKI/scripts/deploy.sh " + packageInServer + " " + packageType + " >> ./log/log.txt 2>&1"
 
     console.log(command);
 
@@ -82,31 +83,51 @@ router.post("/", function(req, res) {
         console.log('done')
         console.log('stdout:', stdout);
         console.log('stderr:', stderr);
+        
+        delete require.cache[require.resolve('./catchlog')]; 	
+	delete require.cache[require.resolve('./synclog')];
 
-        delete require.cache[require.resolve('./catchlog')];
+        fs.appendFileSync(filePath,'---------------------------------------\n','utf8');
 
-        var logFile = require("./catchlog");
+        var logging = require("./catchlog");
+	var synclogging = require("./synclog");
         var allFiles = require("./loaded");
+	
 
 
         if (stderr) {
 
             return res.render("landing", { logFile: logFile, allFiles: allFiles, "error": stderr });
-        } else {
-            exec(command2, { env: env }, function(error, stderr) {
-                console.log('stderr:', stderr);
-                var logFile = require("./catchlog");
-                var allFiles = require("./loaded");
-                if (stderr) {
-                    return res.render("landing", { logFile: logFile, allFiles: allFiles, "error": stderr });
-                } else
-                    return res.render("landing", { logFile: logFile, allFiles: allFiles, "success": "successfully deployed" });
-            });
-        }
+        } 
 
-        //      else
-        //
-        //            return res.render("landing", { logFile: logFile, allFiles: allFiles, "success": "successfully deployed" });
+	else {
+		exec(command2, {env: env}, function(error, stderr){
+			        console.log('stderr:', stderr);
+
+                                fs.appendFileSync(filePath,'---------------------------------------\n','utf8');
+
+			        var logFile = require("./catchlog");
+				var synclogging = require("./synclog");
+        			var allFiles = require("./loaded");
+
+
+				
+			if(stderr) { 
+				 return res.render("landing", { logFile: logFile, allFiles: allFiles, "error": stderr });	
+			}
+			else
+		            return res.render("landing", { 
+						logFile: logging.logFile, 
+						logTime: logging.logTime,
+		                                synclogFile: synclogging.synclogFile,
+                		                synclogTime: synclogging.synclogTime,
+						allFiles: allFiles, "success": "successfully deployed" });
+		});
+		}
+
+//	else
+//
+//            return res.render("landing", { logFile: logFile, allFiles: allFiles, "success": "successfully deployed" });
     });
 
 
