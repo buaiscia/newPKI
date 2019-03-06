@@ -74,9 +74,10 @@ router.post("/", function(req, res) {
     var command = 'scp -v -i /home/appsupp/.ssh/id_rsa /var/www/html/newPKI/uploads/' + packageToDeploy + ' appsupp@' + environmentType + ':/home/appsupp >> ./log/log.txt 2>&1'
     var command2 = 'ssh -i /home/appsupp/.ssh/id_rsa appsupp@' + environmentType + " 'bash -s' < /var/www/html/newPKI/scripts/deploy.sh " + packageInServer + " " + packageType + " >> ./log/log.txt 2>&1"
 
-    var takelog = 'scp -v appsupp@' + environmentType + ':/home/appsupp/logging.txt /var/www/html/newPKI/log/ >> ./log/logoflog.txt 2>&1'
+    var takelog = 'su appsupp -c ' + '\"scp -v appsupp@' + environmentType + ':/home/appsupp/logging.txt /var/www/html/newPKI/log/ >> ./log/logoflog.txt 2>&1\"'
 
     console.log(command);
+    console.log(takelog);
 
 
 
@@ -97,12 +98,12 @@ router.post("/", function(req, res) {
 
 
 
-        if (err) {
+        if (stderr) {
 
-            return res.render("landing", { logFile: logFile, allFiles: allFiles, "error": err });
+            return res.render("landing", { logFile: logFile, synclogging: synclogging, allFiles: allFiles, "error": stderr });
         } else {
-            exec(command2, { env: env }, function(error, err) {
-                console.log('stderr:', err);
+            exec(command2, { env: env }, function(error, stderr) {
+                console.log('stderr:', stderr);
 
                 fs.appendFileSync(filePath, '---------------------------------------\n', 'utf8');
 
@@ -111,12 +112,16 @@ router.post("/", function(req, res) {
                 var allFiles = require("./loaded");
 
 
-                if (err) {
-                    return res.render("landing", { logFile: logFile, allFiles: allFiles, "error": err });
+                if (stderr) {
+                    return res.render("landing", { logFile: logFile, synclogging: synclogging, allFiles: allFiles, "error": stderr });
                 } else
 
-                    exec(takelog, { env: env }, (err) => {
-                    if (err) { return res.render("landing", { logFile: logFile, allFiles: allFiles, "error": err }); } else
+                    exec(takelog, { env: env }, (error, stderr) => {
+                    if (stderr) { return res.render("landing", { logFile: logFile, synclogging: synclogging, allFiles: allFiles, "error": stderr }); } else {
+                        var logFile = require("./catchlog");
+                        var synclogging = require("./synclog");
+                        var allFiles = require("./loaded");
+
                         return res.render("landing", {
                             logFile: logging.logFile,
                             logTime: logging.logTime,
@@ -125,6 +130,10 @@ router.post("/", function(req, res) {
                             allFiles: allFiles,
                             "success": "successfully deployed"
                         })
+
+                    }
+
+
 
 
                 });
