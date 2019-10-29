@@ -1,0 +1,1325 @@
+Executing: program /usr/bin/ssh host mob01-us32c9.us.infra, user appsupp, command scp -v -f /home/appsupp/logging.txt
+OpenSSH_7.4p1, OpenSSL 1.0.2k-fips  26 Jan 2017
+debug1: Reading configuration data /etc/ssh/ssh_config
+debug1: /etc/ssh/ssh_config line 58: Applying options for *
+debug1: Connecting to mob01-us32c9.us.infra [10.81.47.6] port 22.
+debug1: Connection established.
+debug1: permanently_set_uid: 0/0
+debug1: key_load_public: No such file or directory
+debug1: identity file /root/.ssh/id_rsa type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /root/.ssh/id_rsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /root/.ssh/id_dsa type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /root/.ssh/id_dsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /root/.ssh/id_ecdsa type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /root/.ssh/id_ecdsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /root/.ssh/id_ed25519 type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /root/.ssh/id_ed25519-cert type -1
+debug1: Enabling compatibility mode for protocol 2.0
+debug1: Local version string SSH-2.0-OpenSSH_7.4
+debug1: Remote protocol version 2.0, remote software version OpenSSH_6.6.1
+debug1: match: OpenSSH_6.6.1 pat OpenSSH_6.6.1* compat 0x04000000
+debug1: Authenticating to mob01-us32c9.us.infra:22 as 'appsupp'
+debug1: SSH2_MSG_KEXINIT sent
+debug1: SSH2_MSG_KEXINIT received
+debug1: kex: algorithm: curve25519-sha256@libssh.org
+debug1: kex: host key algorithm: ecdsa-sha2-nistp256
+debug1: kex: server->client cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+debug1: kex: client->server cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+debug1: kex: curve25519-sha256@libssh.org need=64 dh_need=64
+debug1: kex: curve25519-sha256@libssh.org need=64 dh_need=64
+debug1: expecting SSH2_MSG_KEX_ECDH_REPLY
+debug1: Server host key: ecdsa-sha2-nistp256 SHA256:rTh+5HYU9lgkpB3Q0+XJM/kXlBsJo1LRzshlsCBqXsM
+debug1: Host 'mob01-us32c9.us.infra' is known and matches the ECDSA host key.
+debug1: Found key in /root/.ssh/known_hosts:20
+debug1: rekey after 134217728 blocks
+debug1: SSH2_MSG_NEWKEYS sent
+debug1: expecting SSH2_MSG_NEWKEYS
+debug1: SSH2_MSG_NEWKEYS received
+debug1: rekey after 134217728 blocks
+debug1: SSH2_MSG_SERVICE_ACCEPT received
+debug1: Authentications that can continue: publickey,password
+debug1: Next authentication method: publickey
+debug1: Trying private key: /root/.ssh/id_rsa
+debug1: Trying private key: /root/.ssh/id_dsa
+debug1: Trying private key: /root/.ssh/id_ecdsa
+debug1: Trying private key: /root/.ssh/id_ed25519
+debug1: Next authentication method: password
+su: invalid option -- 'v'
+
+Usage:
+ su [options] [-] [USER [arg]...]
+
+Change the effective user id and group id to that of USER.
+A mere - implies -l.   If USER not given, assume root.
+
+Options:
+ -m, -p, --preserve-environment  do not reset environment variables
+ -g, --group <group>             specify the primary group
+ -G, --supp-group <group>        specify a supplemental group
+
+ -, -l, --login                  make the shell a login shell
+ -c, --command <command>         pass a single command to the shell with -c
+ --session-command <command>     pass a single command to the shell with -c
+                                 and do not create a new session
+ -f, --fast                      pass -f to the shell (for csh or tcsh)
+ -s, --shell <shell>             run shell if /etc/shells allows it
+
+ -h, --help     display this help and exit
+ -V, --version  output version information and exit
+
+For more details see su(1).
+Executing: program /usr/bin/ssh host mob01-us32c9.us.infra, user appsupp, command scp -v -f /home/appsupp/logging.txt
+OpenSSH_7.4p1, OpenSSL 1.0.2k-fips  26 Jan 2017
+debug1: Reading configuration data /etc/ssh/ssh_config
+debug1: /etc/ssh/ssh_config line 58: Applying options for *
+debug1: Connecting to mob01-us32c9.us.infra [10.81.47.6] port 22.
+debug1: Connection established.
+debug1: identity file /home/appsupp/.ssh/id_rsa type 1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_rsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_dsa type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_dsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ecdsa type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ecdsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ed25519 type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ed25519-cert type -1
+debug1: Enabling compatibility mode for protocol 2.0
+debug1: Local version string SSH-2.0-OpenSSH_7.4
+debug1: Remote protocol version 2.0, remote software version OpenSSH_6.6.1
+debug1: match: OpenSSH_6.6.1 pat OpenSSH_6.6.1* compat 0x04000000
+debug1: Authenticating to mob01-us32c9.us.infra:22 as 'appsupp'
+debug1: SSH2_MSG_KEXINIT sent
+debug1: SSH2_MSG_KEXINIT received
+debug1: kex: algorithm: curve25519-sha256@libssh.org
+debug1: kex: host key algorithm: ecdsa-sha2-nistp256
+debug1: kex: server->client cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+debug1: kex: client->server cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+debug1: kex: curve25519-sha256@libssh.org need=64 dh_need=64
+debug1: kex: curve25519-sha256@libssh.org need=64 dh_need=64
+debug1: expecting SSH2_MSG_KEX_ECDH_REPLY
+debug1: Server host key: ecdsa-sha2-nistp256 SHA256:rTh+5HYU9lgkpB3Q0+XJM/kXlBsJo1LRzshlsCBqXsM
+debug1: Host 'mob01-us32c9.us.infra' is known and matches the ECDSA host key.
+debug1: Found key in /home/appsupp/.ssh/known_hosts:19
+debug1: rekey after 134217728 blocks
+debug1: SSH2_MSG_NEWKEYS sent
+debug1: expecting SSH2_MSG_NEWKEYS
+debug1: SSH2_MSG_NEWKEYS received
+debug1: rekey after 134217728 blocks
+debug1: SSH2_MSG_SERVICE_ACCEPT received
+debug1: Authentications that can continue: publickey,password
+debug1: Next authentication method: publickey
+debug1: Offering RSA public key: /home/appsupp/.ssh/id_rsa
+debug1: Server accepts key: pkalg ssh-rsa blen 279
+debug1: Authentication succeeded (publickey).
+Authenticated to mob01-us32c9.us.infra ([10.81.47.6]:22).
+debug1: channel 0: new [client-session]
+debug1: Requesting no-more-sessions@openssh.com
+debug1: Entering interactive session.
+debug1: pledge: network
+debug1: Sending environment.
+debug1: Sending env LANG = en_US.UTF-8
+debug1: Sending command: scp -v -f /home/appsupp/logging.txt
+Sending file modes: C0666 99731 logging.txt
+Sink: C0666 99731 logging.txt
+debug1: client_input_channel_req: channel 0 rtype exit-status reply 0
+debug1: client_input_channel_req: channel 0 rtype eow@openssh.com reply 0
+debug1: channel 0: free: client-session, nchannels 1
+debug1: fd 0 clearing O_NONBLOCK
+debug1: fd 1 clearing O_NONBLOCK
+debug1: fd 2 clearing O_NONBLOCK
+Transferred: sent 2960, received 102472 bytes, in 0.0 seconds
+Bytes per second: sent 60595.9, received 2097766.1
+debug1: Exit status 0
+Executing: program /usr/bin/ssh host mob01-us32c9.us.infra, user appsupp, command scp -v -f /home/appsupp/logging.txt
+OpenSSH_7.4p1, OpenSSL 1.0.2k-fips  26 Jan 2017
+debug1: Reading configuration data /etc/ssh/ssh_config
+debug1: /etc/ssh/ssh_config line 58: Applying options for *
+debug1: Connecting to mob01-us32c9.us.infra [10.81.47.6] port 22.
+debug1: Connection established.
+debug1: identity file /home/appsupp/.ssh/id_rsa type 1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_rsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_dsa type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_dsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ecdsa type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ecdsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ed25519 type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ed25519-cert type -1
+debug1: Enabling compatibility mode for protocol 2.0
+debug1: Local version string SSH-2.0-OpenSSH_7.4
+debug1: Remote protocol version 2.0, remote software version OpenSSH_6.6.1
+debug1: match: OpenSSH_6.6.1 pat OpenSSH_6.6.1* compat 0x04000000
+debug1: Authenticating to mob01-us32c9.us.infra:22 as 'appsupp'
+debug1: SSH2_MSG_KEXINIT sent
+debug1: SSH2_MSG_KEXINIT received
+debug1: kex: algorithm: curve25519-sha256@libssh.org
+debug1: kex: host key algorithm: ecdsa-sha2-nistp256
+debug1: kex: server->client cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+debug1: kex: client->server cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+debug1: kex: curve25519-sha256@libssh.org need=64 dh_need=64
+debug1: kex: curve25519-sha256@libssh.org need=64 dh_need=64
+debug1: expecting SSH2_MSG_KEX_ECDH_REPLY
+debug1: Server host key: ecdsa-sha2-nistp256 SHA256:rTh+5HYU9lgkpB3Q0+XJM/kXlBsJo1LRzshlsCBqXsM
+debug1: Host 'mob01-us32c9.us.infra' is known and matches the ECDSA host key.
+debug1: Found key in /home/appsupp/.ssh/known_hosts:19
+debug1: rekey after 134217728 blocks
+debug1: SSH2_MSG_NEWKEYS sent
+debug1: expecting SSH2_MSG_NEWKEYS
+debug1: SSH2_MSG_NEWKEYS received
+debug1: rekey after 134217728 blocks
+debug1: SSH2_MSG_SERVICE_ACCEPT received
+debug1: Authentications that can continue: publickey,password
+debug1: Next authentication method: publickey
+debug1: Offering RSA public key: /home/appsupp/.ssh/id_rsa
+debug1: Server accepts key: pkalg ssh-rsa blen 279
+debug1: Authentication succeeded (publickey).
+Authenticated to mob01-us32c9.us.infra ([10.81.47.6]:22).
+debug1: channel 0: new [client-session]
+debug1: Requesting no-more-sessions@openssh.com
+debug1: Entering interactive session.
+debug1: pledge: network
+debug1: Sending environment.
+debug1: Sending env LANG = en_US.UTF-8
+debug1: Sending command: scp -v -f /home/appsupp/logging.txt
+Sending file modes: C0666 100618 logging.txt
+Sink: C0666 100618 logging.txt
+debug1: client_input_channel_req: channel 0 rtype exit-status reply 0
+debug1: client_input_channel_req: channel 0 rtype eow@openssh.com reply 0
+debug1: channel 0: free: client-session, nchannels 1
+debug1: fd 0 clearing O_NONBLOCK
+debug1: fd 1 clearing O_NONBLOCK
+debug1: fd 2 clearing O_NONBLOCK
+Transferred: sent 2960, received 103360 bytes, in 0.0 seconds
+Bytes per second: sent 61915.6, received 2162027.5
+debug1: Exit status 0
+Executing: program /usr/bin/ssh host mob01-us32c9.us.infra, user appsupp, command scp -v -f /home/appsupp/logging.txt
+OpenSSH_7.4p1, OpenSSL 1.0.2k-fips  26 Jan 2017
+debug1: Reading configuration data /etc/ssh/ssh_config
+debug1: /etc/ssh/ssh_config line 58: Applying options for *
+debug1: Connecting to mob01-us32c9.us.infra [10.81.47.6] port 22.
+debug1: Connection established.
+debug1: identity file /home/appsupp/.ssh/id_rsa type 1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_rsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_dsa type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_dsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ecdsa type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ecdsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ed25519 type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ed25519-cert type -1
+debug1: Enabling compatibility mode for protocol 2.0
+debug1: Local version string SSH-2.0-OpenSSH_7.4
+debug1: Remote protocol version 2.0, remote software version OpenSSH_6.6.1
+debug1: match: OpenSSH_6.6.1 pat OpenSSH_6.6.1* compat 0x04000000
+debug1: Authenticating to mob01-us32c9.us.infra:22 as 'appsupp'
+debug1: SSH2_MSG_KEXINIT sent
+debug1: SSH2_MSG_KEXINIT received
+debug1: kex: algorithm: curve25519-sha256@libssh.org
+debug1: kex: host key algorithm: ecdsa-sha2-nistp256
+debug1: kex: server->client cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+debug1: kex: client->server cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+debug1: kex: curve25519-sha256@libssh.org need=64 dh_need=64
+debug1: kex: curve25519-sha256@libssh.org need=64 dh_need=64
+debug1: expecting SSH2_MSG_KEX_ECDH_REPLY
+debug1: Server host key: ecdsa-sha2-nistp256 SHA256:rTh+5HYU9lgkpB3Q0+XJM/kXlBsJo1LRzshlsCBqXsM
+debug1: Host 'mob01-us32c9.us.infra' is known and matches the ECDSA host key.
+debug1: Found key in /home/appsupp/.ssh/known_hosts:19
+debug1: rekey after 134217728 blocks
+debug1: SSH2_MSG_NEWKEYS sent
+debug1: expecting SSH2_MSG_NEWKEYS
+debug1: SSH2_MSG_NEWKEYS received
+debug1: rekey after 134217728 blocks
+debug1: SSH2_MSG_SERVICE_ACCEPT received
+debug1: Authentications that can continue: publickey,password
+debug1: Next authentication method: publickey
+debug1: Offering RSA public key: /home/appsupp/.ssh/id_rsa
+debug1: Server accepts key: pkalg ssh-rsa blen 279
+debug1: Authentication succeeded (publickey).
+Authenticated to mob01-us32c9.us.infra ([10.81.47.6]:22).
+debug1: channel 0: new [client-session]
+debug1: Requesting no-more-sessions@openssh.com
+debug1: Entering interactive session.
+debug1: pledge: network
+debug1: Sending environment.
+debug1: Sending env LANG = en_US.UTF-8
+debug1: Sending command: scp -v -f /home/appsupp/logging.txt
+Sending file modes: C0666 101505 logging.txt
+Sink: C0666 101505 logging.txt
+debug1: client_input_channel_req: channel 0 rtype exit-status reply 0
+debug1: client_input_channel_req: channel 0 rtype eow@openssh.com reply 0
+debug1: channel 0: free: client-session, nchannels 1
+debug1: fd 0 clearing O_NONBLOCK
+debug1: fd 1 clearing O_NONBLOCK
+debug1: fd 2 clearing O_NONBLOCK
+Transferred: sent 2960, received 104240 bytes, in 0.1 seconds
+Bytes per second: sent 53361.3, received 1879182.0
+debug1: Exit status 0
+Executing: program /usr/bin/ssh host mob01-us32c9.us.infra, user appsupp, command scp -v -f /home/appsupp/logging.txt
+OpenSSH_7.4p1, OpenSSL 1.0.2k-fips  26 Jan 2017
+debug1: Reading configuration data /etc/ssh/ssh_config
+debug1: /etc/ssh/ssh_config line 58: Applying options for *
+debug1: Connecting to mob01-us32c9.us.infra [10.81.47.6] port 22.
+debug1: Connection established.
+debug1: identity file /home/appsupp/.ssh/id_rsa type 1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_rsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_dsa type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_dsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ecdsa type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ecdsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ed25519 type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ed25519-cert type -1
+debug1: Enabling compatibility mode for protocol 2.0
+debug1: Local version string SSH-2.0-OpenSSH_7.4
+debug1: Remote protocol version 2.0, remote software version OpenSSH_6.6.1
+debug1: match: OpenSSH_6.6.1 pat OpenSSH_6.6.1* compat 0x04000000
+debug1: Authenticating to mob01-us32c9.us.infra:22 as 'appsupp'
+debug1: SSH2_MSG_KEXINIT sent
+debug1: SSH2_MSG_KEXINIT received
+debug1: kex: algorithm: curve25519-sha256@libssh.org
+debug1: kex: host key algorithm: ecdsa-sha2-nistp256
+debug1: kex: server->client cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+debug1: kex: client->server cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+debug1: kex: curve25519-sha256@libssh.org need=64 dh_need=64
+debug1: kex: curve25519-sha256@libssh.org need=64 dh_need=64
+debug1: expecting SSH2_MSG_KEX_ECDH_REPLY
+debug1: Server host key: ecdsa-sha2-nistp256 SHA256:rTh+5HYU9lgkpB3Q0+XJM/kXlBsJo1LRzshlsCBqXsM
+debug1: Host 'mob01-us32c9.us.infra' is known and matches the ECDSA host key.
+debug1: Found key in /home/appsupp/.ssh/known_hosts:19
+debug1: rekey after 134217728 blocks
+debug1: SSH2_MSG_NEWKEYS sent
+debug1: expecting SSH2_MSG_NEWKEYS
+debug1: SSH2_MSG_NEWKEYS received
+debug1: rekey after 134217728 blocks
+debug1: SSH2_MSG_SERVICE_ACCEPT received
+debug1: Authentications that can continue: publickey,password
+debug1: Next authentication method: publickey
+debug1: Offering RSA public key: /home/appsupp/.ssh/id_rsa
+debug1: Server accepts key: pkalg ssh-rsa blen 279
+debug1: Authentication succeeded (publickey).
+Authenticated to mob01-us32c9.us.infra ([10.81.47.6]:22).
+debug1: channel 0: new [client-session]
+debug1: Requesting no-more-sessions@openssh.com
+debug1: Entering interactive session.
+debug1: pledge: network
+debug1: Sending environment.
+debug1: Sending env LANG = en_US.UTF-8
+debug1: Sending command: scp -v -f /home/appsupp/logging.txt
+Sending file modes: C0666 102702 logging.txt
+Sink: C0666 102702 logging.txt
+debug1: client_input_channel_req: channel 0 rtype exit-status reply 0
+debug1: client_input_channel_req: channel 0 rtype eow@openssh.com reply 0
+debug1: channel 0: free: client-session, nchannels 1
+debug1: fd 0 clearing O_NONBLOCK
+debug1: fd 1 clearing O_NONBLOCK
+debug1: fd 2 clearing O_NONBLOCK
+Transferred: sent 2960, received 105440 bytes, in 0.1 seconds
+Bytes per second: sent 51914.3, received 1849270.2
+debug1: Exit status 0
+Executing: program /usr/bin/ssh host mob01-us32c9.us.infra, user appsupp, command scp -v -f /home/appsupp/logging.txt
+OpenSSH_7.4p1, OpenSSL 1.0.2k-fips  26 Jan 2017
+debug1: Reading configuration data /etc/ssh/ssh_config
+debug1: /etc/ssh/ssh_config line 58: Applying options for *
+debug1: Connecting to mob01-us32c9.us.infra [10.81.47.6] port 22.
+debug1: Connection established.
+debug1: identity file /home/appsupp/.ssh/id_rsa type 1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_rsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_dsa type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_dsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ecdsa type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ecdsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ed25519 type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ed25519-cert type -1
+debug1: Enabling compatibility mode for protocol 2.0
+debug1: Local version string SSH-2.0-OpenSSH_7.4
+debug1: Remote protocol version 2.0, remote software version OpenSSH_6.6.1
+debug1: match: OpenSSH_6.6.1 pat OpenSSH_6.6.1* compat 0x04000000
+debug1: Authenticating to mob01-us32c9.us.infra:22 as 'appsupp'
+debug1: SSH2_MSG_KEXINIT sent
+debug1: SSH2_MSG_KEXINIT received
+debug1: kex: algorithm: curve25519-sha256@libssh.org
+debug1: kex: host key algorithm: ecdsa-sha2-nistp256
+debug1: kex: server->client cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+debug1: kex: client->server cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+debug1: kex: curve25519-sha256@libssh.org need=64 dh_need=64
+debug1: kex: curve25519-sha256@libssh.org need=64 dh_need=64
+debug1: expecting SSH2_MSG_KEX_ECDH_REPLY
+debug1: Server host key: ecdsa-sha2-nistp256 SHA256:rTh+5HYU9lgkpB3Q0+XJM/kXlBsJo1LRzshlsCBqXsM
+debug1: Host 'mob01-us32c9.us.infra' is known and matches the ECDSA host key.
+debug1: Found key in /home/appsupp/.ssh/known_hosts:19
+debug1: rekey after 134217728 blocks
+debug1: SSH2_MSG_NEWKEYS sent
+debug1: expecting SSH2_MSG_NEWKEYS
+debug1: SSH2_MSG_NEWKEYS received
+debug1: rekey after 134217728 blocks
+debug1: SSH2_MSG_SERVICE_ACCEPT received
+debug1: Authentications that can continue: publickey,password
+debug1: Next authentication method: publickey
+debug1: Offering RSA public key: /home/appsupp/.ssh/id_rsa
+debug1: Server accepts key: pkalg ssh-rsa blen 279
+debug1: Authentication succeeded (publickey).
+Authenticated to mob01-us32c9.us.infra ([10.81.47.6]:22).
+debug1: channel 0: new [client-session]
+debug1: Requesting no-more-sessions@openssh.com
+debug1: Entering interactive session.
+debug1: pledge: network
+debug1: Sending environment.
+debug1: Sending env LANG = en_US.UTF-8
+debug1: Sending command: scp -v -f /home/appsupp/logging.txt
+Sending file modes: C0666 103529 logging.txt
+Sink: C0666 103529 logging.txt
+debug1: client_input_channel_req: channel 0 rtype exit-status reply 0
+debug1: client_input_channel_req: channel 0 rtype eow@openssh.com reply 0
+debug1: channel 0: free: client-session, nchannels 1
+debug1: fd 0 clearing O_NONBLOCK
+debug1: fd 1 clearing O_NONBLOCK
+debug1: fd 2 clearing O_NONBLOCK
+Transferred: sent 2960, received 106264 bytes, in 0.1 seconds
+Bytes per second: sent 52751.6, received 1893782.1
+debug1: Exit status 0
+Executing: program /usr/bin/ssh host mob01-us32c9.us.infra, user appsupp, command scp -v -f /home/appsupp/logging.txt
+OpenSSH_7.4p1, OpenSSL 1.0.2k-fips  26 Jan 2017
+debug1: Reading configuration data /etc/ssh/ssh_config
+debug1: /etc/ssh/ssh_config line 58: Applying options for *
+debug1: Connecting to mob01-us32c9.us.infra [10.81.47.6] port 22.
+debug1: Connection established.
+debug1: identity file /home/appsupp/.ssh/id_rsa type 1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_rsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_dsa type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_dsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ecdsa type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ecdsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ed25519 type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ed25519-cert type -1
+debug1: Enabling compatibility mode for protocol 2.0
+debug1: Local version string SSH-2.0-OpenSSH_7.4
+debug1: Remote protocol version 2.0, remote software version OpenSSH_6.6.1
+debug1: match: OpenSSH_6.6.1 pat OpenSSH_6.6.1* compat 0x04000000
+debug1: Authenticating to mob01-us32c9.us.infra:22 as 'appsupp'
+debug1: SSH2_MSG_KEXINIT sent
+debug1: SSH2_MSG_KEXINIT received
+debug1: kex: algorithm: curve25519-sha256@libssh.org
+debug1: kex: host key algorithm: ecdsa-sha2-nistp256
+debug1: kex: server->client cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+debug1: kex: client->server cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+debug1: kex: curve25519-sha256@libssh.org need=64 dh_need=64
+debug1: kex: curve25519-sha256@libssh.org need=64 dh_need=64
+debug1: expecting SSH2_MSG_KEX_ECDH_REPLY
+debug1: Server host key: ecdsa-sha2-nistp256 SHA256:rTh+5HYU9lgkpB3Q0+XJM/kXlBsJo1LRzshlsCBqXsM
+debug1: Host 'mob01-us32c9.us.infra' is known and matches the ECDSA host key.
+debug1: Found key in /home/appsupp/.ssh/known_hosts:19
+debug1: rekey after 134217728 blocks
+debug1: SSH2_MSG_NEWKEYS sent
+debug1: expecting SSH2_MSG_NEWKEYS
+debug1: SSH2_MSG_NEWKEYS received
+debug1: rekey after 134217728 blocks
+debug1: SSH2_MSG_SERVICE_ACCEPT received
+debug1: Authentications that can continue: publickey,password
+debug1: Next authentication method: publickey
+debug1: Offering RSA public key: /home/appsupp/.ssh/id_rsa
+debug1: Server accepts key: pkalg ssh-rsa blen 279
+debug1: Authentication succeeded (publickey).
+Authenticated to mob01-us32c9.us.infra ([10.81.47.6]:22).
+debug1: channel 0: new [client-session]
+debug1: Requesting no-more-sessions@openssh.com
+debug1: Entering interactive session.
+debug1: pledge: network
+debug1: Sending environment.
+debug1: Sending env LANG = en_US.UTF-8
+debug1: Sending command: scp -v -f /home/appsupp/logging.txt
+Sending file modes: C0666 104221 logging.txt
+Sink: C0666 104221 logging.txt
+debug1: client_input_channel_req: channel 0 rtype exit-status reply 0
+debug1: client_input_channel_req: channel 0 rtype eow@openssh.com reply 0
+debug1: channel 0: free: client-session, nchannels 1
+debug1: fd 0 clearing O_NONBLOCK
+debug1: fd 1 clearing O_NONBLOCK
+debug1: fd 2 clearing O_NONBLOCK
+Transferred: sent 2960, received 106960 bytes, in 0.1 seconds
+Bytes per second: sent 55565.9, received 2007880.5
+debug1: Exit status 0
+Executing: program /usr/bin/ssh host mob01-us32c9.us.infra, user appsupp, command scp -v -f /home/appsupp/logging.txt
+OpenSSH_7.4p1, OpenSSL 1.0.2k-fips  26 Jan 2017
+debug1: Reading configuration data /etc/ssh/ssh_config
+debug1: /etc/ssh/ssh_config line 58: Applying options for *
+debug1: Connecting to mob01-us32c9.us.infra [10.81.47.6] port 22.
+debug1: Connection established.
+debug1: identity file /home/appsupp/.ssh/id_rsa type 1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_rsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_dsa type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_dsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ecdsa type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ecdsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ed25519 type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ed25519-cert type -1
+debug1: Enabling compatibility mode for protocol 2.0
+debug1: Local version string SSH-2.0-OpenSSH_7.4
+debug1: Remote protocol version 2.0, remote software version OpenSSH_6.6.1
+debug1: match: OpenSSH_6.6.1 pat OpenSSH_6.6.1* compat 0x04000000
+debug1: Authenticating to mob01-us32c9.us.infra:22 as 'appsupp'
+debug1: SSH2_MSG_KEXINIT sent
+debug1: SSH2_MSG_KEXINIT received
+debug1: kex: algorithm: curve25519-sha256@libssh.org
+debug1: kex: host key algorithm: ecdsa-sha2-nistp256
+debug1: kex: server->client cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+debug1: kex: client->server cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+debug1: kex: curve25519-sha256@libssh.org need=64 dh_need=64
+debug1: kex: curve25519-sha256@libssh.org need=64 dh_need=64
+debug1: expecting SSH2_MSG_KEX_ECDH_REPLY
+debug1: Server host key: ecdsa-sha2-nistp256 SHA256:rTh+5HYU9lgkpB3Q0+XJM/kXlBsJo1LRzshlsCBqXsM
+debug1: Host 'mob01-us32c9.us.infra' is known and matches the ECDSA host key.
+debug1: Found key in /home/appsupp/.ssh/known_hosts:19
+debug1: rekey after 134217728 blocks
+debug1: SSH2_MSG_NEWKEYS sent
+debug1: expecting SSH2_MSG_NEWKEYS
+debug1: SSH2_MSG_NEWKEYS received
+debug1: rekey after 134217728 blocks
+debug1: SSH2_MSG_SERVICE_ACCEPT received
+debug1: Authentications that can continue: publickey,password
+debug1: Next authentication method: publickey
+debug1: Offering RSA public key: /home/appsupp/.ssh/id_rsa
+debug1: Server accepts key: pkalg ssh-rsa blen 279
+debug1: Authentication succeeded (publickey).
+Authenticated to mob01-us32c9.us.infra ([10.81.47.6]:22).
+debug1: channel 0: new [client-session]
+debug1: Requesting no-more-sessions@openssh.com
+debug1: Entering interactive session.
+debug1: pledge: network
+debug1: Sending environment.
+debug1: Sending env LANG = en_US.UTF-8
+debug1: Sending command: scp -v -f /home/appsupp/logging.txt
+Sending file modes: C0666 104963 logging.txt
+Sink: C0666 104963 logging.txt
+debug1: client_input_channel_req: channel 0 rtype exit-status reply 0
+debug1: client_input_channel_req: channel 0 rtype eow@openssh.com reply 0
+debug1: channel 0: free: client-session, nchannels 1
+debug1: fd 0 clearing O_NONBLOCK
+debug1: fd 1 clearing O_NONBLOCK
+debug1: fd 2 clearing O_NONBLOCK
+Transferred: sent 2960, received 107704 bytes, in 0.1 seconds
+Bytes per second: sent 44401.0, received 1615596.2
+debug1: Exit status 0
+Executing: program /usr/bin/ssh host mob01-us32c9.us.infra, user appsupp, command scp -v -f /home/appsupp/logging.txt
+OpenSSH_7.4p1, OpenSSL 1.0.2k-fips  26 Jan 2017
+debug1: Reading configuration data /etc/ssh/ssh_config
+debug1: /etc/ssh/ssh_config line 58: Applying options for *
+debug1: Connecting to mob01-us32c9.us.infra [10.81.47.6] port 22.
+debug1: Connection established.
+debug1: identity file /home/appsupp/.ssh/id_rsa type 1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_rsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_dsa type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_dsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ecdsa type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ecdsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ed25519 type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ed25519-cert type -1
+debug1: Enabling compatibility mode for protocol 2.0
+debug1: Local version string SSH-2.0-OpenSSH_7.4
+debug1: Remote protocol version 2.0, remote software version OpenSSH_6.6.1
+debug1: match: OpenSSH_6.6.1 pat OpenSSH_6.6.1* compat 0x04000000
+debug1: Authenticating to mob01-us32c9.us.infra:22 as 'appsupp'
+debug1: SSH2_MSG_KEXINIT sent
+debug1: SSH2_MSG_KEXINIT received
+debug1: kex: algorithm: curve25519-sha256@libssh.org
+debug1: kex: host key algorithm: ecdsa-sha2-nistp256
+debug1: kex: server->client cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+debug1: kex: client->server cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+debug1: kex: curve25519-sha256@libssh.org need=64 dh_need=64
+debug1: kex: curve25519-sha256@libssh.org need=64 dh_need=64
+debug1: expecting SSH2_MSG_KEX_ECDH_REPLY
+debug1: Server host key: ecdsa-sha2-nistp256 SHA256:rTh+5HYU9lgkpB3Q0+XJM/kXlBsJo1LRzshlsCBqXsM
+debug1: Host 'mob01-us32c9.us.infra' is known and matches the ECDSA host key.
+debug1: Found key in /home/appsupp/.ssh/known_hosts:19
+debug1: rekey after 134217728 blocks
+debug1: SSH2_MSG_NEWKEYS sent
+debug1: expecting SSH2_MSG_NEWKEYS
+debug1: SSH2_MSG_NEWKEYS received
+debug1: rekey after 134217728 blocks
+debug1: SSH2_MSG_SERVICE_ACCEPT received
+debug1: Authentications that can continue: publickey,password
+debug1: Next authentication method: publickey
+debug1: Offering RSA public key: /home/appsupp/.ssh/id_rsa
+debug1: Server accepts key: pkalg ssh-rsa blen 279
+debug1: Authentication succeeded (publickey).
+Authenticated to mob01-us32c9.us.infra ([10.81.47.6]:22).
+debug1: channel 0: new [client-session]
+debug1: Requesting no-more-sessions@openssh.com
+debug1: Entering interactive session.
+debug1: pledge: network
+debug1: Sending environment.
+debug1: Sending env LANG = en_US.UTF-8
+debug1: Sending command: scp -v -f /home/appsupp/logging.txt
+Sending file modes: C0666 105676 logging.txt
+Sink: C0666 105676 logging.txt
+debug1: client_input_channel_req: channel 0 rtype exit-status reply 0
+debug1: client_input_channel_req: channel 0 rtype eow@openssh.com reply 0
+debug1: channel 0: free: client-session, nchannels 1
+debug1: fd 0 clearing O_NONBLOCK
+debug1: fd 1 clearing O_NONBLOCK
+debug1: fd 2 clearing O_NONBLOCK
+Transferred: sent 2960, received 108416 bytes, in 0.1 seconds
+Bytes per second: sent 21286.2, received 779652.0
+debug1: Exit status 0
+Executing: program /usr/bin/ssh host mob01-us32c9.us.infra, user appsupp, command scp -v -f /home/appsupp/logging.txt
+OpenSSH_7.4p1, OpenSSL 1.0.2k-fips  26 Jan 2017
+debug1: Reading configuration data /etc/ssh/ssh_config
+debug1: /etc/ssh/ssh_config line 58: Applying options for *
+debug1: Connecting to mob01-us32c9.us.infra [10.81.47.6] port 22.
+debug1: Connection established.
+debug1: identity file /home/appsupp/.ssh/id_rsa type 1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_rsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_dsa type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_dsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ecdsa type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ecdsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ed25519 type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ed25519-cert type -1
+debug1: Enabling compatibility mode for protocol 2.0
+debug1: Local version string SSH-2.0-OpenSSH_7.4
+debug1: Remote protocol version 2.0, remote software version OpenSSH_6.6.1
+debug1: match: OpenSSH_6.6.1 pat OpenSSH_6.6.1* compat 0x04000000
+debug1: Authenticating to mob01-us32c9.us.infra:22 as 'appsupp'
+debug1: SSH2_MSG_KEXINIT sent
+debug1: SSH2_MSG_KEXINIT received
+debug1: kex: algorithm: curve25519-sha256@libssh.org
+debug1: kex: host key algorithm: ecdsa-sha2-nistp256
+debug1: kex: server->client cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+debug1: kex: client->server cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+debug1: kex: curve25519-sha256@libssh.org need=64 dh_need=64
+debug1: kex: curve25519-sha256@libssh.org need=64 dh_need=64
+debug1: expecting SSH2_MSG_KEX_ECDH_REPLY
+debug1: Server host key: ecdsa-sha2-nistp256 SHA256:rTh+5HYU9lgkpB3Q0+XJM/kXlBsJo1LRzshlsCBqXsM
+debug1: Host 'mob01-us32c9.us.infra' is known and matches the ECDSA host key.
+debug1: Found key in /home/appsupp/.ssh/known_hosts:19
+debug1: rekey after 134217728 blocks
+debug1: SSH2_MSG_NEWKEYS sent
+debug1: expecting SSH2_MSG_NEWKEYS
+debug1: SSH2_MSG_NEWKEYS received
+debug1: rekey after 134217728 blocks
+debug1: SSH2_MSG_SERVICE_ACCEPT received
+debug1: Authentications that can continue: publickey,password
+debug1: Next authentication method: publickey
+debug1: Offering RSA public key: /home/appsupp/.ssh/id_rsa
+debug1: Server accepts key: pkalg ssh-rsa blen 279
+debug1: Authentication succeeded (publickey).
+Authenticated to mob01-us32c9.us.infra ([10.81.47.6]:22).
+debug1: channel 0: new [client-session]
+debug1: Requesting no-more-sessions@openssh.com
+debug1: Entering interactive session.
+debug1: pledge: network
+debug1: Sending environment.
+debug1: Sending env LANG = en_US.UTF-8
+debug1: Sending command: scp -v -f /home/appsupp/logging.txt
+Sending file modes: C0666 106389 logging.txt
+Sink: C0666 106389 logging.txt
+debug1: client_input_channel_req: channel 0 rtype exit-status reply 0
+debug1: client_input_channel_req: channel 0 rtype eow@openssh.com reply 0
+debug1: channel 0: free: client-session, nchannels 1
+debug1: fd 0 clearing O_NONBLOCK
+debug1: fd 1 clearing O_NONBLOCK
+debug1: fd 2 clearing O_NONBLOCK
+Transferred: sent 2960, received 109128 bytes, in 0.1 seconds
+Bytes per second: sent 45877.2, received 1691379.4
+debug1: Exit status 0
+Executing: program /usr/bin/ssh host mob01-us32c9.us.infra, user appsupp, command scp -v -f /home/appsupp/logging.txt
+OpenSSH_7.4p1, OpenSSL 1.0.2k-fips  26 Jan 2017
+debug1: Reading configuration data /etc/ssh/ssh_config
+debug1: /etc/ssh/ssh_config line 58: Applying options for *
+debug1: Connecting to mob01-us32c9.us.infra [10.81.47.6] port 22.
+debug1: Connection established.
+debug1: identity file /home/appsupp/.ssh/id_rsa type 1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_rsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_dsa type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_dsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ecdsa type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ecdsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ed25519 type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ed25519-cert type -1
+debug1: Enabling compatibility mode for protocol 2.0
+debug1: Local version string SSH-2.0-OpenSSH_7.4
+ssh_exchange_identification: read: Connection reset by peer
+Executing: program /usr/bin/ssh host mob01-us32c9.us.infra, user appsupp, command scp -v -f /home/appsupp/logging.txt
+OpenSSH_7.4p1, OpenSSL 1.0.2k-fips  26 Jan 2017
+debug1: Reading configuration data /etc/ssh/ssh_config
+debug1: /etc/ssh/ssh_config line 58: Applying options for *
+debug1: Connecting to mob01-us32c9.us.infra [10.81.47.6] port 22.
+debug1: Connection established.
+debug1: identity file /home/appsupp/.ssh/id_rsa type 1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_rsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_dsa type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_dsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ecdsa type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ecdsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ed25519 type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ed25519-cert type -1
+debug1: Enabling compatibility mode for protocol 2.0
+debug1: Local version string SSH-2.0-OpenSSH_7.4
+debug1: Remote protocol version 2.0, remote software version OpenSSH_6.6.1
+debug1: match: OpenSSH_6.6.1 pat OpenSSH_6.6.1* compat 0x04000000
+debug1: Authenticating to mob01-us32c9.us.infra:22 as 'appsupp'
+debug1: SSH2_MSG_KEXINIT sent
+debug1: SSH2_MSG_KEXINIT received
+debug1: kex: algorithm: curve25519-sha256@libssh.org
+debug1: kex: host key algorithm: ecdsa-sha2-nistp256
+debug1: kex: server->client cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+debug1: kex: client->server cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+debug1: kex: curve25519-sha256@libssh.org need=64 dh_need=64
+debug1: kex: curve25519-sha256@libssh.org need=64 dh_need=64
+debug1: expecting SSH2_MSG_KEX_ECDH_REPLY
+debug1: Server host key: ecdsa-sha2-nistp256 SHA256:rTh+5HYU9lgkpB3Q0+XJM/kXlBsJo1LRzshlsCBqXsM
+debug1: Host 'mob01-us32c9.us.infra' is known and matches the ECDSA host key.
+debug1: Found key in /home/appsupp/.ssh/known_hosts:19
+debug1: rekey after 134217728 blocks
+debug1: SSH2_MSG_NEWKEYS sent
+debug1: expecting SSH2_MSG_NEWKEYS
+debug1: SSH2_MSG_NEWKEYS received
+debug1: rekey after 134217728 blocks
+debug1: SSH2_MSG_SERVICE_ACCEPT received
+debug1: Authentications that can continue: publickey,password
+debug1: Next authentication method: publickey
+debug1: Offering RSA public key: /home/appsupp/.ssh/id_rsa
+debug1: Server accepts key: pkalg ssh-rsa blen 279
+debug1: Authentication succeeded (publickey).
+Authenticated to mob01-us32c9.us.infra ([10.81.47.6]:22).
+debug1: channel 0: new [client-session]
+debug1: Requesting no-more-sessions@openssh.com
+debug1: Entering interactive session.
+debug1: pledge: network
+debug1: Sending environment.
+debug1: Sending env LANG = en_US.UTF-8
+debug1: Sending command: scp -v -f /home/appsupp/logging.txt
+Sending file modes: C0666 107485 logging.txt
+Sink: C0666 107485 logging.txt
+debug1: client_input_channel_req: channel 0 rtype exit-status reply 0
+debug1: client_input_channel_req: channel 0 rtype eow@openssh.com reply 0
+debug1: channel 0: free: client-session, nchannels 1
+debug1: fd 0 clearing O_NONBLOCK
+debug1: fd 1 clearing O_NONBLOCK
+debug1: fd 2 clearing O_NONBLOCK
+Transferred: sent 2960, received 110224 bytes, in 0.1 seconds
+Bytes per second: sent 54783.2, received 2040009.0
+debug1: Exit status 0
+Executing: program /usr/bin/ssh host mob01-pdcus1.us.prod, user appsupp, command scp -v -f /home/appsupp/logging.txt
+OpenSSH_7.4p1, OpenSSL 1.0.2k-fips  26 Jan 2017
+debug1: Reading configuration data /etc/ssh/ssh_config
+debug1: /etc/ssh/ssh_config line 58: Applying options for *
+debug1: Connecting to mob01-pdcus1.us.prod [10.80.200.3] port 22.
+debug1: Connection established.
+debug1: identity file /home/appsupp/.ssh/id_rsa type 1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_rsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_dsa type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_dsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ecdsa type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ecdsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ed25519 type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ed25519-cert type -1
+debug1: Enabling compatibility mode for protocol 2.0
+debug1: Local version string SSH-2.0-OpenSSH_7.4
+debug1: Remote protocol version 2.0, remote software version OpenSSH_6.6.1
+debug1: match: OpenSSH_6.6.1 pat OpenSSH_6.6.1* compat 0x04000000
+debug1: Authenticating to mob01-pdcus1.us.prod:22 as 'appsupp'
+debug1: SSH2_MSG_KEXINIT sent
+debug1: SSH2_MSG_KEXINIT received
+debug1: kex: algorithm: curve25519-sha256@libssh.org
+debug1: kex: host key algorithm: ecdsa-sha2-nistp256
+debug1: kex: server->client cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+debug1: kex: client->server cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+debug1: kex: curve25519-sha256@libssh.org need=64 dh_need=64
+debug1: kex: curve25519-sha256@libssh.org need=64 dh_need=64
+debug1: expecting SSH2_MSG_KEX_ECDH_REPLY
+debug1: Server host key: ecdsa-sha2-nistp256 SHA256:kHYb9mTi58i9z1GQd/3yi8FN1ZohP954Dnn/yTjuXxs
+debug1: Host 'mob01-pdcus1.us.prod' is known and matches the ECDSA host key.
+debug1: Found key in /home/appsupp/.ssh/known_hosts:68
+debug1: rekey after 134217728 blocks
+debug1: SSH2_MSG_NEWKEYS sent
+debug1: expecting SSH2_MSG_NEWKEYS
+debug1: SSH2_MSG_NEWKEYS received
+debug1: rekey after 134217728 blocks
+debug1: SSH2_MSG_SERVICE_ACCEPT received
+debug1: Authentications that can continue: publickey,password
+debug1: Next authentication method: publickey
+debug1: Offering RSA public key: /home/appsupp/.ssh/id_rsa
+debug1: Server accepts key: pkalg ssh-rsa blen 279
+debug1: Authentication succeeded (publickey).
+Authenticated to mob01-pdcus1.us.prod ([10.80.200.3]:22).
+debug1: channel 0: new [client-session]
+debug1: Requesting no-more-sessions@openssh.com
+debug1: Entering interactive session.
+debug1: pledge: network
+debug1: Sending environment.
+debug1: Sending env LANG = en_US.UTF-8
+debug1: Sending command: scp -v -f /home/appsupp/logging.txt
+Sending file modes: C0600 13568551 logging.txt
+Sink: C0600 13568551 logging.txt
+debug1: client_input_channel_req: channel 0 rtype exit-status reply 0
+debug1: client_input_channel_req: channel 0 rtype eow@openssh.com reply 0
+debug1: channel 0: free: client-session, nchannels 1
+debug1: fd 0 clearing O_NONBLOCK
+debug1: fd 1 clearing O_NONBLOCK
+debug1: fd 2 clearing O_NONBLOCK
+Transferred: sent 7040, received 13587744 bytes, in 0.2 seconds
+Bytes per second: sent 34512.3, received 66611494.0
+debug1: Exit status 0
+Executing: program /usr/bin/ssh host mob01-pdcus1.us.prod, user appsupp, command scp -v -f /home/appsupp/logging.txt
+OpenSSH_7.4p1, OpenSSL 1.0.2k-fips  26 Jan 2017
+debug1: Reading configuration data /etc/ssh/ssh_config
+debug1: /etc/ssh/ssh_config line 58: Applying options for *
+debug1: Connecting to mob01-pdcus1.us.prod [10.80.200.3] port 22.
+debug1: Connection established.
+debug1: identity file /home/appsupp/.ssh/id_rsa type 1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_rsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_dsa type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_dsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ecdsa type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ecdsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ed25519 type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ed25519-cert type -1
+debug1: Enabling compatibility mode for protocol 2.0
+debug1: Local version string SSH-2.0-OpenSSH_7.4
+debug1: Remote protocol version 2.0, remote software version OpenSSH_6.6.1
+debug1: match: OpenSSH_6.6.1 pat OpenSSH_6.6.1* compat 0x04000000
+debug1: Authenticating to mob01-pdcus1.us.prod:22 as 'appsupp'
+debug1: SSH2_MSG_KEXINIT sent
+debug1: SSH2_MSG_KEXINIT received
+debug1: kex: algorithm: curve25519-sha256@libssh.org
+debug1: kex: host key algorithm: ecdsa-sha2-nistp256
+debug1: kex: server->client cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+debug1: kex: client->server cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+debug1: kex: curve25519-sha256@libssh.org need=64 dh_need=64
+debug1: kex: curve25519-sha256@libssh.org need=64 dh_need=64
+debug1: expecting SSH2_MSG_KEX_ECDH_REPLY
+debug1: Server host key: ecdsa-sha2-nistp256 SHA256:kHYb9mTi58i9z1GQd/3yi8FN1ZohP954Dnn/yTjuXxs
+debug1: Host 'mob01-pdcus1.us.prod' is known and matches the ECDSA host key.
+debug1: Found key in /home/appsupp/.ssh/known_hosts:68
+debug1: rekey after 134217728 blocks
+debug1: SSH2_MSG_NEWKEYS sent
+debug1: expecting SSH2_MSG_NEWKEYS
+debug1: SSH2_MSG_NEWKEYS received
+debug1: rekey after 134217728 blocks
+debug1: SSH2_MSG_SERVICE_ACCEPT received
+debug1: Authentications that can continue: publickey,password
+debug1: Next authentication method: publickey
+debug1: Offering RSA public key: /home/appsupp/.ssh/id_rsa
+debug1: Server accepts key: pkalg ssh-rsa blen 279
+debug1: Authentication succeeded (publickey).
+Authenticated to mob01-pdcus1.us.prod ([10.80.200.3]:22).
+debug1: channel 0: new [client-session]
+debug1: Requesting no-more-sessions@openssh.com
+debug1: Entering interactive session.
+debug1: pledge: network
+debug1: Sending environment.
+debug1: Sending env LANG = en_US.UTF-8
+debug1: Sending command: scp -v -f /home/appsupp/logging.txt
+Sending file modes: C0600 13569210 logging.txt
+Sink: C0600 13569210 logging.txt
+debug1: client_input_channel_req: channel 0 rtype exit-status reply 0
+debug1: client_input_channel_req: channel 0 rtype eow@openssh.com reply 0
+debug1: channel 0: free: client-session, nchannels 1
+debug1: fd 0 clearing O_NONBLOCK
+debug1: fd 1 clearing O_NONBLOCK
+debug1: fd 2 clearing O_NONBLOCK
+Transferred: sent 5100, received 13582468 bytes, in 0.2 seconds
+Bytes per second: sent 28137.6, received 74936926.5
+debug1: Exit status 0
+Executing: program /usr/bin/ssh host mob01-us32c9.us.infra, user appsupp, command scp -v -f /home/appsupp/logging.txt
+OpenSSH_7.4p1, OpenSSL 1.0.2k-fips  26 Jan 2017
+debug1: Reading configuration data /etc/ssh/ssh_config
+debug1: /etc/ssh/ssh_config line 58: Applying options for *
+debug1: Connecting to mob01-us32c9.us.infra [10.81.47.6] port 22.
+debug1: Connection established.
+debug1: identity file /home/appsupp/.ssh/id_rsa type 1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_rsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_dsa type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_dsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ecdsa type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ecdsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ed25519 type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ed25519-cert type -1
+debug1: Enabling compatibility mode for protocol 2.0
+debug1: Local version string SSH-2.0-OpenSSH_7.4
+debug1: Remote protocol version 2.0, remote software version OpenSSH_6.6.1
+debug1: match: OpenSSH_6.6.1 pat OpenSSH_6.6.1* compat 0x04000000
+debug1: Authenticating to mob01-us32c9.us.infra:22 as 'appsupp'
+debug1: SSH2_MSG_KEXINIT sent
+debug1: SSH2_MSG_KEXINIT received
+debug1: kex: algorithm: curve25519-sha256@libssh.org
+debug1: kex: host key algorithm: ecdsa-sha2-nistp256
+debug1: kex: server->client cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+debug1: kex: client->server cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+debug1: kex: curve25519-sha256@libssh.org need=64 dh_need=64
+debug1: kex: curve25519-sha256@libssh.org need=64 dh_need=64
+debug1: expecting SSH2_MSG_KEX_ECDH_REPLY
+debug1: Server host key: ecdsa-sha2-nistp256 SHA256:rTh+5HYU9lgkpB3Q0+XJM/kXlBsJo1LRzshlsCBqXsM
+debug1: Host 'mob01-us32c9.us.infra' is known and matches the ECDSA host key.
+debug1: Found key in /home/appsupp/.ssh/known_hosts:19
+debug1: rekey after 134217728 blocks
+debug1: SSH2_MSG_NEWKEYS sent
+debug1: expecting SSH2_MSG_NEWKEYS
+debug1: SSH2_MSG_NEWKEYS received
+debug1: rekey after 134217728 blocks
+debug1: SSH2_MSG_SERVICE_ACCEPT received
+debug1: Authentications that can continue: publickey,password
+debug1: Next authentication method: publickey
+debug1: Offering RSA public key: /home/appsupp/.ssh/id_rsa
+debug1: Server accepts key: pkalg ssh-rsa blen 279
+debug1: Authentication succeeded (publickey).
+Authenticated to mob01-us32c9.us.infra ([10.81.47.6]:22).
+debug1: channel 0: new [client-session]
+debug1: Requesting no-more-sessions@openssh.com
+debug1: Entering interactive session.
+debug1: pledge: network
+debug1: Sending environment.
+debug1: Sending env LANG = en_US.UTF-8
+debug1: Sending command: scp -v -f /home/appsupp/logging.txt
+Sending file modes: C0666 107485 logging.txt
+Sink: C0666 107485 logging.txt
+debug1: client_input_channel_req: channel 0 rtype exit-status reply 0
+debug1: client_input_channel_req: channel 0 rtype eow@openssh.com reply 0
+debug1: channel 0: free: client-session, nchannels 1
+debug1: fd 0 clearing O_NONBLOCK
+debug1: fd 1 clearing O_NONBLOCK
+debug1: fd 2 clearing O_NONBLOCK
+Transferred: sent 2960, received 110224 bytes, in 0.1 seconds
+Bytes per second: sent 53869.3, received 2005974.6
+debug1: Exit status 0
+Executing: program /usr/bin/ssh host mob01-us32c9.us.infra, user appsupp, command scp -v -f /home/appsupp/logging.txt
+OpenSSH_7.4p1, OpenSSL 1.0.2k-fips  26 Jan 2017
+debug1: Reading configuration data /etc/ssh/ssh_config
+debug1: /etc/ssh/ssh_config line 58: Applying options for *
+debug1: Connecting to mob01-us32c9.us.infra [10.81.47.6] port 22.
+debug1: Connection established.
+debug1: identity file /home/appsupp/.ssh/id_rsa type 1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_rsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_dsa type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_dsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ecdsa type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ecdsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ed25519 type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ed25519-cert type -1
+debug1: Enabling compatibility mode for protocol 2.0
+debug1: Local version string SSH-2.0-OpenSSH_7.4
+debug1: Remote protocol version 2.0, remote software version OpenSSH_6.6.1
+debug1: match: OpenSSH_6.6.1 pat OpenSSH_6.6.1* compat 0x04000000
+debug1: Authenticating to mob01-us32c9.us.infra:22 as 'appsupp'
+debug1: SSH2_MSG_KEXINIT sent
+debug1: SSH2_MSG_KEXINIT received
+debug1: kex: algorithm: curve25519-sha256@libssh.org
+debug1: kex: host key algorithm: ecdsa-sha2-nistp256
+debug1: kex: server->client cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+debug1: kex: client->server cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+debug1: kex: curve25519-sha256@libssh.org need=64 dh_need=64
+debug1: kex: curve25519-sha256@libssh.org need=64 dh_need=64
+debug1: expecting SSH2_MSG_KEX_ECDH_REPLY
+debug1: Server host key: ecdsa-sha2-nistp256 SHA256:rTh+5HYU9lgkpB3Q0+XJM/kXlBsJo1LRzshlsCBqXsM
+debug1: Host 'mob01-us32c9.us.infra' is known and matches the ECDSA host key.
+debug1: Found key in /home/appsupp/.ssh/known_hosts:19
+debug1: rekey after 134217728 blocks
+debug1: SSH2_MSG_NEWKEYS sent
+debug1: expecting SSH2_MSG_NEWKEYS
+debug1: SSH2_MSG_NEWKEYS received
+debug1: rekey after 134217728 blocks
+debug1: SSH2_MSG_SERVICE_ACCEPT received
+debug1: Authentications that can continue: publickey,password
+debug1: Next authentication method: publickey
+debug1: Offering RSA public key: /home/appsupp/.ssh/id_rsa
+debug1: Server accepts key: pkalg ssh-rsa blen 279
+debug1: Authentication succeeded (publickey).
+Authenticated to mob01-us32c9.us.infra ([10.81.47.6]:22).
+debug1: channel 0: new [client-session]
+debug1: Requesting no-more-sessions@openssh.com
+debug1: Entering interactive session.
+debug1: pledge: network
+debug1: Sending environment.
+debug1: Sending env LANG = en_US.UTF-8
+debug1: Sending command: scp -v -f /home/appsupp/logging.txt
+Sending file modes: C0666 108314 logging.txt
+Sink: C0666 108314 logging.txt
+debug1: client_input_channel_req: channel 0 rtype exit-status reply 0
+debug1: client_input_channel_req: channel 0 rtype eow@openssh.com reply 0
+debug1: channel 0: free: client-session, nchannels 1
+debug1: fd 0 clearing O_NONBLOCK
+debug1: fd 1 clearing O_NONBLOCK
+debug1: fd 2 clearing O_NONBLOCK
+Transferred: sent 2960, received 111056 bytes, in 0.1 seconds
+Bytes per second: sent 56679.0, received 2126535.1
+debug1: Exit status 0
+Executing: program /usr/bin/ssh host mob01-us32c9.us.infra, user appsupp, command scp -v -f /home/appsupp/logging.txt
+OpenSSH_7.4p1, OpenSSL 1.0.2k-fips  26 Jan 2017
+debug1: Reading configuration data /etc/ssh/ssh_config
+debug1: /etc/ssh/ssh_config line 58: Applying options for *
+debug1: Connecting to mob01-us32c9.us.infra [10.81.47.6] port 22.
+debug1: Connection established.
+debug1: identity file /home/appsupp/.ssh/id_rsa type 1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_rsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_dsa type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_dsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ecdsa type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ecdsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ed25519 type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ed25519-cert type -1
+debug1: Enabling compatibility mode for protocol 2.0
+debug1: Local version string SSH-2.0-OpenSSH_7.4
+debug1: Remote protocol version 2.0, remote software version OpenSSH_6.6.1
+debug1: match: OpenSSH_6.6.1 pat OpenSSH_6.6.1* compat 0x04000000
+debug1: Authenticating to mob01-us32c9.us.infra:22 as 'appsupp'
+debug1: SSH2_MSG_KEXINIT sent
+debug1: SSH2_MSG_KEXINIT received
+debug1: kex: algorithm: curve25519-sha256@libssh.org
+debug1: kex: host key algorithm: ecdsa-sha2-nistp256
+debug1: kex: server->client cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+debug1: kex: client->server cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+debug1: kex: curve25519-sha256@libssh.org need=64 dh_need=64
+debug1: kex: curve25519-sha256@libssh.org need=64 dh_need=64
+debug1: expecting SSH2_MSG_KEX_ECDH_REPLY
+debug1: Server host key: ecdsa-sha2-nistp256 SHA256:rTh+5HYU9lgkpB3Q0+XJM/kXlBsJo1LRzshlsCBqXsM
+debug1: Host 'mob01-us32c9.us.infra' is known and matches the ECDSA host key.
+debug1: Found key in /home/appsupp/.ssh/known_hosts:19
+debug1: rekey after 134217728 blocks
+debug1: SSH2_MSG_NEWKEYS sent
+debug1: expecting SSH2_MSG_NEWKEYS
+debug1: SSH2_MSG_NEWKEYS received
+debug1: rekey after 134217728 blocks
+debug1: SSH2_MSG_SERVICE_ACCEPT received
+debug1: Authentications that can continue: publickey,password
+debug1: Next authentication method: publickey
+debug1: Offering RSA public key: /home/appsupp/.ssh/id_rsa
+debug1: Server accepts key: pkalg ssh-rsa blen 279
+debug1: Authentication succeeded (publickey).
+Authenticated to mob01-us32c9.us.infra ([10.81.47.6]:22).
+debug1: channel 0: new [client-session]
+debug1: Requesting no-more-sessions@openssh.com
+debug1: Entering interactive session.
+debug1: pledge: network
+debug1: Sending environment.
+debug1: Sending env LANG = en_US.UTF-8
+debug1: Sending command: scp -v -f /home/appsupp/logging.txt
+Sending file modes: C0666 109143 logging.txt
+Sink: C0666 109143 logging.txt
+debug1: client_input_channel_req: channel 0 rtype exit-status reply 0
+debug1: client_input_channel_req: channel 0 rtype eow@openssh.com reply 0
+debug1: channel 0: free: client-session, nchannels 1
+debug1: fd 0 clearing O_NONBLOCK
+debug1: fd 1 clearing O_NONBLOCK
+debug1: fd 2 clearing O_NONBLOCK
+Transferred: sent 2960, received 111880 bytes, in 0.1 seconds
+Bytes per second: sent 54151.0, received 2046760.5
+debug1: Exit status 0
+Executing: program /usr/bin/ssh host mob01-us32c9.us.infra, user appsupp, command scp -v -f /home/appsupp/logging.txt
+OpenSSH_7.4p1, OpenSSL 1.0.2k-fips  26 Jan 2017
+debug1: Reading configuration data /etc/ssh/ssh_config
+debug1: /etc/ssh/ssh_config line 58: Applying options for *
+debug1: Connecting to mob01-us32c9.us.infra [10.81.47.6] port 22.
+debug1: Connection established.
+debug1: identity file /home/appsupp/.ssh/id_rsa type 1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_rsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_dsa type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_dsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ecdsa type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ecdsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ed25519 type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ed25519-cert type -1
+debug1: Enabling compatibility mode for protocol 2.0
+debug1: Local version string SSH-2.0-OpenSSH_7.4
+debug1: Remote protocol version 2.0, remote software version OpenSSH_6.6.1
+debug1: match: OpenSSH_6.6.1 pat OpenSSH_6.6.1* compat 0x04000000
+debug1: Authenticating to mob01-us32c9.us.infra:22 as 'appsupp'
+debug1: SSH2_MSG_KEXINIT sent
+debug1: SSH2_MSG_KEXINIT received
+debug1: kex: algorithm: curve25519-sha256@libssh.org
+debug1: kex: host key algorithm: ecdsa-sha2-nistp256
+debug1: kex: server->client cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+debug1: kex: client->server cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+debug1: kex: curve25519-sha256@libssh.org need=64 dh_need=64
+debug1: kex: curve25519-sha256@libssh.org need=64 dh_need=64
+debug1: expecting SSH2_MSG_KEX_ECDH_REPLY
+debug1: Server host key: ecdsa-sha2-nistp256 SHA256:rTh+5HYU9lgkpB3Q0+XJM/kXlBsJo1LRzshlsCBqXsM
+debug1: Host 'mob01-us32c9.us.infra' is known and matches the ECDSA host key.
+debug1: Found key in /home/appsupp/.ssh/known_hosts:19
+debug1: rekey after 134217728 blocks
+debug1: SSH2_MSG_NEWKEYS sent
+debug1: expecting SSH2_MSG_NEWKEYS
+debug1: SSH2_MSG_NEWKEYS received
+debug1: rekey after 134217728 blocks
+debug1: SSH2_MSG_SERVICE_ACCEPT received
+debug1: Authentications that can continue: publickey,password
+debug1: Next authentication method: publickey
+debug1: Offering RSA public key: /home/appsupp/.ssh/id_rsa
+debug1: Server accepts key: pkalg ssh-rsa blen 279
+debug1: Authentication succeeded (publickey).
+Authenticated to mob01-us32c9.us.infra ([10.81.47.6]:22).
+debug1: channel 0: new [client-session]
+debug1: Requesting no-more-sessions@openssh.com
+debug1: Entering interactive session.
+debug1: pledge: network
+debug1: Sending environment.
+debug1: Sending env LANG = en_US.UTF-8
+debug1: Sending command: scp -v -f /home/appsupp/logging.txt
+Sending file modes: C0666 109974 logging.txt
+Sink: C0666 109974 logging.txt
+debug1: client_input_channel_req: channel 0 rtype exit-status reply 0
+debug1: client_input_channel_req: channel 0 rtype eow@openssh.com reply 0
+debug1: channel 0: free: client-session, nchannels 1
+debug1: fd 0 clearing O_NONBLOCK
+debug1: fd 1 clearing O_NONBLOCK
+debug1: fd 2 clearing O_NONBLOCK
+Transferred: sent 2960, received 112712 bytes, in 0.1 seconds
+Bytes per second: sent 53188.7, received 2025338.3
+debug1: Exit status 0
+Executing: program /usr/bin/ssh host mob01-us32c9.us.infra, user appsupp, command scp -v -f /home/appsupp/logging.txt
+OpenSSH_7.4p1, OpenSSL 1.0.2k-fips  26 Jan 2017
+debug1: Reading configuration data /etc/ssh/ssh_config
+debug1: /etc/ssh/ssh_config line 58: Applying options for *
+debug1: Connecting to mob01-us32c9.us.infra [10.81.47.6] port 22.
+debug1: Connection established.
+debug1: identity file /home/appsupp/.ssh/id_rsa type 1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_rsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_dsa type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_dsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ecdsa type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ecdsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ed25519 type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ed25519-cert type -1
+debug1: Enabling compatibility mode for protocol 2.0
+debug1: Local version string SSH-2.0-OpenSSH_7.4
+debug1: Remote protocol version 2.0, remote software version OpenSSH_6.6.1
+debug1: match: OpenSSH_6.6.1 pat OpenSSH_6.6.1* compat 0x04000000
+debug1: Authenticating to mob01-us32c9.us.infra:22 as 'appsupp'
+debug1: SSH2_MSG_KEXINIT sent
+debug1: SSH2_MSG_KEXINIT received
+debug1: kex: algorithm: curve25519-sha256@libssh.org
+debug1: kex: host key algorithm: ecdsa-sha2-nistp256
+debug1: kex: server->client cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+debug1: kex: client->server cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+debug1: kex: curve25519-sha256@libssh.org need=64 dh_need=64
+debug1: kex: curve25519-sha256@libssh.org need=64 dh_need=64
+debug1: expecting SSH2_MSG_KEX_ECDH_REPLY
+debug1: Server host key: ecdsa-sha2-nistp256 SHA256:rTh+5HYU9lgkpB3Q0+XJM/kXlBsJo1LRzshlsCBqXsM
+debug1: Host 'mob01-us32c9.us.infra' is known and matches the ECDSA host key.
+debug1: Found key in /home/appsupp/.ssh/known_hosts:19
+debug1: rekey after 134217728 blocks
+debug1: SSH2_MSG_NEWKEYS sent
+debug1: expecting SSH2_MSG_NEWKEYS
+debug1: SSH2_MSG_NEWKEYS received
+debug1: rekey after 134217728 blocks
+debug1: SSH2_MSG_SERVICE_ACCEPT received
+debug1: Authentications that can continue: publickey,password
+debug1: Next authentication method: publickey
+debug1: Offering RSA public key: /home/appsupp/.ssh/id_rsa
+debug1: Server accepts key: pkalg ssh-rsa blen 279
+debug1: Authentication succeeded (publickey).
+Authenticated to mob01-us32c9.us.infra ([10.81.47.6]:22).
+debug1: channel 0: new [client-session]
+debug1: Requesting no-more-sessions@openssh.com
+debug1: Entering interactive session.
+debug1: pledge: network
+debug1: Sending environment.
+debug1: Sending env LANG = en_US.UTF-8
+debug1: Sending command: scp -v -f /home/appsupp/logging.txt
+Sending file modes: C0666 110811 logging.txt
+Sink: C0666 110811 logging.txt
+debug1: client_input_channel_req: channel 0 rtype exit-status reply 0
+debug1: client_input_channel_req: channel 0 rtype eow@openssh.com reply 0
+debug1: channel 0: free: client-session, nchannels 1
+debug1: fd 0 clearing O_NONBLOCK
+debug1: fd 1 clearing O_NONBLOCK
+debug1: fd 2 clearing O_NONBLOCK
+Transferred: sent 2960, received 113552 bytes, in 0.1 seconds
+Bytes per second: sent 52143.0, received 2000317.5
+debug1: Exit status 0
+Executing: program /usr/bin/ssh host mob01-us32c9.us.infra, user appsupp, command scp -v -f /home/appsupp/logging.txt
+OpenSSH_7.4p1, OpenSSL 1.0.2k-fips  26 Jan 2017
+debug1: Reading configuration data /etc/ssh/ssh_config
+debug1: /etc/ssh/ssh_config line 58: Applying options for *
+debug1: Connecting to mob01-us32c9.us.infra [10.81.47.6] port 22.
+debug1: Connection established.
+debug1: identity file /home/appsupp/.ssh/id_rsa type 1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_rsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_dsa type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_dsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ecdsa type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ecdsa-cert type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ed25519 type -1
+debug1: key_load_public: No such file or directory
+debug1: identity file /home/appsupp/.ssh/id_ed25519-cert type -1
+debug1: Enabling compatibility mode for protocol 2.0
+debug1: Local version string SSH-2.0-OpenSSH_7.4
+debug1: Remote protocol version 2.0, remote software version OpenSSH_6.6.1
+debug1: match: OpenSSH_6.6.1 pat OpenSSH_6.6.1* compat 0x04000000
+debug1: Authenticating to mob01-us32c9.us.infra:22 as 'appsupp'
+debug1: SSH2_MSG_KEXINIT sent
+debug1: SSH2_MSG_KEXINIT received
+debug1: kex: algorithm: curve25519-sha256@libssh.org
+debug1: kex: host key algorithm: ecdsa-sha2-nistp256
+debug1: kex: server->client cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+debug1: kex: client->server cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
+debug1: kex: curve25519-sha256@libssh.org need=64 dh_need=64
+debug1: kex: curve25519-sha256@libssh.org need=64 dh_need=64
+debug1: expecting SSH2_MSG_KEX_ECDH_REPLY
+debug1: Server host key: ecdsa-sha2-nistp256 SHA256:rTh+5HYU9lgkpB3Q0+XJM/kXlBsJo1LRzshlsCBqXsM
+debug1: Host 'mob01-us32c9.us.infra' is known and matches the ECDSA host key.
+debug1: Found key in /home/appsupp/.ssh/known_hosts:19
+debug1: rekey after 134217728 blocks
+debug1: SSH2_MSG_NEWKEYS sent
+debug1: expecting SSH2_MSG_NEWKEYS
+debug1: SSH2_MSG_NEWKEYS received
+debug1: rekey after 134217728 blocks
+debug1: SSH2_MSG_SERVICE_ACCEPT received
+debug1: Authentications that can continue: publickey,password
+debug1: Next authentication method: publickey
+debug1: Offering RSA public key: /home/appsupp/.ssh/id_rsa
+debug1: Server accepts key: pkalg ssh-rsa blen 279
+debug1: Authentication succeeded (publickey).
+Authenticated to mob01-us32c9.us.infra ([10.81.47.6]:22).
+debug1: channel 0: new [client-session]
+debug1: Requesting no-more-sessions@openssh.com
+debug1: Entering interactive session.
+debug1: pledge: network
+debug1: Sending environment.
+debug1: Sending env LANG = en_US.UTF-8
+debug1: Sending command: scp -v -f /home/appsupp/logging.txt
+Sending file modes: C0666 111044 logging.txt
+Sink: C0666 111044 logging.txt
+debug1: client_input_channel_req: channel 0 rtype exit-status reply 0
+debug1: client_input_channel_req: channel 0 rtype eow@openssh.com reply 0
+debug1: channel 0: free: client-session, nchannels 1
+debug1: fd 0 clearing O_NONBLOCK
+debug1: fd 1 clearing O_NONBLOCK
+debug1: fd 2 clearing O_NONBLOCK
+Transferred: sent 2960, received 113784 bytes, in 0.1 seconds
+Bytes per second: sent 51255.4, received 1970286.2
+debug1: Exit status 0

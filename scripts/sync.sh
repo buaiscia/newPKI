@@ -4,6 +4,21 @@
 #trap 'exec 2>&4 1>&3' 0 1 2 3
 #exec 1>/home/appsupp/test_sync_log.txt 2>&1
 
+function logINFO {
+
+        LOG_TIME=$(date +%Y-%m-%d" "%H:%M:%S.%N | cut -c1-19)
+        echo "${LOG_TIME}   [INFO]   $1" | tee -a "${LOGGING}"
+
+}
+
+
+function logERROR {
+
+        LOG_TIME=$(date +%Y-%m-%d" "%H:%M:%S.%N | cut -c1-19)
+        echo "${LOG_TIME}   [ERROR]   $1" | tee -a "${LOGGING}"
+
+}
+
 
 TEST_LOG='/var/www/html/newPKI/log/test_sync_log.txt'
 
@@ -42,12 +57,12 @@ function restartServices {
     *'php'*     ) SERVICE='php'; ;;
   esac
   if [[ -z $SERVICE ]]; then
-    echo "No services restarted"
+    logERROR "No services restarted"
   elif [[ $SERVICE == "php" ]]; then
-    ssh -t -i $SSH_KEY $CONN "sudo systemctl restart php-fpm" && echo "Service php-fpm successfully restarted"
+    ssh -t -i $SSH_KEY $CONN "sudo systemctl restart php-fpm" && logINFO "Service php-fpm successfully restarted" || logERROR "Service php-fpm couldn't be restarted"
     echo "Service php-fpm successfully restarted"
   else
-    ssh -t -i $SSH_KEY $CONN "sudo systemctl restart php-fpm && sudo systemctl restart httpd_$SERVICE" && echo "Services php-fpm & httpd_$SERVICE successfully restarted"
+    ssh -t -i $SSH_KEY $CONN "sudo systemctl restart php-fpm && sudo systemctl restart httpd_$SERVICE" && logINFO "Services php-fpm & httpd_$SERVICE successfully restarted" || logERROR "Services & httpd_$SERVICE couldn't be restarted"
   fi
 }
 
@@ -55,23 +70,24 @@ function restartServices {
 # Function: Test run of sync on one node $TEST_NODE
 # -----------------------
 function test_sync {
-  echo "=== Start of test sync to $TEST_NODE$SERVER started at `date -u`==" >> $TEST_LOG
-  rsync -avzh --del --stats --exclude='app/cache/' --exclude='/cache/' --exclude='logs/' --out-format="%o %n%L" --dry-run $SYNC_PATH --rsync-path="sudo rsync" -e "ssh -i $SSH_KEY" "$USER@$TEST_NODE$SERVER":$SYNC_PATH && echo "test done"  >> $TEST_LOG
-  echo "=== End of test sync to $TEST_NODE$SERVER ended at `date -u` ===" >> $TEST_LOG
+  logINFO "=== Start of test sync to $TEST_NODE$SERVER started at `date -u`=="
+  rsync -azh --del --stats --exclude='app/cache/' --exclude='/cache/' --exclude='logs/' --out-format="%o %n%L" --dry-run $SYNC_PATH --rsync-path="sudo rsync" -e "ssh -i $SSH_KEY" "$USER@$TEST_NODE$SERVER":$SYNC_PATH && logINFO "test done" || logERROR "There was an issues with the test sync"
+ 
+  logINFO "=== End of test sync to $TEST_NODE$SERVER ended at `date -u` ==="
 }
 
 # -----------------------
 # Function: Real run of rsync on all nodes 02-06
 # -----------------------
 function real_sync {
-  echo "Sync of path: $SYNC_PATH starting at `date -u` ==" && echo "" >> $LOGGING
+  logINFO "Sync of path: $SYNC_PATH starting at `date -u` ==" 
   for NUM in {5..6}; do
     CONN="$USER@mob0$NUM$SERVER"
-    echo "Syncing mob0$NUM$SERVER"
+    logINFO "Syncing mob0$NUM$SERVER"
     rsync -az --del --stats --exclude='app/cache/' --exclude='/cache/' --exclude='logs/' --log-file=$LOGGING $SYNC_PATH --rsync-path="sudo rsync" -e "ssh -i $SSH_KEY" $CONN:$SYNC_PATH | grep --color=none transferred >> $LOGGING
-    echo "Sync finished"
+    logINFO "Sync finished"
     restartServices $CONN
-    echo "Deleting WEB&ADMIN cache"
+    logINFO "Deleting WEB&ADMIN cache"
     ssh -i $SSH_KEY $CONN "sudo rm -rf /var/www/html/app/cache/*"
     ssh -i $SSH_KEY $CONN "sudo rm -rf /var/www/admin/cache/*"
     echo ""

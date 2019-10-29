@@ -10,6 +10,8 @@ const express = require("express"),
     flash = require("connect-flash"),
     helmet = require('helmet');
     delete require.cache[require.resolve('./routes/loaded')];
+    delete require.cache[require.resolve('./routes/catchlog')];
+    delete require.cache[require.resolve('./routes/synclog')];
     var logFile = require("./routes/catchlog");
     var allFiles = require("./routes/loaded");
 

@@ -1,0 +1,2140 @@
+=== Start of test sync to mob02-us32c9.us.infra started at Mon Jan  8 12:21:41 UTC 2018==
+
+=== Start of test sync to mob02-us32c9.us.infra started at Mon Jan  8 12:56:54 UTC 2018==
+
+=== Start of test sync to mob02-us32c9.us.infra started at Mon Jan  8 13:08:17 UTC 2018==
+
+=== Start of test sync to mob02-us32c9.us.infra started at Mon Jan  8 13:12:51 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Mon Jan  8 13:12:51 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Mon  8 Jan 20:21:40 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Mon  8 Jan 20:21:40 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Mon  8 Jan 20:22:19 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Mon  8 Jan 20:22:20 UTC 2018 ===
+START AT Tue Jan  9 09:20:46 UTC 2018
+--Backup of FEW package done
+--Removal of config and app done
+--Removal of general files in /var/www/html done
+--Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Service restarted
+END AT Tue Jan  9 09:21:04 UTC 2018
+--------------------------
+you chose API package
+START AT Tue Jan  9 09:21:45 UTC 2018
+-- Backup of API package done
+-- Removal of app done
+-- Package extracted
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Package extracted
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Tue Jan  9 09:21:53 UTC 2018
+--------------------------
+=== Start of test sync to mob02-us32c9.us.infra started at Tue Jan  9 09:22:33 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Tue Jan  9 09:22:34 UTC 2018 ===
+START AT Tue Jan  9 10:14:38 UTC 2018
+--Backup of FEW package done
+--Removal of config and app done
+--Removal of general files in /var/www/html done
+--Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Service restarted
+END AT Tue Jan  9 10:14:41 UTC 2018
+--------------------------
+=== Start of test sync to mob02-us32c9.us.infra started at Tue Jan  9 10:17:26 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Tue Jan  9 10:17:27 UTC 2018 ===
+you chose API package
+START AT Tue Jan  9 10:45:42 UTC 2018
+-- Backup of API package done
+-- Removal of app done
+-- Package extracted
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Package extracted
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Tue Jan  9 10:45:51 UTC 2018
+--------------------------
+you chose API package
+START AT Tue Jan  9 10:49:07 UTC 2018
+-- Removal of app done
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Tue Jan  9 10:49:15 UTC 2018
+--------------------------
+=== Start of test sync to mob02-us32c9.us.infra started at Fri 12 Jan 11:08:16 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Fri 12 Jan 11:08:16 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Tue Jan 30 15:36:47 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Tue Jan 30 15:36:47 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Tue Jan 30 15:52:38 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Tue Jan 30 15:52:39 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Tue Jan 30 15:56:43 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Tue Jan 30 15:56:43 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Tue Jan 30 16:02:21 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Tue Jan 30 16:02:22 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Tue Jan 30 16:04:37 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Tue Jan 30 16:04:37 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Tue Jan 30 16:10:38 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Tue Jan 30 16:10:38 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Tue Jan 30 16:15:28 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Tue Jan 30 16:15:29 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Wed Jan 31 12:38:15 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Wed Jan 31 12:38:16 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Wed Jan 31 12:39:02 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Wed Jan 31 12:39:02 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Wed Jan 31 12:40:51 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Wed Jan 31 12:40:51 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Wed Jan 31 12:41:28 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Wed Jan 31 12:41:28 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Wed Jan 31 12:42:24 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Wed Jan 31 12:42:24 UTC 2018 ===
+you chose API package
+START AT Wed Jan 31 23:21:01 UTC 2018
+-- Backup of API package done
+-- Removal of app done
+-- Package extracted
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Package extracted
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Wed Jan 31 23:21:10 UTC 2018
+--------------------------
+START AT Wed Jan 31 23:23:21 UTC 2018
+--Backup of FEW package done
+--Removal of config and app done
+--Removal of general files in /var/www/html done
+--Package extracted
+--Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Service restarted
+END AT Wed Jan 31 23:23:24 UTC 2018
+--------------------------
+you chose API package
+START AT Wed Jan 31 23:27:45 UTC 2018
+-- Backup of API package done
+-- Removal of app done
+-- Package extracted
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Package extracted
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Wed Jan 31 23:27:54 UTC 2018
+--------------------------
+START AT Wed Jan 31 23:29:06 UTC 2018
+--Backup of FEW package done
+--Removal of config and app done
+--Removal of general files in /var/www/html done
+--Package extracted
+--Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Service restarted
+END AT Wed Jan 31 23:29:09 UTC 2018
+--------------------------
+=== Start of test sync to mob02-us32c9.us.infra started at Thu  1 Feb 09:24:38 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Thu  1 Feb 09:24:39 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Thu  1 Feb 09:25:42 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Thu  1 Feb 09:25:42 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Mon 19 Feb 22:12:37 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Mon 19 Feb 22:12:38 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Wed 21 Feb 08:38:15 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Wed 21 Feb 08:38:16 UTC 2018 ===
+you chose API package
+START AT Wed Feb 21 18:36:03 UTC 2018
+-- Backup of API package done
+-- Removal of app done
+-- Package extracted
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Package extracted
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Wed Feb 21 18:36:12 UTC 2018
+--------------------------
+you chose API package
+START AT Wed Feb 21 18:38:59 UTC 2018
+-- Backup of API package done
+-- Removal of app done
+-- Package extracted
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Package extracted
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Wed Feb 21 18:39:08 UTC 2018
+--------------------------
+=== Start of test sync to mob02-us32c9.us.infra started at Thu Feb 22 10:18:55 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Thu Feb 22 10:18:56 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Thu Feb 22 10:19:41 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Thu Feb 22 10:19:41 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Thu Feb 22 10:19:54 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Thu Feb 22 10:19:54 UTC 2018 ===
+you chose API package
+START AT Thu Feb 22 17:31:52 UTC 2018
+-- Backup of API package done
+-- Removal of app done
+-- Package extracted
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Package extracted
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Thu Feb 22 17:32:01 UTC 2018
+--------------------------
+you chose API package
+START AT Thu Feb 22 17:32:27 UTC 2018
+-- Backup of API package done
+-- Removal of app done
+-- Package extracted
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Package extracted
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Thu Feb 22 17:32:35 UTC 2018
+--------------------------
+you chose API package
+START AT Thu Feb 22 17:33:54 UTC 2018
+-- Backup of API package done
+-- Removal of app done
+-- Package extracted
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Package extracted
+Please dou=== Start of test sync to mob02-us32c9.us.infra started at Tue Feb 27 10:36:16 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Tue Feb 27 10:36:16 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Tue 27 Feb 16:38:47 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Tue 27 Feb 16:38:47 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Tue 27 Feb 16:44:03 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Tue 27 Feb 16:44:03 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Thu Mar  1 16:04:24 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Thu Mar  1 16:04:27 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Thu Mar  1 16:08:01 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Thu Mar  1 16:08:01 UTC 2018 ===
+you chose API package
+START AT Tue Mar  6 15:46:06 UTC 2018
+-- Backup of API package done
+-- Removal of app done
+-- Package extracted
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Package extracted
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Tue Mar  6 15:46:15 UTC 2018
+--------------------------
+=== Start of test sync to mob02-us32c9.us.infra started at Tue Mar  6 15:48:17 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Tue Mar  6 15:48:17 UTC 2018 ===
+START AT Wed Mar 14 19:44:28 UTC 2018
+-- Backup of API package done
+-- Removal of app done
+-- Package extracted
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Service restarted
+END AT Wed Mar 14 19:44:31 UTC 2018
+--------------------------
+START AT Wed Mar 14 19:45:46 UTC 2018
+-- Backup of API package done
+-- Removal of app done
+-- Package extracted
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Service restarted
+END AT Wed Mar 14 19:45:48 UTC 2018
+--------------------------
+=== Start of test sync to mob02-us32c9.us.infra started at Wed 21 Mar 18:39:26 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Wed 21 Mar 18:39:26 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Wed 21 Mar 19:29:38 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Wed 21 Mar 19:29:38 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Wed 21 Mar 20:18:42 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Wed 21 Mar 20:18:42 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Fri 23 Mar 19:57:19 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Fri 23 Mar 19:57:23 UTC 2018 ===
+you chose API package
+START AT Tue Apr  3 18:48:11 UTC 2018
+-- Backup of API package done
+-- Removal of app done
+-- Package extracted
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Package extracted
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Tue Apr  3 18:48:20 UTC 2018
+--------------------------
+you chose API package
+START AT Tue Apr  3 18:50:13 UTC 2018
+-- Backup of API package done
+-- Removal of app done
+-- Package extracted
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Package extracted
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Tue Apr  3 18:50:26 UTC 2018
+--------------------------
+you chose API package
+START AT Fri Apr 13 14:20:14 UTC 2018
+-- Backup of API package done
+-- Removal of app done
+-- Package extracted
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Package extracted
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Fri Apr 13 14:20:27 UTC 2018
+--------------------------
+you chose API package
+START AT Fri Apr 13 14:52:34 UTC 2018
+-- Backup of API package done
+-- Removal of app done
+-- Package extracted
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Package extracted
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Fri Apr 13 14:52:48 UTC 2018
+--------------------------
+=== Start of test sync to mob02-us32c9.us.infra started at Mon Apr 16 09:45:34 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Mon Apr 16 09:45:35 UTC 2018 ===
+START AT Wed Apr 25 07:37:07 UTC 2018
+--Backup of FEW package done
+--Removal of config and app done
+--Removal of general files in /var/www/html done
+--Package extracted
+--Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Service restarted
+END AT Wed Apr 25 07:37:10 UTC 2018
+--------------------------
+=== Start of test sync to mob02-us32c9.us.infra started at Wed Apr 25 07:48:16 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Wed Apr 25 07:48:16 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Wed  2 May 21:53:50 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Wed  2 May 21:53:58 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Wed  2 May 21:54:21 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Wed  2 May 21:54:28 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Fri  4 May 08:16:58 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Fri  4 May 08:16:59 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Fri  4 May 08:17:14 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Fri  4 May 08:17:15 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Mon  7 May 08:53:58 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Mon  7 May 08:53:58 UTC 2018 ===
+you chose API package
+START AT Fri May 11 20:47:13 UTC 2018
+-- Backup of API package done
+-- Removal of app done
+-- Package extracted
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Package extracted
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Fri May 11 20:47:21 UTC 2018
+--------------------------
+=== Start of test sync to mob02-us32c9.us.infra started at Fri May 11 20:47:46 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Fri May 11 20:47:47 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Mon 14 May 19:30:01 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Mon 14 May 19:30:02 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Mon 14 May 19:34:42 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Mon 14 May 19:34:42 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Mon 14 May 19:34:51 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Mon 14 May 19:34:51 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Mon 14 May 20:04:01 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Mon 14 May 20:04:01 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Mon 14 May 20:04:13 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Mon 14 May 20:04:14 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Mon 14 May 21:31:59 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Mon 14 May 21:32:00 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Tue 15 May 12:01:03 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Tue 15 May 12:01:03 UTC 2018 ===
+you chose API package
+START AT Wed May 30 21:22:48 UTC 2018
+-- Backup of API package done
+-- Removal of app done
+-- Package extracted
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Package extracted
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Wed May 30 21:22:57 UTC 2018
+--------------------------
+=== Start of test sync to mob02-us32c9.us.infra started at Wed May 30 21:23:18 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Wed May 30 21:23:19 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Thu 31 May 12:09:51 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Thu 31 May 12:09:51 UTC 2018 ===
+you chose API package
+START AT Mon Jun  4 07:43:06 UTC 2018
+-- Backup of API package done
+-- Removal of app done
+-- Package extracted
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Package extracted
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Mon Jun  4 07:43:16 UTC 2018
+--------------------------
+you chose API package
+START AT Mon Jun  4 07:49:46 UTC 2018
+-- Backup of API package done
+-- Removal of app done
+-- Package extracted
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Package extracted
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Mon Jun  4 07:49:57 UTC 2018
+--------------------------
+you chose API package
+START AT Thu Jun  7 15:29:49 UTC 2018
+-- Backup of API package done
+-- Removal of app done
+-- Package extracted
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Package extracted
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Thu Jun  7 15:30:00 UTC 2018
+--------------------------
+you chose API package
+START AT Thu Jun  7 15:30:58 UTC 2018
+-- Backup of API package done
+-- Removal of app done
+-- Package extracted
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Package extracted
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Thu Jun  7 15:31:12 UTC 2018
+--------------------------
+you chose API package
+START AT Fri Jun  8 08:35:23 UTC 2018
+-- Backup of API package done
+-- Removal of app done
+-- Package extracted
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Package extracted
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Fri Jun  8 08:35:38 UTC 2018
+--------------------------
+you chose API package
+START AT Fri Jun  8 08:38:24 UTC 2018
+-- Backup of API package done
+-- Removal of app done
+-- Package extracted
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Package extracted
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Fri Jun  8 08:38:38 UTC 2018
+--------------------------
+=== Start of test sync to mob02-us32c9.us.infra started at Fri Jun  8 08:59:41 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Fri Jun  8 08:59:43 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Tue Jun 12 20:51:04 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Tue Jun 12 20:51:08 UTC 2018 ===
+you chose API package
+START AT Thu Jun 14 12:19:08 UTC 2018
+-- Backup of API package done
+-- Removal of app done
+-- Package extracted
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Package extracted
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Thu Jun 14 12:19:16 UTC 2018
+--------------------------
+=== Start of test sync to mob02-us32c9.us.infra started at Thu Jun 14 12:19:54 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Thu Jun 14 12:19:54 UTC 2018 ===
+you chose API package
+START AT Thu Jun 14 12:48:04 UTC 2018
+-- Backup of API package done
+-- Removal of app done
+-- Package extracted
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Package extracted
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Thu Jun 14 12:48:12 UTC 2018
+--------------------------
+you chose API package
+START AT Thu Jun 14 13:05:00 UTC 2018
+-- Backup of API package done
+-- Removal of app done
+-- Package extracted
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Package extracted
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Thu Jun 14 13:05:08 UTC 2018
+--------------------------
+you chose API package
+START AT Thu Jun 14 13:05:17 UTC 2018
+-- Backup of API package done
+-- Removal of app done
+-- Package extracted
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Package extracted
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Thu Jun 14 13:05:25 UTC 2018
+--------------------------
+you chose API package
+START AT Thu Jun 14 13:13:05 UTC 2018
+-- Backup of API package done
+'/var/www/api/translations/messages.en.po' -> '/home/appsupp/backup/msgapi/messages.en.po_1806140813'
+'/var/www/api/translations/messages.es.po' -> '/home/appsupp/backup/msgapi/messages.es.po_1806140813'
+-- Removal of app done
+-- Package extracted
+'/home/appsupp/backup/msgapi/messages.en.po_1806140813' -> '/var/www/api/translations//home/appsupp/backup/msgapi/messages.en.po'
+'/home/appsupp/backup/msgapi/messages.es.po_1806140813' -> '/var/www/api/translations//home/appsupp/backup/msgapi/messages.es.po'
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Package extracted
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Thu Jun 14 13:13:13 UTC 2018
+--------------------------
+you chose API package
+START AT Thu Jun 14 13:29:38 UTC 2018
+-- Backup of API package done
+'/var/www/api/translations/messages.en.po' -> '/home/appsupp/backup/msgapi/messages.en.po_1806140829'
+'/var/www/api/translations/messages.es.po' -> '/home/appsupp/backup/msgapi/messages.es.po_1806140829'
+-- Removal of app done
+-- Package extracted
+'/home/appsupp/backup/msgapi/messages.en.po_1806140829' -> '/var/www/api/translations//home/appsupp/backup/msgapi/messages.en.po_1806140829'
+'/home/appsupp/backup/msgapi/messages.es.po_1806140829' -> '/var/www/api/translations//home/appsupp/backup/msgapi/messages.es.po_1806140829'
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Package extracted
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Thu Jun 14 13:29:46 UTC 2018
+--------------------------
+you chose API package
+START AT Thu Jun 14 13:37:26 UTC 2018
+-- Backup of API package done
+'/var/www/api/translations/messages.en.po' -> '/home/appsupp/backup/msgapi/messages.en.po_1806140837'
+'/var/www/api/translations/messages.es.po' -> '/home/appsupp/backup/msgapi/messages.es.po_1806140837'
+-- Removal of app done
+-- Package extracted
+'/home/appsupp/backup/msgapi/messages.en.po_1806140837' -> '/var/www/api/translations//home/appsupp/backup/msgapi/messages.en.po_1806140837'
+'/home/appsupp/backup/msgapi/messages.es.po_1806140837' -> '/var/www/api/translations//home/appsupp/backup/msgapi/messages.es.po_1806140837'
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Package extracted
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Thu Jun 14 13:37:34 UTC 2018
+--------------------------
+you chose API package
+START AT Thu Jun 14 14:29:00 UTC 2018
+-- Backup of API package done
+'/var/www/api/translations/messages.en.po' -> '/home/appsupp/backup/msgapi/messages.en.po_1806140929'
+'/var/www/api/translations/messages.es.po' -> '/home/appsupp/backup/msgapi/messages.es.po_1806140929'
+-- Removal of app done
+-- Package extracted
+'/home/appsupp/backup/msgapi/messages.en.po_1806140929' -> '/var/www/api/translations/messages.en.po'
+'/home/appsupp/backup/msgapi/messages.es.po_1806140929' -> '/var/www/api/translations/messages.es.po'
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Package extracted
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Thu Jun 14 14:29:08 UTC 2018
+--------------------------
+you chose API package
+START AT Thu Jun 14 14:39:14 UTC 2018
+-- Backup of API package done
+'/var/www/api/translations/messages.en.po' -> '/home/appsupp/backup/msgapi/messages.en.po_1806140939'
+'/var/www/api/translations/messages.es.po' -> '/home/appsupp/backup/msgapi/messages.es.po_1806140939'
+-- Removal of app done
+-- Package extracted
+'/home/appsupp/backup/msgapi/messages.en.po_1806140939' -> '/var/www/api/translations/messages.en.po'
+'/home/appsupp/backup/msgapi/messages.es.po_1806140939' -> '/var/www/api/translations/messages.es.po'
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Package extracted
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Thu Jun 14 14:39:22 UTC 2018
+--------------------------
+you chose API package
+START AT Thu Jun 14 15:35:41 UTC 2018
+-- Backup of API package done
+'/var/www/api/translations/messages.en.po' -> '/home/appsupp/backup/msgapi/messages.en.po_1806141035'
+'/var/www/api/translations/messages.es.po' -> '/home/appsupp/backup/msgapi/messages.es.po_1806141035'
+-- Removal of app done
+-- Package extracted
+'/home/appsupp/backup/msgapi/messages.en.po_1806141035' -> '/var/www/api/translations/messages.en.po'
+'/home/appsupp/backup/msgapi/messages.es.po_1806141035' -> '/var/www/api/translations/messages.es.po'
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Package extracted
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Thu Jun 14 15:35:49 UTC 2018
+--------------------------
+you chose API package
+START AT Thu Jun 14 16:23:30 UTC 2018
+-- Backup of API package done
+-- Removal of app done
+-- Package extracted
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Package extracted
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Thu Jun 14 16:23:38 UTC 2018
+--------------------------
+you chose API package
+START AT Thu Jun 14 16:25:47 UTC 2018
+-- Backup of API package done
+'/var/www/api/translations/messages.en.po' -> '/home/appsupp/backup/msgapi/messages.en.po_1806141125'
+'/var/www/api/translations/messages.es.po' -> '/home/appsupp/backup/msgapi/messages.es.po_1806141125'
+-- Removal of app done
+-- Package extracted
+'/home/appsupp/backup/msgapi/messages.en.po_1806141125' -> '/var/www/api/translations/messages.en.po'
+'/home/appsupp/backup/msgapi/messages.es.po_1806141125' -> '/var/www/api/translations/messages.es.po'
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Package extracted
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Thu Jun 14 16:25:55 UTC 2018
+--------------------------
+=== Start of test sync to mob02-us32c9.us.infra started at Tue Jun 19 20:42:18 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Tue Jun 19 20:42:21 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Tue Jun 19 20:44:04 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Tue Jun 19 20:44:06 UTC 2018 ===
+‘/var/www/api/translations/messages.en.po’ -> ‘/home/appsupp/backup/msgapi/messages.en.po_1806280440’
+‘/var/www/api/translations/messages.es.po’ -> ‘/home/appsupp/backup/msgapi/messages.es.po_1806280440’
+‘/var/www/api/translations/messages.en.po’ -> ‘/home/appsupp/backup/msgapi/messages.en.po_1806280456’
+‘/home/appsupp/backup/msgapi/messages.en.po_1806280456’ -> ‘/var/www/api/translations/messages.en.po’
+‘/var/www/api/translations/messages.en.po’ -> ‘/home/appsupp/backup/msgapi/messages.en.po_1806280509’
+‘/var/www/api/translations/messages.es.po’ -> ‘/home/appsupp/backup/msgapi/messages.es.po_1806280509’
+‘/home/appsupp/backup/msgapi/messages.en.po_1806280509’ -> ‘/var/www/api/translations/messages.en.po’
+‘/home/appsupp/backup/msgapi/messages.es.po_1806280509’ -> ‘/var/www/api/translations/messages.es.po’
+you chose API package
+START AT Thu Jul 12 18:26:36 UTC 2018
+-- Backup of API package done
+'/var/www/api/translations/messages.en.po' -> '/home/appsupp/backup/msgapi/messages.en.po_1807121326'
+'/var/www/api/translations/messages.es.po' -> '/home/appsupp/backup/msgapi/messages.es.po_1807121326'
+-- Removal of app done
+-- Package extracted
+'/home/appsupp/backup/msgapi/messages.en.po_1807121326' -> '/var/www/api/translations/messages.en.po'
+'/home/appsupp/backup/msgapi/messages.es.po_1807121326' -> '/var/www/api/translations/messages.es.po'
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Thu Jul 12 18:26:43 UTC 2018
+--------------------------
+=== Start of test sync to mob02-us32c9.us.infra started at Thu Jul 12 18:27:08 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Thu Jul 12 18:27:08 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Thu Jul 12 18:31:25 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Thu Jul 12 18:31:26 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Mon Jul 16 09:02:43 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Mon Jul 16 09:02:44 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Mon Jul 16 09:21:23 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Mon Jul 16 09:21:24 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Mon Jul 16 09:21:35 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Mon Jul 16 09:21:35 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Mon Jul 16 09:30:54 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Mon Jul 16 09:30:54 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Mon Jul 16 09:31:43 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Mon Jul 16 09:31:43 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Mon Jul 16 09:31:58 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Mon Jul 16 09:31:58 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Mon Jul 16 11:00:51 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Mon Jul 16 11:00:51 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Mon Jul 16 11:06:58 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Mon Jul 16 11:06:59 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Mon Jul 16 11:45:33 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Mon Jul 16 11:45:33 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Tue Jul 17 09:08:29 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Tue Jul 17 09:08:30 UTC 2018 ===
+START AT Thu Jul 19 22:23:53 UTC 2018
+--Backup of FEW package done
+--Removal of config and app done
+--Removal of general files in /var/www/html done
+--Package extracted
+'/home/appsupp/backup/msghtml/messages.en.po_1807191723' -> '/var/www/html/app/translations/messages.en.po_1807191723'
+'/home/appsupp/backup/msghtml/messages.es.po_1807191723' -> '/var/www/html/app/translations/messages.es.po_1807191723'
+--Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Service restarted
+END AT Thu Jul 19 22:23:57 UTC 2018
+--------------------------
+START AT Thu Jul 19 22:25:05 UTC 2018
+--Backup of FEW package done
+--Removal of config and app done
+--Removal of general files in /var/www/html done
+--Package extracted
+'/home/appsupp/backup/msghtml/messages.en.po_1807191725' -> '/var/www/html/app/translations/messages.en.po_1807191725'
+'/home/appsupp/backup/msghtml/messages.es.po_1807191725' -> '/var/www/html/app/translations/messages.es.po_1807191725'
+--Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Service restarted
+END AT Thu Jul 19 22:25:08 UTC 2018
+--------------------------
+you chose API package
+START AT Thu Jul 19 22:26:08 UTC 2018
+-- Backup of API package done
+'/var/www/api/translations/messages.en.po' -> '/home/appsupp/backup/msgapi/messages.en.po_1807191726'
+'/var/www/api/translations/messages.es.po' -> '/home/appsupp/backup/msgapi/messages.es.po_1807191726'
+-- Removal of app done
+-- Package extracted
+'/home/appsupp/backup/msgapi/messages.en.po_1807191726' -> '/var/www/api/translations/messages.en.po'
+'/home/appsupp/backup/msgapi/messages.es.po_1807191726' -> '/var/www/api/translations/messages.es.po'
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Thu Jul 19 22:26:16 UTC 2018
+--------------------------
+you chose API package
+START AT Thu Jul 19 22:27:05 UTC 2018
+-- Backup of API package done
+'/var/www/api/translations/messages.en.po' -> '/home/appsupp/backup/msgapi/messages.en.po_1807191727'
+'/var/www/api/translations/messages.es.po' -> '/home/appsupp/backup/msgapi/messages.es.po_1807191727'
+-- Removal of app done
+-- Package extracted
+'/home/appsupp/backup/msgapi/messages.en.po_1807191727' -> '/var/www/api/translations/messages.en.po'
+'/home/appsupp/backup/msgapi/messages.es.po_1807191727' -> '/var/www/api/translations/messages.es.po'
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Thu Jul 19 22:27:14 UTC 2018
+--------------------------
+=== Start of test sync to mob02-us32c9.us.infra started at Tue Jul 31 20:37:42 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Tue Jul 31 20:37:43 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Tue Jul 31 20:47:03 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Tue Jul 31 20:47:04 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Wed Aug  1 19:50:24 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Wed Aug  1 19:50:25 UTC 2018 ===
+you chose API package
+START AT Wed Aug  1 20:13:04 UTC 2018
+-- Backup of API package done
+'/var/www/api/translations/messages.en.po' -> '/home/appsupp/backup/msgapi/messages.en.po_1808011513'
+'/var/www/api/translations/messages.es.po' -> '/home/appsupp/backup/msgapi/messages.es.po_1808011513'
+-- Removal of app done
+-- Package extracted
+'/home/appsupp/backup/msgapi/messages.en.po_1808011513' -> '/var/www/api/translations/messages.en.po'
+'/home/appsupp/backup/msgapi/messages.es.po_1808011513' -> '/var/www/api/translations/messages.es.po'
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Wed Aug  1 20:13:13 UTC 2018
+--------------------------
+you chose API package
+START AT Wed Aug  1 20:19:49 UTC 2018
+-- Backup of API package done
+'/var/www/api/translations/messages.en.po' -> '/home/appsupp/backup/msgapi/messages.en.po_1808011519'
+'/var/www/api/translations/messages.es.po' -> '/home/appsupp/backup/msgapi/messages.es.po_1808011519'
+-- Removal of app done
+-- Package extracted
+'/home/appsupp/backup/msgapi/messages.en.po_1808011519' -> '/var/www/api/translations/messages.en.po'
+'/home/appsupp/backup/msgapi/messages.es.po_1808011519' -> '/var/www/api/translations/messages.es.po'
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Wed Aug  1 20:19:57 UTC 2018
+--------------------------
+=== Start of test sync to mob02-us32c9.us.infra started at Thu Aug  2 14:35:33 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Thu Aug  2 14:35:33 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Thu Aug  2 15:39:06 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Thu Aug  2 15:39:06 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Thu Aug  2 15:51:51 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Thu Aug  2 15:51:51 UTC 2018 ===
+you chose API package
+START AT Thu Aug  2 20:01:20 UTC 2018
+-- Backup of API package done
+'/var/www/api/translations/messages.en.po' -> '/home/appsupp/backup/msgapi/messages.en.po_1808021501'
+'/var/www/api/translations/messages.es.po' -> '/home/appsupp/backup/msgapi/messages.es.po_1808021501'
+-- Removal of app done
+-- Package extracted
+'/home/appsupp/backup/msgapi/messages.en.po_1808021501' -> '/var/www/api/translations/messages.en.po'
+'/home/appsupp/backup/msgapi/messages.es.po_1808021501' -> '/var/www/api/translations/messages.es.po'
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Thu Aug  2 20:01:30 UTC 2018
+--------------------------
+you chose API package
+START AT Thu Aug  2 20:12:36 UTC 2018
+-- Backup of API package done
+'/var/www/api/translations/messages.en.po' -> '/home/appsupp/backup/msgapi/messages.en.po_1808021512'
+'/var/www/api/translations/messages.es.po' -> '/home/appsupp/backup/msgapi/messages.es.po_1808021512'
+-- Removal of app done
+-- Package extracted
+'/home/appsupp/backup/msgapi/messages.en.po_1808021512' -> '/var/www/api/translations/messages.en.po'
+'/home/appsupp/backup/msgapi/messages.es.po_1808021512' -> '/var/www/api/translations/messages.es.po'
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Thu Aug  2 20:12:45 UTC 2018
+--------------------------
+START AT Thu Aug  2 20:14:09 UTC 2018
+-- Backup of API package done
+-- Removal of app done
+-- Package extracted
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Service restarted
+END AT Thu Aug  2 20:14:28 UTC 2018
+--------------------------
+START AT Thu Aug  2 20:16:19 UTC 2018
+-- Backup of API package done
+-- Removal of app done
+-- Package extracted
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Service restarted
+END AT Thu Aug  2 20:16:22 UTC 2018
+--------------------------
+=== Start of test sync to mob02-us32c9.us.infra started at Fri  3 Aug 12:38:37 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Fri  3 Aug 12:38:40 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Fri  3 Aug 12:46:02 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Fri  3 Aug 12:46:02 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Fri Aug  3 15:53:12 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Fri Aug  3 15:53:12 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Tue Aug  7 14:18:24 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Tue Aug  7 14:18:25 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Tue Aug  7 14:18:51 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Tue Aug  7 14:18:52 UTC 2018 ===
+START AT Mon Aug 13 17:50:49 UTC 2018
+-- Backup of API package done
+-- Removal of app done
+-- Package extracted
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Service restarted
+END AT Mon Aug 13 17:50:52 UTC 2018
+--------------------------
+you chose API package
+START AT Mon Aug 13 17:53:55 UTC 2018
+-- Backup of API package done
+'/var/www/api/translations/messages.en.po' -> '/home/appsupp/backup/msgapi/messages.en.po_1808131254'
+'/var/www/api/translations/messages.es.po' -> '/home/appsupp/backup/msgapi/messages.es.po_1808131254'
+-- Removal of app done
+-- Package extracted
+'/home/appsupp/backup/msgapi/messages.en.po_1808131254' -> '/var/www/api/translations/messages.en.po'
+'/home/appsupp/backup/msgapi/messages.es.po_1808131254' -> '/var/www/api/translations/messages.es.po'
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Mon Aug 13 17:54:03 UTC 2018
+--------------------------
+=== Start of test sync to mob02-us32c9.us.infra started at Tue Aug 14 20:22:30 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Tue Aug 14 20:22:34 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Tue Aug 14 20:27:40 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Tue Aug 14 20:27:40 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Tue Aug 14 20:28:14 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Tue Aug 14 20:28:20 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Tue Aug 14 20:29:13 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Tue Aug 14 20:29:18 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Tue Aug 14 20:30:11 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Tue Aug 14 20:30:12 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Wed Aug 15 15:32:48 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Wed Aug 15 15:32:48 UTC 2018 ===
+START AT Tue Aug 21 19:52:31 UTC 2018
+--Backup of FEW package done
+--Removal of config and app done
+--Removal of general files in /var/www/html done
+--Package extracted
+'/home/appsupp/backup/msghtml/messages.en.po_1808211452' -> '/var/www/html/app/translations/messages.en.po_1808211452'
+'/home/appsupp/backup/msghtml/messages.es.po_1808211452' -> '/var/www/html/app/translations/messages.es.po_1808211452'
+--Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Service restarted
+END AT Tue Aug 21 19:52:34 UTC 2018
+--------------------------
+you chose API package
+START AT Tue Aug 21 19:53:18 UTC 2018
+-- Backup of API package done
+'/var/www/api/translations/messages.en.po' -> '/home/appsupp/backup/msgapi/messages.en.po_1808211453'
+'/var/www/api/translations/messages.es.po' -> '/home/appsupp/backup/msgapi/messages.es.po_1808211453'
+-- Removal of app done
+-- Package extracted
+'/home/appsupp/backup/msgapi/messages.en.po_1808211453' -> '/var/www/api/translations/messages.en.po'
+'/home/appsupp/backup/msgapi/messages.es.po_1808211453' -> '/var/www/api/translations/messages.es.po'
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Service restarted
+END AT Tue Aug 21 19:53:27 UTC 2018
+--------------------------
+START AT Tue Aug 21 20:02:12 UTC 2018
+--Backup of FEW package done
+'/var/www/html/app/translations/messages.en.po' -> '/home/appsupp/backup/msghtml/messages.en.po_1808211502'
+'/var/www/html/app/translations/messages.es.po' -> '/home/appsupp/backup/msghtml/messages.es.po_1808211502'
+--Removal of config and app done
+--Removal of general files in /var/www/html done
+--Package extracted
+'/home/appsupp/backup/msghtml/messages.en.po_1808211502' -> '/var/www/html/app/translations/messages.en.po'
+'/home/appsupp/backup/msghtml/messages.es.po_1808211502' -> '/var/www/html/app/translations/messages.es.po'
+--Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Service restarted
+END AT Tue Aug 21 20:02:16 UTC 2018
+--------------------------
+START AT Tue Aug 21 20:02:48 UTC 2018
+-- Backup of ADMIN package done
+-- Removal of app done
+-- Package extracted
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Service restarted
+END AT Tue Aug 21 20:03:06 UTC 2018
+--------------------------
+=== Start of test sync to mob02-us32c9.us.infra started at Tue Aug 21 20:05:23 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Tue Aug 21 20:05:24 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Tue Aug 21 20:05:42 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Tue Aug 21 20:05:43 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Tue Aug 21 20:06:54 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Tue Aug 21 20:06:54 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Tue Aug 21 20:28:54 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Tue Aug 21 20:28:54 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Tue Aug 21 20:29:14 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Tue Aug 21 20:29:14 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Tue Aug 21 20:38:43 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Tue Aug 21 20:38:44 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Tue Aug 21 20:38:52 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Tue Aug 21 20:38:52 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Tue Aug 21 20:39:24 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Tue Aug 21 20:39:24 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Tue Aug 21 20:41:53 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Tue Aug 21 20:41:53 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Tue Aug 21 20:43:30 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Tue Aug 21 20:43:30 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Tue Aug 21 20:48:00 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Tue Aug 21 20:48:00 UTC 2018 ===
+START AT Thu Aug 23 15:50:49 UTC 2018
+--Backup of FEW package done
+'/var/www/html/app/translations/messages.en.po' -> '/home/appsupp/backup/msghtml/messages.en.po_1808231050'
+'/var/www/html/app/translations/messages.es.po' -> '/home/appsupp/backup/msghtml/messages.es.po_1808231050'
+--Removal of config and app done
+--Removal of general files in /var/www/html done
+--Package extracted
+'/home/appsupp/backup/msghtml/messages.en.po_1808231050' -> '/var/www/html/app/translations/messages.en.po'
+'/home/appsupp/backup/msghtml/messages.es.po_1808231050' -> '/var/www/html/app/translations/messages.es.po'
+--Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Service restarted
+END AT Thu Aug 23 15:50:53 UTC 2018
+--------------------------
+you chose API package
+START AT Thu Aug 23 15:51:58 UTC 2018
+-- Backup of API package done
+'/var/www/api/translations/messages.en.po' -> '/home/appsupp/backup/msgapi/messages.en.po_1808231052'
+'/var/www/api/translations/messages.es.po' -> '/home/appsupp/backup/msgapi/messages.es.po_1808231052'
+-- Removal of app done
+-- Package extracted
+'/home/appsupp/backup/msgapi/messages.en.po_1808231052' -> '/var/www/api/translations/messages.en.po'
+'/home/appsupp/backup/msgapi/messages.es.po_1808231052' -> '/var/www/api/translations/messages.es.po'
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Thu Aug 23 15:52:07 UTC 2018
+--------------------------
+=== Start of test sync to mob02-us32c9.us.infra started at Thu Aug 23 15:59:46 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Thu Aug 23 15:59:46 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Thu Aug 23 16:10:50 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Thu Aug 23 16:10:50 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Thu Aug 23 16:15:24 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Thu Aug 23 16:15:24 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Thu Aug 23 16:15:51 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Thu Aug 23 16:15:51 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Thu Aug 23 16:16:40 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Thu Aug 23 16:16:40 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Thu Aug 23 16:23:07 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Thu Aug 23 16:23:07 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Thu Aug 23 16:24:39 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Thu Aug 23 16:24:39 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Thu Aug 23 16:27:05 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Thu Aug 23 16:27:05 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Thu Aug 23 16:28:02 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Thu Aug 23 16:28:02 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Thu Aug 23 16:30:46 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Thu Aug 23 16:30:46 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Thu Aug 23 16:31:24 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Thu Aug 23 16:31:24 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Thu Aug 23 16:42:14 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Thu Aug 23 16:42:15 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Thu Aug 23 16:44:49 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Thu Aug 23 16:44:49 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Thu Aug 23 16:46:09 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Thu Aug 23 16:46:09 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Thu Aug 23 16:57:26 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Thu Aug 23 16:57:26 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Thu Aug 23 16:57:51 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Thu Aug 23 16:57:52 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Thu Aug 23 17:17:46 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Thu Aug 23 17:17:46 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Thu Aug 23 17:29:36 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Thu Aug 23 17:29:37 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Thu Aug 23 17:33:39 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Thu Aug 23 17:33:39 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Thu Aug 23 17:34:42 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Thu Aug 23 17:34:42 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Thu Aug 23 17:37:07 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Thu Aug 23 17:37:07 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Thu Aug 23 17:37:16 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Thu Aug 23 17:37:16 UTC 2018 ===
+you chose API package
+START AT Wed Sep  5 16:31:42 UTC 2018
+-- Backup of API package done
+'/var/www/api/translations/messages.en.po' -> '/home/appsupp/backup/msgapi/messages.en.po_1809051131'
+'/var/www/api/translations/messages.es.po' -> '/home/appsupp/backup/msgapi/messages.es.po_1809051131'
+-- Removal of app done
+-- Package extracted
+'/home/appsupp/backup/msgapi/messages.en.po_1809051131' -> '/var/www/api/translations/messages.en.po'
+'/home/appsupp/backup/msgapi/messages.es.po_1809051131' -> '/var/www/api/translations/messages.es.po'
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Wed Sep  5 16:31:53 UTC 2018
+--------------------------
+=== Start of test sync to mob02-us32c9.us.infra started at Wed Sep  5 16:35:46 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Wed Sep  5 16:35:47 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Thu Sep  6 16:25:28 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Thu Sep  6 16:25:29 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Thu Sep  6 16:27:08 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Thu Sep  6 16:27:09 UTC 2018 ===
+you chose API package
+START AT Mon Sep 10 15:58:15 UTC 2018
+-- Backup of API package done
+'/var/www/api/translations/messages.en.po' -> '/home/appsupp/backup/msgapi/messages.en.po_1809101058'
+'/var/www/api/translations/messages.es.po' -> '/home/appsupp/backup/msgapi/messages.es.po_1809101058'
+-- Removal of app done
+-- Package extracted
+'/home/appsupp/backup/msgapi/messages.en.po_1809101058' -> '/var/www/api/translations/messages.en.po'
+'/home/appsupp/backup/msgapi/messages.es.po_1809101058' -> '/var/www/api/translations/messages.es.po'
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Mon Sep 10 15:58:26 UTC 2018
+--------------------------
+you chose API package
+START AT Mon Sep 10 15:59:40 UTC 2018
+-- Backup of API package done
+'/var/www/api/translations/messages.en.po' -> '/home/appsupp/backup/msgapi/messages.en.po_1809101059'
+'/var/www/api/translations/messages.es.po' -> '/home/appsupp/backup/msgapi/messages.es.po_1809101059'
+-- Removal of app done
+-- Package extracted
+'/home/appsupp/backup/msgapi/messages.en.po_1809101059' -> '/var/www/api/translations/messages.en.po'
+'/home/appsupp/backup/msgapi/messages.es.po_1809101059' -> '/var/www/api/translations/messages.es.po'
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Mon Sep 10 15:59:51 UTC 2018
+--------------------------
+you chose API package
+START AT Fri Sep 21 22:18:23 UTC 2018
+-- Backup of API package done
+'/var/www/api/translations/messages.en.po' -> '/home/appsupp/backup/msgapi/messages.en.po_1809211718'
+'/var/www/api/translations/messages.es.po' -> '/home/appsupp/backup/msgapi/messages.es.po_1809211718'
+-- Removal of app done
+-- Package extracted
+'/home/appsupp/backup/msgapi/messages.en.po_1809211718' -> '/var/www/api/translations/messages.en.po'
+'/home/appsupp/backup/msgapi/messages.es.po_1809211718' -> '/var/www/api/translations/messages.es.po'
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Fri Sep 21 22:18:34 UTC 2018
+--------------------------
+you chose API package
+START AT Fri Sep 21 22:19:57 UTC 2018
+-- Backup of API package done
+'/var/www/api/translations/messages.en.po' -> '/home/appsupp/backup/msgapi/messages.en.po_1809211720'
+'/var/www/api/translations/messages.es.po' -> '/home/appsupp/backup/msgapi/messages.es.po_1809211720'
+-- Removal of app done
+-- Package extracted
+'/home/appsupp/backup/msgapi/messages.en.po_1809211720' -> '/var/www/api/translations/messages.en.po'
+'/home/appsupp/backup/msgapi/messages.es.po_1809211720' -> '/var/www/api/translations/messages.es.po'
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Fri Sep 21 22:20:09 UTC 2018
+--------------------------
+=== Start of test sync to mob02-us32c9.us.infra started at Thu Sep 27 08:11:06 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Thu Sep 27 08:11:06 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Thu Sep 27 08:11:53 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Thu Sep 27 08:11:55 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Sat Sep 29 18:00:06 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Sat Sep 29 18:00:08 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Wed Oct  3 09:05:28 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Wed Oct  3 09:05:29 UTC 2018 ===
+you chose API package
+START AT Wed Oct  3 17:15:39 UTC 2018
+-- Backup of API package done
+'/var/www/api/translations/messages.en.po' -> '/home/appsupp/backup/msgapi/messages.en.po_1810031215'
+'/var/www/api/translations/messages.es.po' -> '/home/appsupp/backup/msgapi/messages.es.po_1810031215'
+-- Removal of app done
+-- Package extracted
+'/home/appsupp/backup/msgapi/messages.en.po_1810031215' -> '/var/www/api/translations/messages.en.po'
+'/home/appsupp/backup/msgapi/messages.es.po_1810031215' -> '/var/www/api/translations/messages.es.po'
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Wed Oct  3 17:15:47 UTC 2018
+--------------------------
+you chose API package
+START AT Wed Oct  3 17:29:27 UTC 2018
+-- Backup of API package done
+'/var/www/api/translations/messages.en.po' -> '/home/appsupp/backup/msgapi/messages.en.po_1810031229'
+'/var/www/api/translations/messages.es.po' -> '/home/appsupp/backup/msgapi/messages.es.po_1810031229'
+-- Removal of app done
+-- Package extracted
+'/home/appsupp/backup/msgapi/messages.en.po_1810031229' -> '/var/www/api/translations/messages.en.po'
+'/home/appsupp/backup/msgapi/messages.es.po_1810031229' -> '/var/www/api/translations/messages.es.po'
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Wed Oct  3 17:29:36 UTC 2018
+--------------------------
+=== Start of test sync to mob02-us32c9.us.infra started at Wed Oct  3 17:44:18 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Wed Oct  3 17:44:20 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Wed Oct  3 17:44:59 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Wed Oct  3 17:44:59 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Thu Oct 11 06:39:04 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Thu Oct 11 06:39:05 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Thu Oct 11 06:41:39 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Thu Oct 11 06:41:40 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Thu Oct 11 06:49:39 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Thu Oct 11 06:49:39 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Thu Oct 11 06:49:45 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Thu Oct 11 06:49:45 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Thu Oct 11 06:49:51 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Thu Oct 11 06:49:51 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Thu Oct 11 06:52:18 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Thu Oct 11 06:52:18 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Thu Oct 11 06:52:39 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Thu Oct 11 06:52:39 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Thu Oct 11 06:55:55 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Thu Oct 11 06:55:55 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Thu Oct 11 07:11:24 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Thu Oct 11 07:11:24 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Wed Nov  7 09:17:14 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Wed Nov  7 09:17:16 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Tue Nov 13 13:58:01 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Tue Nov 13 13:58:02 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Tue Nov 13 22:06:33 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Tue Nov 13 22:06:33 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Tue Nov 13 22:07:20 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Tue Nov 13 22:07:22 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Tue Nov 13 22:08:32 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Tue Nov 13 22:08:32 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Wed Nov 14 09:38:23 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Wed Nov 14 09:38:23 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Wed Nov 14 21:51:50 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Wed Nov 14 21:51:54 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Fri Nov 16 22:17:52 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Fri Nov 16 22:17:52 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Fri Nov 16 22:38:22 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Fri Nov 16 22:38:22 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Mon Nov 19 21:36:37 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Mon Nov 19 21:36:37 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Mon Nov 19 21:43:36 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Mon Nov 19 21:43:37 UTC 2018 ===
+you chose API package
+START AT Wed Nov 28 10:32:59 UTC 2018
+-- Backup of API package done
+‘/var/www/api/translations/messages.en.po’ -> ‘/home/appsupp/backup/msgapi/messages.en.po_1811280433’
+‘/var/www/api/translations/messages.es.po’ -> ‘/home/appsupp/backup/msgapi/messages.es.po_1811280433’
+-- Removal of app done
+-- Package extracted
+‘/home/appsupp/backup/msgapi/messages.en.po_1811280433’ -> ‘/var/www/api/translations/messages.en.po’
+‘/home/appsupp/backup/msgapi/messages.es.po_1811280433’ -> ‘/var/www/api/translations/messages.es.po’
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Wed Nov 28 10:33:08 UTC 2018
+--------------------------
+you chose API package
+START AT Wed Nov 28 10:33:12 UTC 2018
+-- Backup of API package done
+‘/var/www/api/translations/messages.en.po’ -> ‘/home/appsupp/backup/msgapi/messages.en.po_1811280433’
+‘/var/www/api/translations/messages.es.po’ -> ‘/home/appsupp/backup/msgapi/messages.es.po_1811280433’
+-- Removal of app done
+-- Package extracted
+‘/home/appsupp/backup/msgapi/messages.en.po_1811280433’ -> ‘/var/www/api/translations/messages.en.po’
+‘/home/appsupp/backup/msgapi/messages.es.po_1811280433’ -> ‘/var/www/api/translations/messages.es.po’
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Wed Nov 28 10:33:21 UTC 2018
+--------------------------
+=== Start of test sync to mob02-us32c9.us.infra started at Wed Nov 28 10:48:29 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Wed Nov 28 10:48:30 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Wed Nov 28 12:08:33 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Wed Nov 28 12:08:34 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Thu Nov 29 12:58:32 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Thu Nov 29 12:58:33 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Thu Nov 29 13:32:03 UTC 2018==
+test done
+=== End of test sync to mob02-us32c9.us.infra ended at Thu Nov 29 13:32:04 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Thu Nov 29 13:37:16 UTC 2018==
+test done
+=== End of test sync to mob02-us32c9.us.infra ended at Thu Nov 29 13:37:16 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Thu Nov 29 13:39:58 UTC 2018==
+test done
+=== End of test sync to mob02-us32c9.us.infra ended at Thu Nov 29 13:39:58 UTC 2018 ===
+you chose API package
+START AT Thu Nov 29 14:02:28 UTC 2018
+-- Backup of API package done
+‘/var/www/api/translations/messages.en.po’ -> ‘/home/appsupp/backup/msgapi/messages.en.po_1811290802’
+‘/var/www/api/translations/messages.es.po’ -> ‘/home/appsupp/backup/msgapi/messages.es.po_1811290802’
+-- Removal of app done
+-- Package extracted
+‘/home/appsupp/backup/msgapi/messages.en.po_1811290802’ -> ‘/var/www/api/translations/messages.en.po’
+‘/home/appsupp/backup/msgapi/messages.es.po_1811290802’ -> ‘/var/www/api/translations/messages.es.po’
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Thu Nov 29 14:02:37 UTC 2018
+--------------------------
+=== Start of test sync to mob02-us32c9.us.infra started at Thu Nov 29 14:06:07 UTC 2018==
+test done
+=== End of test sync to mob02-us32c9.us.infra ended at Thu Nov 29 14:06:08 UTC 2018 ===
+Syncing mob02-us32c9.us.infra
+Sync finished
+Syncing mob03-us32c9.us.infra
+Sync finished
+Syncing mob04-us32c9.us.infra
+Sync finished
+Syncing mob05-us32c9.us.infra
+Sync finished
+Syncing mob06-us32c9.us.infra
+Sync finished
+Syncing mob02-us32c9.us.infra
+Sync finished
+Syncing mob03-us32c9.us.infra
+Sync finished
+Syncing mob04-us32c9.us.infra
+Sync finished
+Syncing mob05-us32c9.us.infra
+Sync finished
+Syncing mob06-us32c9.us.infra
+Sync finished
+=== Start of test sync to mob02-us32c9.us.infra started at Thu Nov 29 15:43:37 UTC 2018==
+test done
+=== End of test sync to mob02-us32c9.us.infra ended at Thu Nov 29 15:43:37 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Thu Nov 29 15:55:18 UTC 2018==
+test done
+=== End of test sync to mob02-us32c9.us.infra ended at Thu Nov 29 15:55:18 UTC 2018 ===
+Syncing mob02-us32c9.us.infra
+Sync finished
+Syncing mob03-us32c9.us.infra
+Sync finished
+Syncing mob04-us32c9.us.infra
+Sync finished
+Syncing mob05-us32c9.us.infra
+Sync finished
+Syncing mob06-us32c9.us.infra
+Sync finished
+=== Start of test sync to mob02-us32c9.us.infra started at Tue Dec 11 07:33:07 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Tue Dec 11 07:33:08 UTC 2018 ===
+you chose API package
+START AT Thu Dec 20 20:18:39 UTC 2018
+-- Backup of API package done
+'/var/www/api/translations/messages.en.po' -> '/home/appsupp/backup/msgapi/messages.en.po_1812201418'
+'/var/www/api/translations/messages.es.po' -> '/home/appsupp/backup/msgapi/messages.es.po_1812201418'
+-- Removal of app done
+-- Package extracted
+'/home/appsupp/backup/msgapi/messages.en.po_1812201418' -> '/var/www/api/translations/messages.en.po'
+'/home/appsupp/backup/msgapi/messages.es.po_1812201418' -> '/var/www/api/translations/messages.es.po'
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Thu Dec 20 20:18:49 UTC 2018
+--------------------------
+=== Start of test sync to mob02-us32c9.us.infra started at Thu Dec 20 20:19:29 UTC 2018==
+test done
+=== End of test sync to mob02-us32c9.us.infra ended at Thu Dec 20 20:19:30 UTC 2018 ===
+Syncing mob02-us32c9.us.infra
+Sync finished
+Syncing mob03-us32c9.us.infra
+Sync finished
+Syncing mob04-us32c9.us.infra
+Sync finished
+Syncing mob05-us32c9.us.infra
+Sync finished
+Syncing mob06-us32c9.us.infra
+Sync finished
+=== Start of test sync to mob02-us32c9.us.infra started at Sat Dec 22 15:36:28 UTC 2018==
+=== End of test sync to mob02-us32c9.us.infra ended at Sat Dec 22 15:36:32 UTC 2018 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Fri Jan 18 23:21:43 UTC 2019==
+=== End of test sync to mob02-us32c9.us.infra ended at Fri Jan 18 23:21:44 UTC 2019 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Fri Jan 18 23:22:17 UTC 2019==
+=== End of test sync to mob02-us32c9.us.infra ended at Fri Jan 18 23:22:19 UTC 2019 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Fri Jan 18 23:24:04 UTC 2019==
+=== End of test sync to mob02-us32c9.us.infra ended at Fri Jan 18 23:24:05 UTC 2019 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Wed Jan 23 09:11:27 UTC 2019==
+=== End of test sync to mob02-us32c9.us.infra ended at Wed Jan 23 09:11:28 UTC 2019 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Tue Jan 29 13:13:28 UTC 2019==
+=== End of test sync to mob02-us32c9.us.infra ended at Tue Jan 29 13:13:29 UTC 2019 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Tue Jan 29 13:14:03 UTC 2019==
+=== End of test sync to mob02-us32c9.us.infra ended at Tue Jan 29 13:14:05 UTC 2019 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Tue Jan 29 13:15:26 UTC 2019==
+=== End of test sync to mob02-us32c9.us.infra ended at Tue Jan 29 13:15:27 UTC 2019 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Wed Jan 30 14:10:02 UTC 2019==
+=== End of test sync to mob02-us32c9.us.infra ended at Wed Jan 30 14:10:03 UTC 2019 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Mon Feb  4 18:49:31 UTC 2019==
+=== End of test sync to mob02-us32c9.us.infra ended at Mon Feb  4 18:49:31 UTC 2019 ===
+START AT Wed Feb  6 19:00:23 UTC 2019
+-- Backup of ADMIN package done
+-- Removal of app done
+-- Package extracted
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Service restarted
+END AT Wed Feb  6 19:00:26 UTC 2019
+--------------------------
+you chose API package
+START AT Wed Feb  6 19:03:39 UTC 2019
+-- Backup of API package done
+'/var/www/api/translations/messages.en.po' -> '/home/appsupp/backup/msgapi/messages.en.po_1902061303'
+'/var/www/api/translations/messages.es.po' -> '/home/appsupp/backup/msgapi/messages.es.po_1902061303'
+-- Removal of app done
+-- Package extracted
+'/home/appsupp/backup/msgapi/messages.en.po_1902061303' -> '/var/www/api/translations/messages.en.po'
+'/home/appsupp/backup/msgapi/messages.es.po_1902061303' -> '/var/www/api/translations/messages.es.po'
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Wed Feb  6 19:03:47 UTC 2019
+--------------------------
+=== Start of test sync to mob02-us32c9.us.infra started at Wed Feb  6 19:04:42 UTC 2019==
+test done
+=== End of test sync to mob02-us32c9.us.infra ended at Wed Feb  6 19:04:42 UTC 2019 ===
+Syncing mob02-us32c9.us.infra
+Sync finished
+Syncing mob03-us32c9.us.infra
+Sync finished
+Syncing mob04-us32c9.us.infra
+Sync finished
+Syncing mob05-us32c9.us.infra
+Sync finished
+Syncing mob06-us32c9.us.infra
+Sync finished
+Syncing mob02-us32c9.us.infra
+Sync finished
+Syncing mob03-us32c9.us.infra
+Sync finished
+Syncing mob04-us32c9.us.infra
+Sync finished
+Syncing mob05-us32c9.us.infra
+Sync finished
+Syncing mob06-us32c9.us.infra
+Sync finished
+=== Start of test sync to mob02-us32c9.us.infra started at Mon Feb 11 16:16:12 UTC 2019==
+=== End of test sync to mob02-us32c9.us.infra ended at Mon Feb 11 16:16:12 UTC 2019 ===
+you chose API package
+START AT Fri Feb 15 17:55:19 UTC 2019
+-- Backup of API package done
+‘/var/www/api/translations/messages.en.po’ -> ‘/home/appsupp/backup/msgapi/messages.en.po_1902151155’
+‘/var/www/api/translations/messages.es.po’ -> ‘/home/appsupp/backup/msgapi/messages.es.po_1902151155’
+-- Removal of app done
+-- Package extracted
+‘/home/appsupp/backup/msgapi/messages.en.po_1902151155’ -> ‘/var/www/api/translations/messages.en.po’
+‘/home/appsupp/backup/msgapi/messages.es.po_1902151155’ -> ‘/var/www/api/translations/messages.es.po’
+[0;31m Options: not found [0m 
+[0;31m tokenType: not found [0m 
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Service restarted
+END AT Fri Feb 15 17:55:27 UTC 2019
+--------------------------
+START AT Fri Feb 15 17:57:11 UTC 2019
+--Backup of FEW package done
+‘/var/www/html/app/translations/messages.en.po’ -> ‘/home/appsupp/backup/msghtml/messages.en.po_1902151157’
+‘/var/www/html/app/translations/messages.es.po’ -> ‘/home/appsupp/backup/msghtml/messages.es.po_1902151157’
+--Removal of config and app done
+--Removal of general files in /var/www/html done
+--Package extracted
+‘/home/appsupp/backup/msghtml/messages.en.po_1902151157’ -> ‘/var/www/html/app/translations/messages.en.po’
+‘/home/appsupp/backup/msghtml/messages.es.po_1902151157’ -> ‘/var/www/html/app/translations/messages.es.po’
+--Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Service restarted
+END AT Fri Feb 15 17:57:15 UTC 2019
+--------------------------
+Syncing mob02-us32c9.us.infra
+Sync finished
+Syncing mob03-us32c9.us.infra
+Sync finished
+Syncing mob04-us32c9.us.infra
+Sync finished
+Syncing mob05-us32c9.us.infra
+Sync finished
+Syncing mob06-us32c9.us.infra
+Sync finished
+Syncing mob02-us32c9.us.infra
+Sync finished
+Syncing mob03-us32c9.us.infra
+Sync finished
+Syncing mob04-us32c9.us.infra
+Sync finished
+Syncing mob05-us32c9.us.infra
+Sync finished
+Syncing mob06-us32c9.us.infra
+Sync finished
+Syncing mob02-us32c9.us.infra
+Sync finished
+Syncing mob03-us32c9.us.infra
+Sync finished
+Syncing mob04-us32c9.us.infra
+Sync finished
+Syncing mob05-us32c9.us.infra
+Sync finished
+Syncing mob06-us32c9.us.infra
+Sync finished
+START AT Fri Feb 22 07:43:17 UTC 2019
+-- Backup of ADMIN package done
+-- Removal of app done
+-- Package extracted
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Service restarted
+END AT Fri Feb 22 07:43:21 UTC 2019
+--------------------------
+you chose API package
+START AT Fri Feb 22 07:43:41 UTC 2019
+-- Backup of API package done
+‘/var/www/api/translations/messages.en.po’ -> ‘/home/appsupp/backup/msgapi/messages.en.po_1902220143’
+‘/var/www/api/translations/messages.es.po’ -> ‘/home/appsupp/backup/msgapi/messages.es.po_1902220143’
+-- Removal of app done
+-- Package extracted
+‘/home/appsupp/backup/msgapi/messages.en.po_1902220143’ -> ‘/var/www/api/translations/messages.en.po’
+‘/home/appsupp/backup/msgapi/messages.es.po_1902220143’ -> ‘/var/www/api/translations/messages.es.po’
+[0;31m Options: not found [0m 
+[0;31m tokenType: not found [0m 
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Fri Feb 22 07:43:53 UTC 2019
+--------------------------
+Syncing mob02-us32c9.us.infra
+Sync finished
+Syncing mob03-us32c9.us.infra
+Sync finished
+Syncing mob04-us32c9.us.infra
+Sync finished
+Syncing mob05-us32c9.us.infra
+Sync finished
+Syncing mob06-us32c9.us.infra
+Sync finished
+Syncing mob02-us32c9.us.infra
+Sync finished
+Syncing mob03-us32c9.us.infra
+Sync finished
+Syncing mob04-us32c9.us.infra
+Sync finished
+Syncing mob05-us32c9.us.infra
+Sync finished
+Syncing mob06-us32c9.us.infra
+Sync finished
+Syncing mob02-us32c9.us.infra
+Sync finished
+Syncing mob03-us32c9.us.infra
+Sync finished
+Syncing mob04-us32c9.us.infra
+Sync finished
+Syncing mob05-us32c9.us.infra
+Sync finished
+Syncing mob06-us32c9.us.infra
+Sync finished
+START AT Fri Feb 22 08:52:19 UTC 2019
+-- Backup of ADMIN package done
+-- Removal of app done
+-- Package extracted
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Service restarted
+END AT Fri Feb 22 08:52:23 UTC 2019
+--------------------------
+START AT Fri Feb 22 08:57:26 UTC 2019
+-- Backup of ADMIN package done
+-- Removal of app done
+-- Package extracted
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Service restarted
+END AT Fri Feb 22 08:57:30 UTC 2019
+--------------------------
+you chose API package
+START AT Fri Feb 22 08:57:40 UTC 2019
+-- Backup of API package done
+‘/var/www/api/translations/messages.en.po’ -> ‘/home/appsupp/backup/msgapi/messages.en.po_1902220257’
+‘/var/www/api/translations/messages.es.po’ -> ‘/home/appsupp/backup/msgapi/messages.es.po_1902220257’
+-- Removal of app done
+-- Package extracted
+‘/home/appsupp/backup/msgapi/messages.en.po_1902220257’ -> ‘/var/www/api/translations/messages.en.po’
+‘/home/appsupp/backup/msgapi/messages.es.po_1902220257’ -> ‘/var/www/api/translations/messages.es.po’
+[0;31m Options: not found [0m 
+[0;31m tokenType: not found [0m 
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Fri Feb 22 08:57:52 UTC 2019
+--------------------------
+Syncing mob02-us32c9.us.infra
+Sync finished
+Syncing mob03-us32c9.us.infra
+Sync finished
+Syncing mob04-us32c9.us.infra
+Sync finished
+Syncing mob05-us32c9.us.infra
+Sync finished
+Syncing mob06-us32c9.us.infra
+Sync finished
+Syncing mob02-us32c9.us.infra
+Sync finished
+Syncing mob03-us32c9.us.infra
+Sync finished
+Syncing mob04-us32c9.us.infra
+Sync finished
+Syncing mob05-us32c9.us.infra
+Sync finished
+Syncing mob06-us32c9.us.infra
+Sync finished
+Syncing mob02-us32c9.us.infra
+Sync finished
+Syncing mob03-us32c9.us.infra
+Sync finished
+Syncing mob04-us32c9.us.infra
+Sync finished
+Syncing mob05-us32c9.us.infra
+Sync finished
+Syncing mob06-us32c9.us.infra
+Sync finished
+=== Start of test sync to mob02-us32c9.us.infra started at Fri Feb 22 21:07:30 UTC 2019==
+=== End of test sync to mob02-us32c9.us.infra ended at Fri Feb 22 21:07:30 UTC 2019 ===
+=== Start of test sync to mob02-us32c9.us.infra started at Mon Feb 25 20:46:37 UTC 2019==
+test done
+=== End of test sync to mob02-us32c9.us.infra ended at Mon Feb 25 20:46:37 UTC 2019 ===
+Syncing mob02-us32c9.us.infra
+Sync finished
+Syncing mob03-us32c9.us.infra
+Sync finished
+Syncing mob04-us32c9.us.infra
+Sync finished
+Syncing mob05-us32c9.us.infra
+Sync finished
+Syncing mob06-us32c9.us.infra
+Sync finished
+=== Start of test sync to mob02-us32c9.us.infra started at Thu Feb 28 19:24:35 UTC 2019==
+test done
+=== End of test sync to mob02-us32c9.us.infra ended at Thu Feb 28 19:24:35 UTC 2019 ===
+Syncing mob02-us32c9.us.infra
+Sync finished
+Syncing mob03-us32c9.us.infra
+Sync finished
+Syncing mob04-us32c9.us.infra
+Sync finished
+Syncing mob05-us32c9.us.infra
+Sync finished
+Syncing mob06-us32c9.us.infra
+Sync finished
+=== Start of test sync to mob02-us32c9.us.infra started at Mon Mar  4 22:05:08 UTC 2019==
+=== End of test sync to mob02-us32c9.us.infra ended at Mon Mar  4 22:05:14 UTC 2019 ===
+you chose API package
+START AT Wed Mar  6 14:00:05 UTC 2019
+-- Backup of API package done
+‘/var/www/api/translations/messages.en.po’ -> ‘/home/appsupp/backup/msgapi/messages.en.po_1903060800’
+‘/var/www/api/translations/messages.es.po’ -> ‘/home/appsupp/backup/msgapi/messages.es.po_1903060800’
+-- Removal of app done
+-- Package extracted
+‘/home/appsupp/backup/msgapi/messages.en.po_1903060800’ -> ‘/var/www/api/translations/messages.en.po’
+‘/home/appsupp/backup/msgapi/messages.es.po_1903060800’ -> ‘/var/www/api/translations/messages.es.po’
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Wed Mar  6 14:00:15 UTC 2019
+--------------------------
+you chose API package
+START AT Wed Mar  6 14:19:11 UTC 2019
+-- Backup of API package done
+‘/var/www/api/translations/messages.en.po’ -> ‘/home/appsupp/backup/msgapi/messages.en.po_1903060819’
+‘/var/www/api/translations/messages.es.po’ -> ‘/home/appsupp/backup/msgapi/messages.es.po_1903060819’
+-- Removal of app done
+-- Package extracted
+‘/home/appsupp/backup/msgapi/messages.en.po_1903060819’ -> ‘/var/www/api/translations/messages.en.po’
+‘/home/appsupp/backup/msgapi/messages.es.po_1903060819’ -> ‘/var/www/api/translations/messages.es.po’
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Wed Mar  6 14:19:25 UTC 2019
+--------------------------
+you chose API package
+START AT Wed Mar  6 14:29:01 UTC 2019
+-- Backup of API package done
+‘/var/www/api/translations/messages.en.po’ -> ‘/home/appsupp/backup/msgapi/messages.en.po_1903060829’
+‘/var/www/api/translations/messages.es.po’ -> ‘/home/appsupp/backup/msgapi/messages.es.po_1903060829’
+-- Removal of app done
+-- Package extracted
+‘/home/appsupp/backup/msgapi/messages.en.po_1903060829’ -> ‘/var/www/api/translations/messages.en.po’
+‘/home/appsupp/backup/msgapi/messages.es.po_1903060829’ -> ‘/var/www/api/translations/messages.es.po’
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Wed Mar  6 14:29:15 UTC 2019
+--------------------------
+you chose API package
+START AT Wed Mar  6 14:34:04 UTC 2019
+-- Backup of API package done
+‘/var/www/api/translations/messages.en.po’ -> ‘/home/appsupp/backup/msgapi/messages.en.po_1903060834’
+‘/var/www/api/translations/messages.es.po’ -> ‘/home/appsupp/backup/msgapi/messages.es.po_1903060834’
+-- Removal of app done
+-- Package extracted
+‘/home/appsupp/backup/msgapi/messages.en.po_1903060834’ -> ‘/var/www/api/translations/messages.en.po’
+‘/home/appsupp/backup/msgapi/messages.es.po_1903060834’ -> ‘/var/www/api/translations/messages.es.po’
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Wed Mar  6 14:34:18 UTC 2019
+--------------------------
+you chose API package
+START AT Wed Mar  6 14:48:45 UTC 2019
+-- Backup of API package done
+‘/var/www/api/translations/messages.en.po’ -> ‘/home/appsupp/backup/msgapi/messages.en.po_1903060848’
+‘/var/www/api/translations/messages.es.po’ -> ‘/home/appsupp/backup/msgapi/messages.es.po_1903060848’
+-- Removal of app done
+-- Package extracted
+‘/home/appsupp/backup/msgapi/messages.en.po_1903060848’ -> ‘/var/www/api/translations/messages.en.po’
+‘/home/appsupp/backup/msgapi/messages.es.po_1903060848’ -> ‘/var/www/api/translations/messages.es.po’
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Wed Mar  6 14:48:59 UTC 2019
+--------------------------
+you chose API package
+START AT Wed Mar  6 15:04:46 UTC 2019
+-- Backup of API package done
+‘/var/www/api/translations/messages.en.po’ -> ‘/home/appsupp/backup/msgapi/messages.en.po_1903060904’
+‘/var/www/api/translations/messages.es.po’ -> ‘/home/appsupp/backup/msgapi/messages.es.po_1903060904’
+-- Removal of app done
+-- Package extracted
+‘/home/appsupp/backup/msgapi/messages.en.po_1903060904’ -> ‘/var/www/api/translations/messages.en.po’
+‘/home/appsupp/backup/msgapi/messages.es.po_1903060904’ -> ‘/var/www/api/translations/messages.es.po’
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Wed Mar  6 15:05:00 UTC 2019
+--------------------------
+you chose API package
+START AT Thu Mar  7 14:02:32 UTC 2019
+-- Backup of API package done
+‘/var/www/api/translations/messages.en.po’ -> ‘/home/appsupp/backup/msgapi/messages.en.po_1903070802’
+‘/var/www/api/translations/messages.es.po’ -> ‘/home/appsupp/backup/msgapi/messages.es.po_1903070802’
+-- Removal of app done
+-- Package extracted
+‘/home/appsupp/backup/msgapi/messages.en.po_1903070802’ -> ‘/var/www/api/translations/messages.en.po’
+‘/home/appsupp/backup/msgapi/messages.es.po_1903070802’ -> ‘/var/www/api/translations/messages.es.po’
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Thu Mar  7 14:02:47 UTC 2019
+--------------------------
+you chose API package
+START AT Thu Mar  7 14:11:12 UTC 2019
+-- Backup of API package done
+‘/var/www/api/translations/messages.en.po’ -> ‘/home/appsupp/backup/msgapi/messages.en.po_1903070811’
+‘/var/www/api/translations/messages.es.po’ -> ‘/home/appsupp/backup/msgapi/messages.es.po_1903070811’
+-- Removal of app done
+-- Package extracted
+‘/home/appsupp/backup/msgapi/messages.en.po_1903070811’ -> ‘/var/www/api/translations/messages.en.po’
+‘/home/appsupp/backup/msgapi/messages.es.po_1903070811’ -> ‘/var/www/api/translations/messages.es.po’
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Thu Mar  7 14:11:26 UTC 2019
+--------------------------
+you chose API package
+START AT Thu Mar  7 14:13:25 UTC 2019
+-- Backup of API package done
+‘/var/www/api/translations/messages.en.po’ -> ‘/home/appsupp/backup/msgapi/messages.en.po_1903070813’
+‘/var/www/api/translations/messages.es.po’ -> ‘/home/appsupp/backup/msgapi/messages.es.po_1903070813’
+-- Removal of app done
+-- Package extracted
+‘/home/appsupp/backup/msgapi/messages.en.po_1903070813’ -> ‘/var/www/api/translations/messages.en.po’
+‘/home/appsupp/backup/msgapi/messages.es.po_1903070813’ -> ‘/var/www/api/translations/messages.es.po’
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Thu Mar  7 14:13:39 UTC 2019
+--------------------------
+you chose API package
+START AT Thu Mar  7 14:19:14 UTC 2019
+-- Backup of API package done
+‘/var/www/api/translations/messages.en.po’ -> ‘/home/appsupp/backup/msgapi/messages.en.po_1903070819’
+‘/var/www/api/translations/messages.es.po’ -> ‘/home/appsupp/backup/msgapi/messages.es.po_1903070819’
+-- Removal of app done
+-- Package extracted
+‘/home/appsupp/backup/msgapi/messages.en.po_1903070819’ -> ‘/var/www/api/translations/messages.en.po’
+‘/home/appsupp/backup/msgapi/messages.es.po_1903070819’ -> ‘/var/www/api/translations/messages.es.po’
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Thu Mar  7 14:19:29 UTC 2019
+--------------------------
+you chose API package
+START AT Thu Mar  7 14:20:31 UTC 2019
+-- Backup of API package done
+‘/var/www/api/translations/messages.en.po’ -> ‘/home/appsupp/backup/msgapi/messages.en.po_1903070820’
+‘/var/www/api/translations/messages.es.po’ -> ‘/home/appsupp/backup/msgapi/messages.es.po_1903070820’
+-- Removal of app done
+-- Package extracted
+‘/home/appsupp/backup/msgapi/messages.en.po_1903070820’ -> ‘/var/www/api/translations/messages.en.po’
+‘/home/appsupp/backup/msgapi/messages.es.po_1903070820’ -> ‘/var/www/api/translations/messages.es.po’
+Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+-- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+-- Migration done
+-- Service restarted
+END AT Thu Mar  7 14:20:46 UTC 2019
+--------------------------
+you chose API package
+2019-03-07 09:36:03.252 [INFO] START AT Thu Mar  7 15:36:03 UTC 2019
+2019-03-07 09:36:14.024 [INFO] -- Backup of API package done
+‘/var/www/api/translations/messages.en.po’ -> ‘/home/appsupp/backup/msgapi/messages.en.po_1903070936’
+‘/var/www/api/translations/messages.es.po’ -> ‘/home/appsupp/backup/msgapi/messages.es.po_1903070936’
+2019-03-07 09:36:14.053 [INFO] -- Removal of app done
+2019-03-07 09:36:15.840 [INFO] -- Package extracted
+‘/home/appsupp/backup/msgapi/messages.en.po_1903070936’ -> ‘/var/www/api/translations/messages.en.po’
+‘/home/appsupp/backup/msgapi/messages.es.po_1903070936’ -> ‘/var/www/api/translations/messages.es.po’
+2019-03-07 09:36:16.007 [INFO] Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+2019-03-07 09:36:16.269 [INFO] -- Chown into apache done
+-- Assets grab done
+-- php-fpm restarted
+2019-03-07 09:36:17.332 [INFO] -- Migration done
+2019-03-07 09:36:18.663 [INFO] -- Service restarted
+2019-03-07 09:36:18.671 [INFO] END AT Thu Mar  7 15:36:18 UTC 2019
+2019-03-07 09:36:18.675 [INFO] --------------------------
+you chose API package
+2019-03-07 09:47:43 [INFO] START AT Thu Mar  7 15:47:43 UTC 2019
+2019-03-07 09:47:53 [INFO] -- Backup of API package done
+2019-03-07 09:47:53 [INFO] API msg files backed up
+2019-03-07 09:47:53 [INFO] -- Removal of app done
+2019-03-07 09:47:55 [INFO] -- Package extracted
+2019-03-07 09:47:55 [INFO] original API msg files restored
+2019-03-07 09:47:55 [INFO] Please double check manually comparing the default.yml (provided in the package) with the local.yml and see if any new configuration was added.
+2019-03-07 09:47:55 [INFO] -- Chown into apache done
+2019-03-07 09:47:55 [INFO] -- Assets grab done
+2019-03-07 09:47:56 [INFO] -- php-fpm restarted
+2019-03-07 09:47:56 [INFO] -- Migration done
+2019-03-07 09:47:57 [INFO] -- Service restarted
+2019-03-07 09:47:57 [INFO] END AT Thu Mar  7 15:47:57 UTC 2019
+you chose API package
+START AT Thu Mar  7 15:55:29 UTC 2019
+2019-03-07 09:55:39 [INFO] -- Backup of API package done
+2019-03-07 09:55:39 [INFO] API msg files backed up
+2019-03-07 09:55:39 [INFO] -- Removal of app done
+2019-03-07 09:55:40 [INFO] -- Package extracted
+2019-03-07 09:55:40 [INFO] original API msg files restored
+2019-03-07 09:55:41 [INFO] -- Chown into apache done
+2019-03-07 09:55:41 [INFO] -- Assets grab done
+2019-03-07 09:55:41 [INFO] -- php-fpm restarted
+2019-03-07 09:55:41 [INFO] -- Migration done
+2019-03-07 09:55:43 [INFO] -- Service restarted
+2019-03-07 09:55:43 [INFO] END AT Thu Mar  7 15:55:43 UTC 2019
+--------------------------------------------------------
+  
+  
+you chose API package
+START AT Thu Mar  7 16:00:16 UTC 2019
+2019-03-07 10:00:27   [INFO]   -- Backup of API package done
+2019-03-07 10:00:27   [INFO]   -- API msg files backed up
+2019-03-07 10:00:27   [INFO]   -- Removal of app done
+2019-03-07 10:00:28   [INFO]   -- Package extracted
+2019-03-07 10:00:28   [INFO]   -- original API msg files restored
+2019-03-07 10:00:29   [INFO]   -- Chown into apache done
+2019-03-07 10:00:29   [INFO]   -- Assets grab done
+2019-03-07 10:00:29   [INFO]   -- php-fpm restarted
+2019-03-07 10:00:29   [INFO]   -- Migration done
+2019-03-07 10:00:31   [INFO]   -- Service restarted
+2019-03-07 10:00:31   [INFO]   END AT Thu Mar  7 16:00:31 UTC 2019
+--------------------------------------------------------
+\r
+\r
+-- you chose API package --
+START AT Thu Mar  7 16:12:42 UTC 2019
+2019-03-07 10:12:53   [INFO]   -- Backup of API package done
+2019-03-07 10:12:53   [INFO]   -- API msg files backed up
+2019-03-07 10:12:53   [INFO]   -- Removal of app done
+2019-03-07 10:12:55   [INFO]   -- Package extracted
+2019-03-07 10:12:55   [INFO]   -- original API msg files restored
+2019-03-07 10:12:55   [INFO]   -- Chown into apache done
+2019-03-07 10:12:55   [INFO]   -- Assets grab done
+2019-03-07 10:12:56   [INFO]   -- php-fpm restarted
+2019-03-07 10:12:56   [INFO]   -- Migration done
+2019-03-07 10:12:57   [INFO]   -- Service restarted
+END AT Thu Mar  7 16:12:57 UTC 2019
+--------------------------------------------------------
+
+
+-- you chose API package --
+START AT Thu Mar  7 16:16:40 UTC 2019
+2019-03-07 10:16:50   [INFO]   -- Backup of API package done
+2019-03-07 10:16:50   [INFO]   -- API msg files backed up
+2019-03-07 10:16:50   [INFO]   -- Removal of app done
+2019-03-07 10:16:52   [INFO]   -- Package extracted
+2019-03-07 10:16:52   [INFO]   -- original API msg files restored
+2019-03-07 10:16:53   [INFO]   -- Chown into apache done
+2019-03-07 10:16:53   [INFO]   -- Assets grab done
+2019-03-07 10:16:53   [INFO]   -- php-fpm restarted
+2019-03-07 10:16:53   [INFO]   -- Migration done
+2019-03-07 10:16:55   [INFO]   -- Service restarted
+END AT Thu Mar  7 16:16:55 UTC 2019
+--------------------------------------------------------
+
+
+-- you chose API package --
+START AT Mon Mar 11 05:47:48 CDT 2019
+2019-03-11 05:47:59   [INFO]   -- Backup of API package done
+2019-03-11 05:47:59   [INFO]   -- API msg files backed up
+2019-03-11 05:47:59   [INFO]   -- Removal of app done
+2019-03-11 05:47:59   [INFO]   -- Error with package extraction
+2019-03-11 05:47:59   [INFO]   -- original API msg files restored
+-- you chose API package --
+START AT Tue Mar 12 02:53:27 CDT 2019
+2019-03-12 02:53:49   [INFO]   -- Backup of API package done
+2019-03-12 02:53:49   [INFO]   -- API msg files backed up
+2019-03-12 02:53:49   [INFO]   -- Removal of app done
+2019-03-12 02:53:50   [INFO]   -- Package extracted
+2019-03-12 02:53:50   [INFO]   -- original API msg files restored
+2019-03-12 02:53:51   [INFO]   -- Chown into apache done
+2019-03-12 02:53:51   [INFO]   -- Assets grab done
+2019-03-12 02:53:51   [INFO]   -- php-fpm restarted
+2019-03-12 02:53:52   [INFO]   -- Migration done
+2019-03-12 02:55:22   [INFO]   There was a problem with the restart
+END AT Tue Mar 12 02:55:22 CDT 2019
+--------------------------------------------------------
+-- you chose API package --
+START AT Tue Mar 12 05:58:16 CDT 2019
+2019-03-12 05:58:26   [INFO]   -- Backup of API package done
+2019-03-12 05:58:26   [INFO]   -- API EN msg files backed up
+2019-03-12 05:58:26   [INFO]   -- API ES msg files backed up
+2019-03-12 05:58:26   [INFO]   -- Removal of app done
+2019-03-12 05:58:28   [INFO]   -- Package extracted
+2019-03-12 05:58:28   [INFO]   -- API EN msg files restored
+2019-03-12 05:58:28   [INFO]   -- API ES msg files restored
+2019-03-12 05:58:28   [INFO]   -- Chown into apache done
+2019-03-12 05:58:29   [INFO]   -- Assets grab done
+2019-03-12 05:58:29   [INFO]   -- php-fpm restarted
+2019-03-12 05:58:29   [INFO]   -- Migration done
+2019-03-12 05:58:30   [INFO]   -- Service restarted
+END AT Tue Mar 12 05:58:30 CDT 2019
+--------------------------------------------------------
+-- you chose API package --
+START AT Tue Mar 12 06:11:03 CDT 2019
+2019-03-12 06:11:13   [INFO]   -- Backup of API package done
+2019-03-12 06:11:13   [INFO]   -- API EN msg files backed up
+2019-03-12 06:11:13   [INFO]   -- API ES msg files backed up
+2019-03-12 06:11:13   [INFO]   -- Removal of app done
+2019-03-12 06:11:14   [INFO]   -- Package extracted
+2019-03-12 06:11:14   [INFO]   -- API EN msg files restored
+2019-03-12 06:11:14   [INFO]   -- API ES msg files restored
+2019-03-12 06:11:14   [INFO]   -- Chown into apache done
+2019-03-12 06:11:15   [INFO]   -- Assets grab done
+2019-03-12 06:11:15   [INFO]   -- php-fpm restarted
+2019-03-12 06:11:15   [INFO]   -- Migration done
+2019-03-12 06:11:16   [INFO]   -- Service restarted
+END AT Tue Mar 12 06:11:16 CDT 2019
+--------------------------------------------------------
+-- you chose API package --
+
+START AT Tue Mar 12 06:13:31 CDT 2019
+
+2019-03-12 06:13:40   [INFO]   -- Backup of API package done
+2019-03-12 06:13:40   [INFO]   -- API EN msg files backed up
+2019-03-12 06:13:40   [INFO]   -- API ES msg files backed up
+2019-03-12 06:13:40   [INFO]   -- Removal of app done
+2019-03-12 06:13:42   [INFO]   -- Package extracted
+2019-03-12 06:13:42   [INFO]   -- API EN msg files restored
+2019-03-12 06:13:42   [INFO]   -- API ES msg files restored
+2019-03-12 06:13:42   [INFO]   -- Chown into apache done
+2019-03-12 06:13:43   [INFO]   -- Assets grab done
+2019-03-12 06:13:43   [INFO]   -- php-fpm restarted
+2019-03-12 06:13:43   [INFO]   -- Migration done
+2019-03-12 06:13:44   [INFO]   -- Service restarted
+END AT Tue Mar 12 06:13:44 CDT 2019
+--------------------------------------------------------
+-- you chose API package --
+api
+START AT Tue Mar 12 06:20:49 CDT 2019
+api
+2019-03-12 06:20:59   [INFO]   -- Backup of API package done
+2019-03-12 06:20:59   [INFO]   -- API EN msg files backed up
+2019-03-12 06:20:59   [INFO]   -- API ES msg files backed up
+2019-03-12 06:20:59   [INFO]   -- Removal of app done
+2019-03-12 06:21:01   [INFO]   -- Package extracted
+2019-03-12 06:21:01   [INFO]   -- API EN msg files restored
+2019-03-12 06:21:01   [INFO]   -- API ES msg files restored
+2019-03-12 06:21:01   [INFO]   -- Chown into apache done
+2019-03-12 06:21:02   [INFO]   -- Assets grab done
+2019-03-12 06:21:02   [INFO]   -- php-fpm restarted
+2019-03-12 06:21:02   [INFO]   -- Migration done
+2019-03-12 06:21:03   [INFO]   -- Service restarted
+END AT Tue Mar 12 06:21:03 CDT 2019
+--------------------------------------------------------
+-- you chose API package --
+/var/www/api
+START AT Tue Mar 12 07:16:49 CDT 2019
+2019-03-12 07:16:58   [INFO]   -- Backup of API package done
+END AT Tue Mar 12 07:16:59 CDT 2019
+--------------------------------------------------------

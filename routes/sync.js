@@ -23,14 +23,17 @@ router.use(bodyParser.json());
 
 router.post("/", function(req, res) {
 
-    console.log(req.body.packageType);
+	    console.log(req.body.packageType);
 
     var packageType = req.body.packageType;
 
     var env = Object.create(process.env);
 
+   if (req.body.environment == config.env.uat2.name) {
+        var environmentType = config.env.uat2.address;
+        console.log(environmentType);
 
-    if (req.body.environment == config.env.uat.name) {
+    } else if (req.body.environment == config.env.uat.name) {
         var environmentType = config.env.uat.address;
         console.log(environmentType);
 
@@ -43,7 +46,7 @@ router.post("/", function(req, res) {
     var packageSyncType = req.body.packageSyncType;
     var syncType = req.body.syncType;
 
-    //    var command = "ssh -i /home/appsupp/.ssh/id_rsa appsupp@" + environmentType + " 'bash -s' < /var/www/html/newPKI/scripts/sync.sh " + packageSyncType + " " + syncType + " >> ./log/syncLog.txt 2>&1"
+//    var command = "ssh -i /home/appsupp/.ssh/id_rsa appsupp@" + environmentType + " 'bash -s' < /var/www/html/newPKI/scripts/sync.sh " + packageSyncType + " " + syncType + " >> ./log/syncLog.txt 2>&1"
 
     var command = "ssh -i /home/appsupp/.ssh/id_rsa appsupp@" + environmentType + " sudo /home/appsupp/rsync/sync_web.sh " + packageSyncType + " " + syncType + " >> ./log/syncLog.txt 2>&1"
 
@@ -56,28 +59,26 @@ router.post("/", function(req, res) {
         console.log('stderr:', stderr);
 
         delete require.cache[require.resolve('./catchlog')];
-        delete require.cache[require.resolve('./synclog')];
+	delete require.cache[require.resolve('./synclog')];
 
-        fs.appendFileSync(filePath, '---------------------------------------\n', 'utf8');
+        fs.appendFileSync(filePath,'---------------------------------------\n','utf8');
 
         var logging = require("./catchlog");
-        var synclogging = require("./synclog");
-        var allFiles = require("./loaded");
+	var synclogging = require("./synclog");
+	var allFiles = require("./loaded");
+	
 
 
+	if (error) {
 
-        if (error) {
-
-            return res.render("landing", { logFile: logging.logFile, allFiles: allFiles, "error": stderr });
-        } else {
-            return res.render("landing", {
-                logFile: logging.logFile,
-                logTime: logging.logTime,
-                synclogFile: synclogging.synclogFile,
-                synclogTime: synclogging.synclogTime,
-                allFiles: allFiles,
-                "success": "successfully synced"
-            });
+            return res.render("landing", { logFile: logging.logFile, allFiles : allFiles, "error": stderr });
+        	} else {
+            return res.render("landing", { 
+				logFile: logging.logFile, 
+				logTime: logging.logTime,
+                                synclogFile: synclogging.synclogFile,
+                                synclogTime: synclogging.synclogTime,
+				allFiles : allFiles, "success": "successfully synced" });
 
         }
 
@@ -86,3 +87,5 @@ router.post("/", function(req, res) {
 });
 
 module.exports = router;
+
+

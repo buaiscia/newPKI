@@ -11,12 +11,13 @@ app.disable('view cache');
 var filePath = './log/log.txt';
 
 function logFile() {
-
+  
     buf = fs.readFileSync(filePath, 'utf8');
     str = buf.toString();
+    
 
     logFileTemp = str.split('\n');
-    logFile = logFileTemp.slice(Math.max(logFileTemp.length - 35));
+    logFile = logFileTemp.slice(Math.max(logFileTemp.length - 34));
 
     return logFile;
 }
@@ -34,3 +35,29 @@ var logTime = logTime();
 
 module.exports.logFile = logFile;
 module.exports.logTime = logTime;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

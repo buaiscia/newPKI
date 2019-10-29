@@ -11,14 +11,14 @@ app.disable('view cache');
 var filePath = './log/syncLog.txt';
 
 function synclogFile() {
-
-
+    
+   
     buf = fs.readFileSync(filePath, 'utf8');
 
     str = buf.toString();
 
     logFileTemp = str.split('\n');
-    synclogFile = logFileTemp.slice(Math.max(logFileTemp.length - 35));
+    synclogFile = logFileTemp.slice(Math.max(logFileTemp.length - 40));
 
     return synclogFile;
 }
@@ -36,3 +36,8 @@ var synclogTime = synclogTime();
 
 module.exports.synclogFile = synclogFile;
 module.exports.synclogTime = synclogTime;
+
+
+
+
+
