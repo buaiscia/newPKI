@@ -1,4 +1,4 @@
-config/*
-log/*
-node_modules/*
-uploads/*
+/config/*
+/log/*
+/node_modules/*
+/uploads/*
