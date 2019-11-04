@@ -1,3 +1,8 @@
 # newPKI
 
-#for cygwin -> /cygdrive/c/users/alex.buaiscia/Documents/Developing/PKI_node
+## Future improvements
+
+    Archiving the already deployed files
+    Managing the archived files
+    Buttons for downloading locally logs
+    Rollback procedure
