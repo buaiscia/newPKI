@@ -1,4 +1,4 @@
-# newPKI
+# NewPKI deployment tool
 
  Created in 2018, this application is setup on the needs from my job to do an automatic deployment. Its functionalities:
 
@@ -14,9 +14,28 @@
 
 The application relies on EJS for frontend and NodeJS / Express for backend. It is deployed on some automation server and talk to the application server through ssh. 
 
+## Structure
 
+The App.js sets up modules and create the server and the routing.
 
-## Future improvements
+The Frontend is in the View directory:
+    <ul>
+        <li>partials: include header and footer</li>
+        <li>landing: the main frontend page</li>
+        <li>deploy and upload.js : testing pages for checking if routing was working correctly</li>
+    </ul>
+
+The Backend is in the Routes directory:
+    <ul>
+        <li>index.js : backend for GETting the landing page; clears cache and collect logs to be shown</li>
+        <li>upload.js : use formidable and fs to upload the package from local to the server</li>
+        <li>loaded.js : check and show the files for the deployment parsed by extension, so that no other types of files can be selected by mistake</li>
+        <li>deploy.js : use the parameters from the FE page to call the scripts and do the backup/deploy the package + return the logs</li>
+        <li>sync.js : use the parameters from the FE page to call the scripts and do the mock and real sync on the cluster + return the logs</li>
+        <li>catchlog.js + synclog.js : parse the logs to be shown</li>
+    </ul>
+
+### Future improvements
 
     Archiving the already deployed files
     Managing the archived files

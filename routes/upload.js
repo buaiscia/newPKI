@@ -35,7 +35,7 @@ router.use(express.static(__dirname + '/public'));
 // });
 
 
-router.post("/", function(req, res, next) {
+router.post("/", function (req, res, next) {
     delete require.cache[require.resolve('./loaded')];
     var form = new formidable.IncomingForm();
     form.uploadDir = './uploads';
@@ -47,22 +47,22 @@ router.post("/", function(req, res, next) {
     // form.on('file', function(name, file) {
     //     console.log("Got file ", file);
     // });
-    form.on('file', function(field, file) {
-        fs.rename(file.path, form.uploadDir + "/" + file.name, function(error) {
+    form.on('file', function (field, file) {
+        fs.rename(file.path, form.uploadDir + "/" + file.name, function (error) {
             if (error) {
                 console.log(error);
             }
         });
     });
 
-    form.on('error', function(err) {
+    form.on('error', function (err) {
         console.log("an error has occured with form upload");
         console.log(err);
     });
 
 
 
-    form.parse(req, function(err, fields, files, fileName, fileSize) {
+    form.parse(req, function (err, fields, files, fileName, fileSize) {
         if (err) next(err);
         var fileName = util.inspect(files.upload.name);
         var fileSize = util.inspect(files.upload.size);
@@ -78,11 +78,11 @@ router.post("/", function(req, res, next) {
         // }
 
         console.log(process.argv);
-	delete require.cache[require.resolve('./catchlog')];
-	delete require.cache[require.resolve('./synclog')];
+        delete require.cache[require.resolve('./catchlog')];
+        delete require.cache[require.resolve('./synclog')];
 
         var logging = require("./catchlog");
-	var synclogging = require("./synclog");
+        var synclogging = require("./synclog");
         var allFiles = require("./loaded");
 
         //
@@ -90,17 +90,18 @@ router.post("/", function(req, res, next) {
             return res.render("landing", { logFile: logFile }, { "error": stderr });
         }
         // req.flash("success", "Successfully uploaded");
-        return res.render('landing', { 
-				fileName: fileName, 
-				fileSize: fileSize, 
-				logFile: logging.logFile, 
-				logTime: logging.logTime,
-				synclogFile: synclogging.synclogFile,
-				synclogTime: synclogging.synclogTime,				
-				allFiles: allFiles, "success": "The file has been successfully uploaded" });
+        return res.render('landing', {
+            fileName: fileName,
+            fileSize: fileSize,
+            logFile: logging.logFile,
+            logTime: logging.logTime,
+            synclogFile: synclogging.synclogFile,
+            synclogTime: synclogging.synclogTime,
+            allFiles: allFiles, "success": "The file has been successfully uploaded"
+        });
     });
 
-    form.on('end', function() {
+    form.on('end', function () {
         console.log('-> upload done');
     });
 
