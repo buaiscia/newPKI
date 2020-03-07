@@ -2,29 +2,29 @@
 
     <div class="container-fluid">
         <header>
-        <div class="row">
-            <div class = "col-md-12">
-                <h1>PKI Deployment tool    </h1> 
-                <img class="pki_img" src="./img/punchkick.png" alt="punchkick">                
-            </div>           
-        
-        </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>PKI Deployment tool </h1>
+                    <img class="pki_img" src="./img/punchkick.png" alt="punchkick">
+                </div>
+
+            </div>
         </header>
     </div>
 
     <section class="deployment">
-        
+
         <div class="main_txt container container-fluid ">
             <div class="row">
                 <div class="col-md-3">
 
                     <h2> Upload a file: </h2>
-                        <div>
-                            <form ref="uploadForm" id="uploadForm" action="./upload" method="POST" encType="multipart/form-data">
-                                <input type="file" name="upload" multiple="multiple" />
-                                <input type="submit" value="Upload!" />
-                            </form>
-                        </div>
+                    <div>
+                        <form ref="uploadForm" id="uploadForm" action="./upload" method="POST" encType="multipart/form-data">
+                            <input type="file" name="upload" multiple="multiple" />
+                            <input type="submit" value="Upload!" />
+                        </form>
+                    </div>
                 </div>
                 <div class="col-md-3">
                     <form action='./deploy' method='post' id='form'>
@@ -41,42 +41,44 @@
 
                 <div class="col-md-3">
                     <h2>Select the file to load: </h2>
-                        <p>
-                            <% if(typeof allFiles != 'undefined') { %>
+                    <p>
+                        <% if(typeof allFiles != 'undefined') { %>
 
-                                <select name='allFiles' id="allFiles">
-                    <%    allFiles.forEach(function(allFiles) {   %>
+                            <select name='allFiles' id="allFiles">
+                                <%    allFiles.forEach(function(allFiles) {   %>
 
-                                <option value="<%= allFiles %>"><%= allFiles %></option>
-                        
-                    <% });  } else { %>
-                            <h2>No files present</h2>
-                    <% } %>     
-                    
-                    </select>
+                                    <option value="<%= allFiles %>">
+                                        <%= allFiles %>
+                                    </option>
+
+                                    <% });  } else { %>
+                                        <h2>No files present</h2>
+                                        <% } %>
+
+                            </select>
                 </div>
 
                 <div class="col-md-3">
                     <h2> Choose the environment: </h2>
                     <p>
                         <select name='environment'>
-                                <option value=''>-----</option>
-				<option value='UAT2'>UAT2 - EIT</option>
-                                <option style="background-color: yellow" value='UAT'>UAT</option>
-                                <option style="background-color: red;" value='PROD'>PRODUCTION - POZOR!</option>
-                            </select>
-                        
+                            <option value=''>-----</option>
+                            <option value='UAT2'>UAT2 - EIT</option>
+                            <option style="background-color: yellow" value='UAT'>UAT</option>
+                            <option style="background-color: red;" value='PROD'>PRODUCTION - POZOR!</option>
+                        </select>
+
                     </p>
                 </div>
 
             </div>
             <div class="row deploy-btn mx-auto">
-                <div class = "col-md-12">
+                <div class="col-md-12">
                     <input class='myButton' type='submit' value='DEPLOY'>
                     </form>
                 </div>
-                
-            </div>   
+
+            </div>
 
     </section>
 
@@ -86,40 +88,40 @@
         <div class="main_txt container container-fluid ">
             <div class="row">
                 <div class="col-md-4">
-                            <form action='./sync' method='post' id='form'>
+                    <form action='./sync' method='post' id='form'>
 
-                            <h2>Choose the type of package to sync</h2>
-                            <p>
-                                <select name='packageSyncType'>
-                                    <option value=''>-----</option>
-                                    <option value='/var/www/html/'>FEW</option>
-                                    <option value='/var/www/api/'>API</option>
-                                    <option value='/var/www/admin/'>ADMIN</option>
-                                </select>
-                            </p>
+                        <h2>Choose the type of package to sync</h2>
+                        <p>
+                            <select name='packageSyncType'>
+                                <option value=''>-----</option>
+                                <option value='/var/www/html/'>FEW</option>
+                                <option value='/var/www/api/'>API</option>
+                                <option value='/var/www/admin/'>ADMIN</option>
+                            </select>
+                        </p>
                 </div>
                 <div class="col-md-4">
-                            <h2>Choose the kind of sync to perform</h2>
-                            <p>
-                                <select name='syncType'>
-                                    <option value=''>-----</option>
-                                    <option value='test'>TEST</option>
-                                    <option value='write'>REAL SYNC</option>
-                                </select>
-                            </p>
+                    <h2>Choose the kind of sync to perform</h2>
+                    <p>
+                        <select name='syncType'>
+                            <option value=''>-----</option>
+                            <option value='test'>TEST</option>
+                            <option value='write'>REAL SYNC</option>
+                        </select>
+                    </p>
                 </div>
                 <div class="col-md-4">
-                            <h2> Where to perform the sync: </h2>
-                            <p>
-                                <select name='environment'>
-                                        <option value=''>-----</option>
-                                	<option value='UAT2'>UAT2 - EIT</option>
-                                        <option style="background-color: yellow" value='UAT'>UAT</option>
-                                        <option style="background-color: red;" value='PROD'>PRODUCTION - POZOR!</option>
-                                    </select>
-                                
+                    <h2> Where to perform the sync: </h2>
+                    <p>
+                        <select name='environment'>
+                            <option value=''>-----</option>
+                            <option value='UAT2'>UAT2 - EIT</option>
+                            <option style="background-color: yellow" value='UAT'>UAT</option>
+                            <option style="background-color: red;" value='PROD'>PRODUCTION - POZOR!</option>
+                        </select>
 
-                            </p>
+
+                    </p>
                 </div>
             </div>
             <div class="row sync-btn mx-auto">
@@ -127,10 +129,10 @@
                     <input class='myButtonSync' type='submit' value='SYNC'>
                     </form>
                 </div>
-                
+
             </div>
         </div>
-        
+
 
     </section>
 
@@ -142,37 +144,45 @@
                     <% if(logFile){ %>
                         <ul style="list-style-type: none;">
                             <h2>Deployment log </h2>
-                            <h3>Last modified: <%= logTime %></h3>
+                            <h3>Last modified:
+                                <%= logTime %>
+                            </h3>
                             <% logFile.forEach(function(logs) { %>
-                                <li><%= logs %></li>
-                            <% }); %>
+                                <li>
+                                    <%= logs %>
+                                </li>
+                                <% }); %>
                         </ul>
-                    <% } else { %>
+                        <% } else { %>
                             <p>Deployment log file not found</p>
-                    <%  } %>
+                            <%  } %>
                 </div>
 
-        
+
                 <div class="col-md-6">
-                <% if(synclogFile){ %>
-                    <ul style="list-style-type: none;">
-                        <h2>Sync log </h2>
-                        <h3>Last modified: <%= synclogTime %></h3>
-                        
-                        <% synclogFile.forEach(function(synclogs) { %>
-                            <li><%= synclogs %></li>
-                        <% }); %>
-                    </ul>
-                <% } else { %>
-                        <p>Sync log file not found</p>
-                <%  } %>
+                    <% if(synclogFile){ %>
+                        <ul style="list-style-type: none;">
+                            <h2>Sync log </h2>
+                            <h3>Last modified:
+                                <%= synclogTime %>
+                            </h3>
+
+                            <% synclogFile.forEach(function(synclogs) { %>
+                                <li>
+                                    <%= synclogs %>
+                                </li>
+                                <% }); %>
+                        </ul>
+                        <% } else { %>
+                            <p>Sync log file not found</p>
+                            <%  } %>
                 </div>
             </div>
         </div>
     </section>
-        
-
-        
 
 
-        <% include partials/footer %>
+
+
+
+    <% include partials/footer %>

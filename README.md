@@ -34,10 +34,3 @@ The Backend is in the Routes directory:
         <li>sync.js : use the parameters from the FE page to call the scripts and do the mock and real sync on the cluster + return the logs</li>
         <li>catchlog.js + synclog.js : parse the logs to be shown</li>
     </ul>
-
-### Future improvements
-
-    Archiving the already deployed files
-    Managing the archived files
-    Buttons for downloading locally logs
-    Rollback procedure

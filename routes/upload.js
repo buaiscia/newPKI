@@ -1,53 +1,27 @@
-'use strict';
+"use strict";
 
 const express = require("express");
 const router = express.Router();
 const app = express();
 
-
-// const fileUpload = require("express-fileupload");
-// var multer = require("multer");
-var formidable = require('formidable');
-var fs = require("fs");
-var path = require("path");
-var bodyParser = require("body-parser");
-var util = require('util');
-var fs = require('fs');
+const formidable = require("formidable");
+const fs = require("fs");
+const bodyParser = require("body-parser");
+const util = require("util");
 
 app.set("view engine", "ejs");
 
-
 router.use(bodyParser.urlencoded({ extended: true }));
-router.use(express.static(__dirname + '/public'));
-
-
-
-// router.use(fileUpload());
-
-
-//UPLOAD ROUTE
-
-
-
-// router.get("/", function(req, res) {
-
-//     res.render("upload");
-// });
-
+router.use(express.static(__dirname + "/public"));
 
 router.post("/", function (req, res, next) {
-    delete require.cache[require.resolve('./loaded')];
-    var form = new formidable.IncomingForm();
-    form.uploadDir = './uploads';
+    delete require.cache[require.resolve("./loaded")];
+    let form = new formidable.IncomingForm();
+    form.uploadDir = "./uploads";
     form.keepExtensions = true;
     form.multiples = true;
 
-
-    // });
-    // form.on('file', function(name, file) {
-    //     console.log("Got file ", file);
-    // });
-    form.on('file', function (field, file) {
+    form.on("file", function (field, file) {
         fs.rename(file.path, form.uploadDir + "/" + file.name, function (error) {
             if (error) {
                 console.log(error);
@@ -55,42 +29,29 @@ router.post("/", function (req, res, next) {
         });
     });
 
-    form.on('error', function (err) {
+    form.on("error", function (err) {
         console.log("an error has occured with form upload");
         console.log(err);
     });
 
-
-
     form.parse(req, function (err, fields, files, fileName, fileSize) {
         if (err) next(err);
-        var fileName = util.inspect(files.upload.name);
-        var fileSize = util.inspect(files.upload.size);
-
-        //test arguments
-        // for (let j = 0; j < process.argv.length; j++) {
-        //     console.log(j + ' -> ' + (process.argv[j]));
-        // }
+        fileName = util.inspect(files.upload.name);
+        fileSize = util.inspect(files.upload.size);
 
         process.argv = fileName;
-        // for (let j = 0; j < process.argv.length; j++) {
-        //     console.log(j + ' -> ' + (process.argv[j]));
-        // }
 
-        console.log(process.argv);
-        delete require.cache[require.resolve('./catchlog')];
-        delete require.cache[require.resolve('./synclog')];
+        delete require.cache[require.resolve("./catchlog")];
+        delete require.cache[require.resolve("./synclog")];
 
         var logging = require("./catchlog");
         var synclogging = require("./synclog");
         var allFiles = require("./loaded");
 
-        //
         if (err) {
-            return res.render("landing", { logFile: logFile }, { "error": stderr });
+            return res.render("landing", { logFile: logging }, { "error": err });
         }
-        // req.flash("success", "Successfully uploaded");
-        return res.render('landing', {
+        return res.render("landing", {
             fileName: fileName,
             fileSize: fileSize,
             logFile: logging.logFile,
@@ -101,13 +62,10 @@ router.post("/", function (req, res, next) {
         });
     });
 
-    form.on('end', function () {
-        console.log('-> upload done');
+    form.on("end", function () {
+        console.log("-> upload done");
     });
 
 });
-
-
-//         // ADD FLASH MESSAGE FOR FILE UPLOADED AND BACK
 
 module.exports = router;
